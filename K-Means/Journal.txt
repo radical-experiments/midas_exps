@@ -1,0 +1,20 @@
+This the journal for the experimentation of the K-Means implementation with 
+RADICAL Pilot.
+
+Each folder is an experimentation iteration and their name will be Iteration and
+a number. All figure files will provide in their filename the machine used to run
+the experiment and the version of RP used. More inforation about each iteration
+will be inlcuded here.
+
+Iteration 1:
+    Strong Scaling: The strong scaling experiment created 256 CU to calculate
+    the centers of 256 clusters in a set of 67108864 elements. This configuration
+    was run on Stampede for 16, 32, 64, 128 and 256 cores.
+
+    Weak Scaling: Each CU always uses 262144 elements to calculate 256 centers
+    for the clusters. The number of CUs is also equal to the number of cores used.
+    Those are 16, 32, 64, 128 and 256. The number of iterations was set to 10.
+    The figure shows only the first three iterations.
+
+    The experiment was executed with the version of the K-Means in this repo
+    before the comments made from Andre.

@@ -1,0 +1,2210 @@
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3421
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3421
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 10ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3422
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3422
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.125938,13.545998,0.000309
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3381
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3381
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3382
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3382
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.138699,23.747313,0.793467
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3049
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3049
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 42ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3050
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3050
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.142476,21.548616,0.01705
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3286
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3286
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3287
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3287
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.144471,23.225847,0.767393
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3316
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3316
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3317
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3317
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.1447,23.117828,0.000396
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3326
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3326
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3327
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3327
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.147364,23.244752,0.000397
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 13ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3463
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3463
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3464
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3464
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.127446,13.573348,0.000411
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 26ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3366
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3366
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3367
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3367
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.12795,13.50716,0.000302
+
+[... CONTENT SHORTENED ...]
+RpcEngine:250 - Call: getApplicationReport took 12ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3404
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3404
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 15ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3405
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3405
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.143843,12.324685,0.000313
+
+[... CONTENT SHORTENED ...]
+tobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #5427
+2015-10-13 15:54:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #5427
+2015-10-13 15:54:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #5428
+2015-10-13 15:54:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #5428
+2015-10-13 15:54:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:27 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:27 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:27 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.16905,21.5863,0.000416
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3330
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3330
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3331
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3331
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.134083,22.517065,0.000453
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3267
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3267
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 15ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3268
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3268
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.139439,21.130822,0.000408
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3441
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3441
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3442
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3442
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.133279,22.235853,0.000356
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3297
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3297
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3298
+2015-10-13 15:54:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3298
+2015-10-13 15:54:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:04 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.149123,22.828707,0.00038
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3378
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3378
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 20ms
+2015-10-13 15:54:05 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3379
+2015-10-13 15:54:05 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3379
+2015-10-13 15:54:05 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:05 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:05 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:05 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.148258,22.160531,0.000407
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:54:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #5426
+2015-10-13 15:54:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #5426
+2015-10-13 15:54:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:54:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #5427
+2015-10-13 15:54:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #5427
+2015-10-13 15:54:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:27 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:54:27 INFO  Client:240 - Application completed successfully
+2015-10-13 15:54:27 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.103986,22.023432,0.000403
+
+[... CONTENT SHORTENED ...]
+ok 1ms
+2015-10-13 15:54:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #526
+2015-10-13 15:54:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #526
+2015-10-13 15:54:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 2ms
+2015-10-13 15:54:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #527
+2015-10-13 15:54:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #527
+2015-10-13 15:54:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:54:40 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 15:54:40 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 15:54:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.009354,0.001174,0.000181
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3116
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3116
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3117
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3117
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:24 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:24 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:24 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.140576,24.083519,0.000575
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2603
+2015-10-13 15:55:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2603
+2015-10-13 15:55:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:55:27 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2604
+2015-10-13 15:55:27 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2604
+2015-10-13 15:55:27 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:27 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:27 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:27 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.138479,21.746775,0.000403
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3229
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3229
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3230
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3230
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.139961,24.022841,0.000479
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 3ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3043
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3043
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3044
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3044
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:24 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:24 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:24 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160968,24.367722,0.000455
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3694
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3694
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3695
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3695
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.161904,24.637983,0.000463
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4275
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4275
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 17ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4276
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4276
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:35 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:35 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:35 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.158848,25.333868,0.000436
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 16ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3313
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3313
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3314
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3314
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:24 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:24 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:24 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.174386,24.377774,0.000341
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3796
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3796
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3797
+2015-10-13 15:55:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3797
+2015-10-13 15:55:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.142683,23.216417,0.000291
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2696
+2015-10-13 15:55:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2696
+2015-10-13 15:55:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2697
+2015-10-13 15:55:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2697
+2015-10-13 15:55:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 8ms
+2015-10-13 15:55:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:22 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.140048,22.052759,0.000293
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3355
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3355
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3356
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3356
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:35 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:35 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:35 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.164686,25.015671,0.000449
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 15ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4175
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4175
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4176
+2015-10-13 15:55:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4176
+2015-10-13 15:55:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:35 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:35 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:35 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160842,25.789328,0.000424
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:55:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2733
+2015-10-13 15:55:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2733
+2015-10-13 15:55:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2734
+2015-10-13 15:55:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2734
+2015-10-13 15:55:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:17 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:17 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:17 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.152624,23.664034,0.000341
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2834
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2834
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:24 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2835
+2015-10-13 15:55:24 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2835
+2015-10-13 15:55:24 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:24 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:24 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:24 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.135011,23.567386,0.000584
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 18ms
+2015-10-13 15:55:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3477
+2015-10-13 15:55:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3477
+2015-10-13 15:55:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3478
+2015-10-13 15:55:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3478
+2015-10-13 15:55:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:25 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:25 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:25 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.154191,24.973963,0.000508
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2558
+2015-10-13 15:55:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2558
+2015-10-13 15:55:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2559
+2015-10-13 15:55:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2559
+2015-10-13 15:55:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:17 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:17 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:17 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.133922,21.252143,0.000313
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:55:16 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1635
+2015-10-13 15:55:16 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1635
+2015-10-13 15:55:16 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:55:16 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1636
+2015-10-13 15:55:16 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1636
+2015-10-13 15:55:16 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:16 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:55:16 INFO  Client:240 - Application completed successfully
+2015-10-13 15:55:16 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.083215,12.005268,0.000426
+
+[... CONTENT SHORTENED ...]
+ok 3ms
+2015-10-13 15:55:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #512
+2015-10-13 15:55:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #512
+2015-10-13 15:55:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #513
+2015-10-13 15:55:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #513
+2015-10-13 15:55:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:55:47 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 15:55:47 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 15:55:47 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.005738,0.000737,0.000189
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 12ms
+2015-10-13 15:56:29 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2828
+2015-10-13 15:56:29 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2828
+2015-10-13 15:56:29 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:29 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2829
+2015-10-13 15:56:29 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2829
+2015-10-13 15:56:29 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:29 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:29 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:29 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162731,23.007002,0.0003
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 15:56:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1803
+2015-10-13 15:56:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1803
+2015-10-13 15:56:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1804
+2015-10-13 15:56:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1804
+2015-10-13 15:56:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:18 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:18 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:18 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.14599,12.907387,0.000403
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:56:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2643
+2015-10-13 15:56:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2643
+2015-10-13 15:56:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2644
+2015-10-13 15:56:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2644
+2015-10-13 15:56:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:25 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:25 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:25 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.140557,22.218752,0.000327
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 2ms
+2015-10-13 15:56:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1864
+2015-10-13 15:56:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1864
+2015-10-13 15:56:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1865
+2015-10-13 15:56:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1865
+2015-10-13 15:56:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:22 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.142904,13.296653,0.000421
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2726
+2015-10-13 15:56:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2726
+2015-10-13 15:56:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:56:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2727
+2015-10-13 15:56:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2727
+2015-10-13 15:56:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:32 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:32 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:32 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.138503,21.771854,0.000389
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 3ms
+2015-10-13 15:56:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1718
+2015-10-13 15:56:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1718
+2015-10-13 15:56:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1719
+2015-10-13 15:56:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1719
+2015-10-13 15:56:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:22 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.136852,12.68491,0.00027
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:56:19 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1994
+2015-10-13 15:56:19 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1994
+2015-10-13 15:56:19 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:19 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1995
+2015-10-13 15:56:19 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1995
+2015-10-13 15:56:19 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:19 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:19 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:19 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.128689,15.189868,0.000281
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:29 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2670
+2015-10-13 15:56:29 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2670
+2015-10-13 15:56:29 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:29 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2671
+2015-10-13 15:56:29 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2671
+2015-10-13 15:56:29 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:29 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:29 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:29 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.159126,21.790558,0.000454
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2631
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2631
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2632
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2632
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.155138,21.633724,0.000443
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:15 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1732
+2015-10-13 15:56:15 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1732
+2015-10-13 15:56:15 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:15 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1733
+2015-10-13 15:56:15 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1733
+2015-10-13 15:56:15 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:15 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:15 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:15 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.127493,12.578449,0.000475
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2765
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2765
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2766
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2766
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.136072,22.409801,0.000426
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:34 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2899
+2015-10-13 15:56:34 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2899
+2015-10-13 15:56:34 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:34 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2900
+2015-10-13 15:56:34 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2900
+2015-10-13 15:56:34 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:34 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:34 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:34 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.135588,24.260115,0.000448
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2650
+2015-10-13 15:56:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2650
+2015-10-13 15:56:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2651
+2015-10-13 15:56:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2651
+2015-10-13 15:56:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:31 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.134665,21.812258,0.000317
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4085
+2015-10-13 15:56:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4085
+2015-10-13 15:56:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:56:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4086
+2015-10-13 15:56:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4086
+2015-10-13 15:56:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:47 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:47 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:47 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.164639,22.480532,0.000278
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2850
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2850
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2851
+2015-10-13 15:56:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2851
+2015-10-13 15:56:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.135049,23.212025,0.000435
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:56:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4179
+2015-10-13 15:56:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4179
+2015-10-13 15:56:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:47 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4180
+2015-10-13 15:56:47 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4180
+2015-10-13 15:56:47 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:47 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:56:47 INFO  Client:240 - Application completed successfully
+2015-10-13 15:56:47 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.113533,23.477197,0.0005
+
+[... CONTENT SHORTENED ...]
+ok 1ms
+2015-10-13 15:56:59 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #497
+2015-10-13 15:56:59 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #497
+2015-10-13 15:56:59 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:56:59 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #498
+2015-10-13 15:56:59 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #498
+2015-10-13 15:56:59 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:56:59 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 15:56:59 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 15:56:59 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.008764,0.001138,0.000183
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 15:57:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2087
+2015-10-13 15:57:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2087
+2015-10-13 15:57:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2088
+2015-10-13 15:57:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2088
+2015-10-13 15:57:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:31 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.155171,12.734235,0.000439
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:57:44 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3015
+2015-10-13 15:57:44 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3015
+2015-10-13 15:57:44 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:44 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3016
+2015-10-13 15:57:44 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3016
+2015-10-13 15:57:44 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:44 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:44 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:44 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.163089,24.621556,0.000444
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:57:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1807
+2015-10-13 15:57:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1807
+2015-10-13 15:57:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1808
+2015-10-13 15:57:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1808
+2015-10-13 15:57:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:33 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.13046,12.836078,0.000297
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3568
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3568
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3569
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3569
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:46 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:46 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:46 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.177738,25.347499,0.000405
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1872
+2015-10-13 15:57:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1872
+2015-10-13 15:57:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1873
+2015-10-13 15:57:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1873
+2015-10-13 15:57:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:35 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:35 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:35 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.128862,13.479961,0.000291
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:57 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4029
+2015-10-13 15:57:57 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4029
+2015-10-13 15:57:57 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:57 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4030
+2015-10-13 15:57:57 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4030
+2015-10-13 15:57:57 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:57 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:57 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:57 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162518,23.036312,0.000276
+
+[... CONTENT SHORTENED ...]
+pcEngine:250 - Call: getApplicationReport took 780ms
+2015-10-13 15:57:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2436
+2015-10-13 15:57:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2436
+2015-10-13 15:57:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 40ms
+2015-10-13 15:57:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2437
+2015-10-13 15:57:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2437
+2015-10-13 15:57:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:38 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:38 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:38 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156082,20.133544,0.000276
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 29ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4221
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4221
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4222
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4222
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:58 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:58 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:58 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.216173,21.530297,0.000289
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 3ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3208
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3208
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3209
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3209
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:46 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:46 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:46 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.173833,22.949378,0.000304
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:36 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2533
+2015-10-13 15:57:36 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2533
+2015-10-13 15:57:36 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:36 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2534
+2015-10-13 15:57:36 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2534
+2015-10-13 15:57:36 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:36 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:36 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:36 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.19372,20.920711,0.000308
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 15:57:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1814
+2015-10-13 15:57:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1814
+2015-10-13 15:57:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1815
+2015-10-13 15:57:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1815
+2015-10-13 15:57:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:31 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.126318,12.688681,0.000429
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4022
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4022
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4023
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4023
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:58 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:58 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:58 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.25015,24.93968,0.000426
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2856
+2015-10-13 15:57:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2856
+2015-10-13 15:57:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2857
+2015-10-13 15:57:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2857
+2015-10-13 15:57:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:57:38 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:38 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:38 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.167756,23.870112,0.000402
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 15:57:45 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3315
+2015-10-13 15:57:45 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3315
+2015-10-13 15:57:45 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:45 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3316
+2015-10-13 15:57:45 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3316
+2015-10-13 15:57:45 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:45 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:45 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:45 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.150468,22.651298,0.000339
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4123
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4123
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 15:57:58 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4124
+2015-10-13 15:57:58 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4124
+2015-10-13 15:57:58 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:58 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:58 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:58 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.152196,24.052837,0.000449
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3200
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3200
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:46 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3201
+2015-10-13 15:57:46 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3201
+2015-10-13 15:57:46 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:57:46 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:57:46 INFO  Client:240 - Application completed successfully
+2015-10-13 15:57:46 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.112303,24.218072,0.000503
+
+[... CONTENT SHORTENED ...]
+ok 1ms
+2015-10-13 15:58:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #489
+2015-10-13 15:58:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #489
+2015-10-13 15:58:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 15:58:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #490
+2015-10-13 15:58:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #490
+2015-10-13 15:58:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:09 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 15:58:09 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 15:58:09 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.009026,0.001151,0.000178
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 20ms
+2015-10-13 15:58:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2564
+2015-10-13 15:58:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2564
+2015-10-13 15:58:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2565
+2015-10-13 15:58:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2565
+2015-10-13 15:58:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:51 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:51 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:51 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.133898,19.940119,0.000284
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 15:58:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2998
+2015-10-13 15:58:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2998
+2015-10-13 15:58:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2999
+2015-10-13 15:58:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2999
+2015-10-13 15:58:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:51 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:51 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:51 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.155747,22.290419,0.000462
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:49 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2846
+2015-10-13 15:58:49 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2846
+2015-10-13 15:58:49 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:49 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2847
+2015-10-13 15:58:49 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2847
+2015-10-13 15:58:49 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:49 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:49 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:49 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162695,23.739731,0.000433
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2969
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2969
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2970
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2970
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.155851,23.302977,0.000485
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:45 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1835
+2015-10-13 15:58:45 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1835
+2015-10-13 15:58:45 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:45 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1836
+2015-10-13 15:58:45 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1836
+2015-10-13 15:58:45 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:45 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:45 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:45 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.127309,13.460638,0.000411
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 15:59:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3888
+2015-10-13 15:59:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3888
+2015-10-13 15:59:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3889
+2015-10-13 15:59:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3889
+2015-10-13 15:59:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:07 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:07 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:07 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.153341,24.792867,0.000441
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:48 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2811
+2015-10-13 15:58:48 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2811
+2015-10-13 15:58:48 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:48 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2812
+2015-10-13 15:58:48 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2812
+2015-10-13 15:58:48 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:48 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:48 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:48 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.13497,23.053927,0.000301
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 13ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3051
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3051
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3052
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3052
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:55 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:55 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162641,24.365716,0.000354
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3249
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3249
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3250
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3250
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:55 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:55 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.169581,24.362422,0.000511
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 2ms
+2015-10-13 15:58:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1655
+2015-10-13 15:58:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1655
+2015-10-13 15:58:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1656
+2015-10-13 15:58:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1656
+2015-10-13 15:58:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:40 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.13253,11.798304,0.000428
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2825
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2825
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2826
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2826
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:55 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:55 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.141556,21.614144,0.000417
+
+[... CONTENT SHORTENED ...]
+tobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3027
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3027
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3028
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3028
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.173865,25.01447,0.0004
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 12ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2976
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2976
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2977
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2977
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:55 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:55 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:55 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.13512,23.553431,0.000453
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3309
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3309
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 15ms
+2015-10-13 15:58:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3310
+2015-10-13 15:58:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3310
+2015-10-13 15:58:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.190247,27.104497,0.000484
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3120
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3120
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:58:55 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3121
+2015-10-13 15:58:55 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3121
+2015-10-13 15:58:55 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:58:55 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:58:55 INFO  Client:240 - Application completed successfully
+2015-10-13 15:58:55 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.166993,24.319171,0.000469
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3895
+2015-10-13 15:59:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3895
+2015-10-13 15:59:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3896
+2015-10-13 15:59:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3896
+2015-10-13 15:59:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:06 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:06 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:06 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.112923,25.146987,0.000505
+
+[... CONTENT SHORTENED ...]
+ok 0ms
+2015-10-13 15:59:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #493
+2015-10-13 15:59:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #493
+2015-10-13 15:59:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #494
+2015-10-13 15:59:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #494
+2015-10-13 15:59:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:18 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 15:59:18 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 15:59:18 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.009005,0.001153,0.000195
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 16:00:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2979
+2015-10-13 16:00:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2979
+2015-10-13 16:00:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2980
+2015-10-13 16:00:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2980
+2015-10-13 16:00:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:04 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.171468,24.934034,0.000302
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 10ms
+2015-10-13 16:00:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2883
+2015-10-13 16:00:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2883
+2015-10-13 16:00:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2884
+2015-10-13 16:00:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2884
+2015-10-13 16:00:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:04 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:04 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.1964,23.531608,0.000328
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 16ms
+2015-10-13 16:00:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3208
+2015-10-13 16:00:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3208
+2015-10-13 16:00:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3209
+2015-10-13 16:00:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3209
+2015-10-13 16:00:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:07 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:07 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:07 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.169442,24.185731,0.000466
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3148
+2015-10-13 16:00:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3148
+2015-10-13 16:00:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3149
+2015-10-13 16:00:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3149
+2015-10-13 16:00:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:06 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:06 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:06 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.161416,23.808997,0.000624
+
+[... CONTENT SHORTENED ...]
+RpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 16:00:01 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3154
+2015-10-13 16:00:01 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3154
+2015-10-13 16:00:01 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 213ms
+2015-10-13 16:00:02 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3155
+2015-10-13 16:00:02 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3155
+2015-10-13 16:00:02 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:02 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:02 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:02 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.172399,24.094911,0.000485
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 3ms
+2015-10-13 16:00:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3250
+2015-10-13 16:00:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3250
+2015-10-13 16:00:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3251
+2015-10-13 16:00:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3251
+2015-10-13 16:00:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:09 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:09 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:09 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.163954,23.463442,0.00046
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 15:59:50 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2118
+2015-10-13 15:59:50 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2118
+2015-10-13 15:59:50 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:50 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2119
+2015-10-13 15:59:50 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2119
+2015-10-13 15:59:50 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:50 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:50 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:50 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.126713,13.295542,0.000411
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 16:00:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3398
+2015-10-13 16:00:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3398
+2015-10-13 16:00:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:06 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3399
+2015-10-13 16:00:06 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3399
+2015-10-13 16:00:06 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:06 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:06 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:06 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.159892,24.511861,0.000503
+
+[... CONTENT SHORTENED ...]
+tobufRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 16:00:14 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3907
+2015-10-13 16:00:14 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3907
+2015-10-13 16:00:14 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:14 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3908
+2015-10-13 16:00:14 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3908
+2015-10-13 16:00:14 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:14 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:14 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:14 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.135,20.439779,0.00031
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:08 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3127
+2015-10-13 16:00:08 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3127
+2015-10-13 16:00:08 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 16:00:08 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3128
+2015-10-13 16:00:08 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3128
+2015-10-13 16:00:08 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:08 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:08 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:08 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.153643,23.679156,0.000283
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1843
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1843
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1844
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1844
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.127934,12.442588,0.00039
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1958
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1958
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 10ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1959
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1959
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.128047,14.001127,0.000399
+
+[... CONTENT SHORTENED ...]
+RpcEngine:250 - Call: getApplicationReport took 103ms
+2015-10-13 16:00:01 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3225
+2015-10-13 16:00:01 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3225
+2015-10-13 16:00:01 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:01 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3226
+2015-10-13 16:00:01 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3226
+2015-10-13 16:00:01 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:01 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:01 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:01 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160944,24.761067,0.000432
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 15:59:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2080
+2015-10-13 15:59:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2080
+2015-10-13 15:59:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:51 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2081
+2015-10-13 15:59:51 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2081
+2015-10-13 15:59:51 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:51 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:51 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:51 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.140362,13.927128,0.000279
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:56 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2724
+2015-10-13 15:59:56 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2724
+2015-10-13 15:59:56 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 8ms
+2015-10-13 15:59:56 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2725
+2015-10-13 15:59:56 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2725
+2015-10-13 15:59:56 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 15:59:56 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:56 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:56 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.142573,23.743938,0.000374
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1817
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1817
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 15:59:53 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1818
+2015-10-13 15:59:53 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1818
+2015-10-13 15:59:53 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 15:59:53 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 15:59:53 INFO  Client:240 - Application completed successfully
+2015-10-13 15:59:53 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.094455,13.442488,0.000289
+
+[... CONTENT SHORTENED ...]
+ok 0ms
+2015-10-13 16:00:26 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #524
+2015-10-13 16:00:26 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #524
+2015-10-13 16:00:26 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:26 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #525
+2015-10-13 16:00:26 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #525
+2015-10-13 16:00:26 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:26 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 16:00:26 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 16:00:26 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.008988,0.001144,0.000186
+
+[... CONTENT SHORTENED ...]
+RpcEngine:250 - Call: getApplicationReport took 49ms
+2015-10-13 16:01:11 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3016
+2015-10-13 16:01:11 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3016
+2015-10-13 16:01:11 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 40ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3017
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3017
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:12 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:12 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.159898,24.139418,0.000513
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 16:01:03 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2636
+2015-10-13 16:01:03 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2636
+2015-10-13 16:01:03 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:03 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2637
+2015-10-13 16:01:03 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2637
+2015-10-13 16:01:03 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:03 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:03 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:03 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160527,22.93956,0.000306
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:54 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1699
+2015-10-13 16:00:54 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1699
+2015-10-13 16:00:54 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:00:54 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1700
+2015-10-13 16:00:54 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1700
+2015-10-13 16:00:54 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:00:54 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:00:54 INFO  Client:240 - Application completed successfully
+2015-10-13 16:00:54 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.125896,12.283705,0.000269
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 14ms
+2015-10-13 16:01:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3028
+2015-10-13 16:01:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3028
+2015-10-13 16:01:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:09 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3029
+2015-10-13 16:01:09 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3029
+2015-10-13 16:01:09 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:09 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:09 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:09 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160699,24.200765,0.000464
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 16:01:08 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2933
+2015-10-13 16:01:08 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2933
+2015-10-13 16:01:08 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:08 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2934
+2015-10-13 16:01:08 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2934
+2015-10-13 16:01:08 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:08 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:08 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:08 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.154132,23.029511,0.000516
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:11 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2880
+2015-10-13 16:01:11 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2880
+2015-10-13 16:01:11 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:11 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2881
+2015-10-13 16:01:11 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2881
+2015-10-13 16:01:11 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:11 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:11 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:11 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156774,22.998763,0.000408
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3035
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3035
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3036
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3036
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:12 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:12 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:12 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156941,23.733199,3.741782
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 16:01:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3626
+2015-10-13 16:01:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3626
+2015-10-13 16:01:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3627
+2015-10-13 16:01:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3627
+2015-10-13 16:01:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:22 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.154234,24.23746,0.00044
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 16ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3023
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3023
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3024
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3024
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:12 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:12 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:12 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.17304,24.204392,0.000471
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 16:01:14 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3104
+2015-10-13 16:01:14 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3104
+2015-10-13 16:01:14 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:14 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3105
+2015-10-13 16:01:14 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3105
+2015-10-13 16:01:14 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:14 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:14 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:14 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.174989,24.554049,0.000424
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 16:01:13 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3055
+2015-10-13 16:01:13 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3055
+2015-10-13 16:01:13 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:13 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3056
+2015-10-13 16:01:13 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3056
+2015-10-13 16:01:13 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:13 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:13 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:13 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.146584,22.929634,3.656438
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 16:01:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2780
+2015-10-13 16:01:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2780
+2015-10-13 16:01:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2781
+2015-10-13 16:01:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2781
+2015-10-13 16:01:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:07 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:07 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:07 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.168627,23.478205,0.000445
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2718
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2718
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2719
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2719
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:12 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:12 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:12 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.133022,20.725059,0.000279
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:07 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3049
+2015-10-13 16:01:07 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3049
+2015-10-13 16:01:07 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:08 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3050
+2015-10-13 16:01:08 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3050
+2015-10-13 16:01:08 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:08 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:08 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:08 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156082,23.964566,0.000506
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 13ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2828
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2828
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2829
+2015-10-13 16:01:12 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2829
+2015-10-13 16:01:12 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:12 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:12 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:12 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.137232,22.980463,0.000417
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3800
+2015-10-13 16:01:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3800
+2015-10-13 16:01:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3801
+2015-10-13 16:01:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3801
+2015-10-13 16:01:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:01:22 INFO  Client:240 - Application completed successfully
+2015-10-13 16:01:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.104319,23.963055,0.000293
+
+[... CONTENT SHORTENED ...]
+ok 0ms
+2015-10-13 16:01:36 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #552
+2015-10-13 16:01:36 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #552
+2015-10-13 16:01:36 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:01:36 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #553
+2015-10-13 16:01:36 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #553
+2015-10-13 16:01:36 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:01:36 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 16:01:36 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 16:01:36 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.009046,0.001141,0.000182
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3163
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3163
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3164
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3164
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:31 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.137906,21.604849,0.000386
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 16:02:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3257
+2015-10-13 16:02:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3257
+2015-10-13 16:02:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3258
+2015-10-13 16:02:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3258
+2015-10-13 16:02:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:32 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:32 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:32 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156705,22.498375,0.000426
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 2ms
+2015-10-13 16:02:16 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2766
+2015-10-13 16:02:16 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2766
+2015-10-13 16:02:16 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:16 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2767
+2015-10-13 16:02:16 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2767
+2015-10-13 16:02:16 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:16 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:16 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:16 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.139657,23.480576,0.000474
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2747
+2015-10-13 16:02:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2747
+2015-10-13 16:02:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 16:02:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2748
+2015-10-13 16:02:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2748
+2015-10-13 16:02:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:18 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:18 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:18 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.140411,23.485494,0.00043
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2768
+2015-10-13 16:02:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2768
+2015-10-13 16:02:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2769
+2015-10-13 16:02:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2769
+2015-10-13 16:02:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:17 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:17 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:17 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.141031,23.673337,0.000455
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4023
+2015-10-13 16:02:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4023
+2015-10-13 16:02:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4024
+2015-10-13 16:02:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4024
+2015-10-13 16:02:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:33 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.164478,22.557626,0.000395
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 5ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3178
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3178
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3179
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3179
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:31 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.136218,25.701649,0.000435
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:15 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2739
+2015-10-13 16:02:15 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2739
+2015-10-13 16:02:15 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:15 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2740
+2015-10-13 16:02:15 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2740
+2015-10-13 16:02:15 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:15 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:15 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:15 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.134152,23.064164,0.000464
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 16:02:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2916
+2015-10-13 16:02:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2916
+2015-10-13 16:02:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2917
+2015-10-13 16:02:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2917
+2015-10-13 16:02:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:18 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:18 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:18 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.169432,25.13914,0.000472
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:30 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3098
+2015-10-13 16:02:30 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3098
+2015-10-13 16:02:30 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:30 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3099
+2015-10-13 16:02:30 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3099
+2015-10-13 16:02:30 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:30 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:30 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:30 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.129492,12.182208,0.000286
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 16:02:26 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3578
+2015-10-13 16:02:26 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3578
+2015-10-13 16:02:26 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:26 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3579
+2015-10-13 16:02:26 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3579
+2015-10-13 16:02:26 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:26 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:26 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:26 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.134618,21.774318,0.000323
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3152
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3152
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:31 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3153
+2015-10-13 16:02:31 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3153
+2015-10-13 16:02:31 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:31 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:31 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:31 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.143259,21.715284,0.000493
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3972
+2015-10-13 16:02:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3972
+2015-10-13 16:02:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3973
+2015-10-13 16:02:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3973
+2015-10-13 16:02:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:33 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.144105,23.493034,0.000492
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:13 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2725
+2015-10-13 16:02:13 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2725
+2015-10-13 16:02:13 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:13 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2726
+2015-10-13 16:02:13 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2726
+2015-10-13 16:02:13 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:13 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:13 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:13 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.142079,23.125518,0.000342
+
+[... CONTENT SHORTENED ...]
+tobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2615
+2015-10-13 16:02:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2615
+2015-10-13 16:02:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:17 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2616
+2015-10-13 16:02:17 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2616
+2015-10-13 16:02:17 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:17 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:17 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:17 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.1576,21.166749,0.00033
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3256
+2015-10-13 16:02:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3256
+2015-10-13 16:02:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 20ms
+2015-10-13 16:02:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3257
+2015-10-13 16:02:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3257
+2015-10-13 16:02:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:02:32 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:02:32 INFO  Client:240 - Application completed successfully
+2015-10-13 16:02:32 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.108799,23.740511,0.000402
+
+[... CONTENT SHORTENED ...]
+ok 1ms
+2015-10-13 16:02:44 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #499
+2015-10-13 16:02:44 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #499
+2015-10-13 16:02:44 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:44 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #500
+2015-10-13 16:02:44 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #500
+2015-10-13 16:02:44 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:02:44 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 16:02:44 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 16:02:44 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.005791,0.000693,0.000184
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3974
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3974
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3975
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3975
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.168611,22.896951,0.000355
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 8ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3597
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3597
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3598
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3598
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.141481,22.727664,0.000434
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3755
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3755
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3756
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3756
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.138968,22.424669,0.000453
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2535
+2015-10-13 16:03:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2535
+2015-10-13 16:03:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2536
+2015-10-13 16:03:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2536
+2015-10-13 16:03:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:25 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:25 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:25 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.1611,21.465377,0.000406
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 17ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3444
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3444
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3445
+2015-10-13 16:03:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3445
+2015-10-13 16:03:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.153496,21.662771,0.000414
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 9ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3587
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3587
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3588
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3588
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.161334,24.014213,0.000414
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 4ms
+2015-10-13 16:03:23 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2555
+2015-10-13 16:03:23 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2555
+2015-10-13 16:03:23 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:23 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2556
+2015-10-13 16:03:23 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2556
+2015-10-13 16:03:23 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:23 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:23 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:23 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.165351,21.381026,0.000413
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 19ms
+2015-10-13 16:03:23 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1885
+2015-10-13 16:03:23 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1885
+2015-10-13 16:03:23 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:23 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1886
+2015-10-13 16:03:23 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1886
+2015-10-13 16:03:23 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:23 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:23 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:23 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.12781,12.183681,0.000279
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2815
+2015-10-13 16:03:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2815
+2015-10-13 16:03:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:25 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2816
+2015-10-13 16:03:25 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2816
+2015-10-13 16:03:25 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:25 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:25 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:25 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.163483,24.085529,0.000788
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 21ms
+2015-10-13 16:03:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1730
+2015-10-13 16:03:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1730
+2015-10-13 16:03:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:18 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #1731
+2015-10-13 16:03:18 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #1731
+2015-10-13 16:03:18 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:18 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:18 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:18 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.128385,12.37746,0.000295
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 2ms
+2015-10-13 16:03:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2634
+2015-10-13 16:03:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2634
+2015-10-13 16:03:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:22 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2635
+2015-10-13 16:03:22 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2635
+2015-10-13 16:03:22 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:22 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:22 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:22 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.153006,22.466939,0.000337
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 16ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3672
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3672
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3673
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3673
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.139401,24.350465,0.000431
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4043
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4043
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4044
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4044
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162892,24.319694,0.000351
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 21ms
+2015-10-13 16:03:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4027
+2015-10-13 16:03:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4027
+2015-10-13 16:03:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:38 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4028
+2015-10-13 16:03:38 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4028
+2015-10-13 16:03:38 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:38 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:38 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:38 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.18141,24.454816,0.000425
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3949
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3949
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3950
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3950
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.161062,24.441755,0.000474
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3836
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3836
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3837
+2015-10-13 16:03:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3837
+2015-10-13 16:03:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:03:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:03:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.109023,23.84691,0.000546
+
+[... CONTENT SHORTENED ...]
+k 15ms
+2015-10-13 16:03:52 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #483
+2015-10-13 16:03:52 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #483
+2015-10-13 16:03:52 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:52 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #484
+2015-10-13 16:03:52 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #484
+2015-10-13 16:03:52 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:03:52 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 16:03:52 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 16:03:52 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.008952,0.001166,0.000178
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:52 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4377
+2015-10-13 16:04:52 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4377
+2015-10-13 16:04:52 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:52 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #4378
+2015-10-13 16:04:52 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #4378
+2015-10-13 16:04:52 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:52 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:52 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:52 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.143861,24.164777,0.000456
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3043
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3043
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3044
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3044
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.144514,22.75595,0.000433
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3124
+2015-10-13 16:04:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3124
+2015-10-13 16:04:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3125
+2015-10-13 16:04:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3125
+2015-10-13 16:04:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.172468,25.939482,0.000429
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2921
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2921
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 7ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2922
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2922
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.151176,22.841055,0.000346
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2958
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2958
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2959
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2959
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.192418,24.943738,0.000528
+
+[... CONTENT SHORTENED ...]
+obufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2943
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2943
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2944
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2944
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.143382,24.55779,0.00043
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 11ms
+2015-10-13 16:04:41 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2924
+2015-10-13 16:04:41 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2924
+2015-10-13 16:04:41 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:41 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2925
+2015-10-13 16:04:41 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2925
+2015-10-13 16:04:41 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:41 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:41 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:41 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.274497,24.579229,0.000427
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 16:04:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2712
+2015-10-13 16:04:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2712
+2015-10-13 16:04:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:39 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2713
+2015-10-13 16:04:39 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2713
+2015-10-13 16:04:39 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:39 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:39 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:39 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.141614,21.28757,0.000489
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 16:04:50 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3687
+2015-10-13 16:04:50 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3687
+2015-10-13 16:04:50 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:50 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3688
+2015-10-13 16:04:50 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3688
+2015-10-13 16:04:50 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:50 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:50 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:50 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.167073,24.605439,0.000444
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 20ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3239
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3239
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3240
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3240
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.160505,24.607176,0.000453
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 13ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2850
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2850
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2851
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2851
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.156485,22.817077,0.000409
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 12ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2770
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2770
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:40 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2771
+2015-10-13 16:04:40 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2771
+2015-10-13 16:04:40 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:40 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:40 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:40 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.133162,21.531292,0.000408
+
+[... CONTENT SHORTENED ...]
+ Lease renewer daemon for [] with renew id 1 executed
+2015-10-13 16:04:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2734
+2015-10-13 16:04:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2734
+2015-10-13 16:04:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 6ms
+2015-10-13 16:04:32 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2735
+2015-10-13 16:04:32 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2735
+2015-10-13 16:04:32 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:32 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:32 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:32 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.137338,22.696056,0.000321
+
+[... CONTENT SHORTENED ...]
+bufRpcEngine:250 - Call: getApplicationReport took 8ms
+2015-10-13 16:04:41 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3123
+2015-10-13 16:04:41 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3123
+2015-10-13 16:04:41 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:41 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #3124
+2015-10-13 16:04:41 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #3124
+2015-10-13 16:04:41 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:41 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:41 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:41 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.153612,24.821456,0.00049
+
+[... CONTENT SHORTENED ...]
+fRpcEngine:250 - Call: getApplicationReport took 18ms
+2015-10-13 16:04:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2773
+2015-10-13 16:04:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2773
+2015-10-13 16:04:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:33 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2774
+2015-10-13 16:04:33 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2774
+2015-10-13 16:04:33 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:33 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:33 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:33 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.162202,21.532771,0.000316
+
+[... CONTENT SHORTENED ...]
+ufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2981
+2015-10-13 16:04:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2981
+2015-10-13 16:04:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:04:35 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #2982
+2015-10-13 16:04:35 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #2982
+2015-10-13 16:04:35 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 0ms
+2015-10-13 16:04:35 INFO  Client:792 - Application has completed successfully. Breaking monitoring loop
+2015-10-13 16:04:35 INFO  Client:240 - Application completed successfully
+2015-10-13 16:04:35 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.092214,25.479199,0.000347
+
+[... CONTENT SHORTENED ...]
+ook 1ms
+2015-10-13 16:05:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #484
+2015-10-13 16:05:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #484
+2015-10-13 16:05:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:05:04 DEBUG Client:1032 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask sending #485
+2015-10-13 16:05:04 DEBUG Client:1089 - IPC Client (85445963) connection to /10.20.108.7:8050 from iparask got value #485
+2015-10-13 16:05:04 DEBUG ProtobufRpcEngine:250 - Call: getApplicationReport took 1ms
+2015-10-13 16:05:04 INFO  Client:798 - Application did finished unsuccessfully. YarnState=FINISHED, DSFinalStatus=FAILED. Breaking monitoring loop
+2015-10-13 16:05:04 ERROR Client:243 - Application failed to complete successfully
+2015-10-13 16:05:04 DEBUG Client:97 - stopping client from cache: org.apache.hadoop.ipc.Client@69b794e2
+0.009035,0.00114,0.000193
+
