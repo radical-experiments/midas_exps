@@ -3,5 +3,7 @@ atom_position_frame_1.npz.npy, 256,  256, ~50K, 121 sec ,1845  sec ,  1
 atom_position_frame_1.npz.npy, 128, 256, ~50K, 120 sec,1457 sec,1
 atom_position_frame_1.npz.npy, 64,  256, ~50K, 122 sec ,1435  sec ,  1
 atom_position_frame_1.npz.npy, 32,  100, ~50K, 285 sec ,2325  sec ,  1
-atom_position_frame_1.npz.npy, 16,  100, ~50K,  sec ,  sec ,  1
+atom_position_frame_1.npz.npy, 16,  100, ~50K, 284 sec ,2285  sec ,  1
 atom_position_frame_1.npz.npy, 256,  256, ~50K, 121 sec ,1870  sec , 2
+
+
