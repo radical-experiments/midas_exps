@@ -1,0 +1,32 @@
+Filename, cores,partitions,Atoms,GraphFrame,ConnectedComponents,Run,partitions/cores ratio
+
+atom_position_frame_1.npz.npy, 384, 768, ~50K, -- sec, -- sec,1,2
+
+atom_position_frame_1.npz.npy, 256,  256, ~50K, 121 sec ,1845  sec ,  1,1
+
+atom_position_frame_1.npz.npy, 128, 768, ~50K, 50 sec, 2428 sec,1,6
+atom_position_frame_1.npz.npy, 128, 512, ~50K, 67 sec,1860 sec,1,4
+atom_position_frame_1.npz.npy, 128, 256, ~50K, 120 sec,1457 sec,1,2
+
+atom_position_frame_1.npz.npy, 64,  384, ~50K, 87 sec , 1624  sec , 1,6
+atom_position_frame_1.npz.npy, 64,  256, ~50K, 122 sec ,1435  sec , 1,4
+atom_position_frame_1.npz.npy, 64,  128, ~50K, 227 sec , 1257  sec , 1,2
+
+atom_position_frame_1.npz.npy, 32,  192, ~50K, 156 sec , 2411  sec , 1,6
+atom_position_frame_1.npz.npy, 32,  100, ~50K, 285 sec ,2325  sec , 1,3
+
+atom_position_frame_1.npz.npy, 16,  200, ~50K, 150 sec ,2412  sec ,  1,12
+atom_position_frame_1.npz.npy, 16,  100, ~50K, 284 sec ,2285  sec ,  1,6
+atom_position_frame_1.npz.npy, 16,  64, ~50K, 439 sec ,2395  sec ,  1,4
+
+atom_position_frame_1.npz.npy, 256,  256, ~50K, 121 sec ,1870  sec , 2
+
+
+
+
+
+
+
+
+
+
