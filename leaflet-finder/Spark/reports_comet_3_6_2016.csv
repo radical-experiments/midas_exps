@@ -1,4 +1,4 @@
-Cores,partitions,Atoms,AdjMatrix,ConnComp,Run
+Cores,partitions,AdjMatrix,ConnComp,Run
 48,378,1421,54,1
 48,378,1355,53,2
 48,378,1392,54,3
