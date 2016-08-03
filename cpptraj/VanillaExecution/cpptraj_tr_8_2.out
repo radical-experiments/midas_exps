@@ -1,0 +1,82 @@
+TACC: Starting up job 7449062
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 8 threads
+| Date/time: 08/02/16 22:08:42
+| Available memory: 29.461 GB
+
+	Reading '/work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC-ions.topo' as Amber Topology
+INPUT: Reading input from 'cpptraj_tr.in'
+  [trajin /work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC3-strip.crd]
+	Reading '/work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC3-strip.crd' as Amber Trajectory
+  [rmsd first @H* rsmd_exp.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC-ions.topo, 1293 atoms, 190 res, box: None, 156 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'GAAC3-strip.crd' is an AMBER trajectory, Parm GAAC-ions.topo (reading 881372 of 881372)
+  Coordinate processing will occur on 881372 frames.
+
+PARALLEL INFO:
+  Thread 0 will process 110172 frames.
+  Thread 1 will process 110172 frames.
+  Thread 2 will process 110172 frames.
+  Thread 3 will process 110172 frames.
+  Thread 4 will process 110171 frames.
+  Thread 5 will process 110171 frames.
+  Thread 6 will process 110171 frames.
+  Thread 7 will process 110171 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC-ions.topo' (1 actions):
+  0: [rmsd first @H* rsmd_exp.dat]
+	Target mask: [@H*](407)
+	Reference mask: [@H*](407)
+
+BEGIN PARALLEL TRAJECTORY PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Rank 0 throughput= 1523.2710 frames / second.
+TIME: Rank 1 throughput= 1526.8432 frames / second.
+TIME: Rank 2 throughput= 1527.4842 frames / second.
+TIME: Rank 3 throughput= 1525.0996 frames / second.
+TIME: Rank 4 throughput= 1525.3386 frames / second.
+TIME: Rank 5 throughput= 1526.4382 frames / second.
+TIME: Rank 6 throughput= 1528.0522 frames / second.
+TIME: Rank 7 throughput= 1529.4335 frames / second.
+TIME: Avg. throughput= 12186.1055 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	rsmd_exp.dat "rsmd_exp.dat" (double, rms), size is 881372
+
+RUN TIMING:
+TIME:		Init               : 0.0015 s (  0.00%)
+TIME:		Trajectory Process : 72.3260 s ( 99.98%)
+TIME:		Data Set Sync      : 0.0108 s (  0.01%)
+TIME:		Action Post        : 0.0001 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0001 s (  0.00%)
+TIME:		Other              : 0.0006 s (  0.00%)
+TIME:	Run Total 72.3391 s
+---------- RUN END ---------------------------------------------------
+  [exit]
+TIME: Total execution time: 72.4248 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.

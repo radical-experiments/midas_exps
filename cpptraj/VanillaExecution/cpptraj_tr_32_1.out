@@ -1,0 +1,130 @@
+TACC: Starting up job 7449068
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 32 threads
+| Date/time: 08/02/16 22:18:42
+| Available memory: 29.202 GB
+
+	Reading '/work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC-ions.topo' as Amber Topology
+INPUT: Reading input from 'cpptraj_tr.in'
+  [trajin /work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC3-strip.crd]
+	Reading '/work/03170/tg824689/cpptraj_exp/rmsd_tr/GAAC3-strip.crd' as Amber Trajectory
+  [rmsd first @H* rsmd_exp.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC-ions.topo, 1293 atoms, 190 res, box: None, 156 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'GAAC3-strip.crd' is an AMBER trajectory, Parm GAAC-ions.topo (reading 881372 of 881372)
+  Coordinate processing will occur on 881372 frames.
+
+PARALLEL INFO:
+  Thread 0 will process 27543 frames.
+  Thread 1 will process 27543 frames.
+  Thread 2 will process 27543 frames.
+  Thread 3 will process 27543 frames.
+  Thread 4 will process 27543 frames.
+  Thread 5 will process 27543 frames.
+  Thread 6 will process 27543 frames.
+  Thread 7 will process 27543 frames.
+  Thread 8 will process 27543 frames.
+  Thread 9 will process 27543 frames.
+  Thread 10 will process 27543 frames.
+  Thread 11 will process 27543 frames.
+  Thread 12 will process 27543 frames.
+  Thread 13 will process 27543 frames.
+  Thread 14 will process 27543 frames.
+  Thread 15 will process 27543 frames.
+  Thread 16 will process 27543 frames.
+  Thread 17 will process 27543 frames.
+  Thread 18 will process 27543 frames.
+  Thread 19 will process 27543 frames.
+  Thread 20 will process 27543 frames.
+  Thread 21 will process 27543 frames.
+  Thread 22 will process 27543 frames.
+  Thread 23 will process 27543 frames.
+  Thread 24 will process 27543 frames.
+  Thread 25 will process 27543 frames.
+  Thread 26 will process 27543 frames.
+  Thread 27 will process 27543 frames.
+  Thread 28 will process 27542 frames.
+  Thread 29 will process 27542 frames.
+  Thread 30 will process 27542 frames.
+  Thread 31 will process 27542 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC-ions.topo' (1 actions):
+  0: [rmsd first @H* rsmd_exp.dat]
+	Target mask: [@H*](407)
+	Reference mask: [@H*](407)
+
+BEGIN PARALLEL TRAJECTORY PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Rank 0 throughput= 1540.2360 frames / second.
+TIME: Rank 1 throughput= 1557.6584 frames / second.
+TIME: Rank 2 throughput= 1549.5265 frames / second.
+TIME: Rank 3 throughput= 1526.7490 frames / second.
+TIME: Rank 4 throughput= 1547.5107 frames / second.
+TIME: Rank 5 throughput= 1549.0807 frames / second.
+TIME: Rank 6 throughput= 1546.4151 frames / second.
+TIME: Rank 7 throughput= 1558.2989 frames / second.
+TIME: Rank 8 throughput= 1557.5549 frames / second.
+TIME: Rank 9 throughput= 1558.6691 frames / second.
+TIME: Rank 10 throughput= 1550.1747 frames / second.
+TIME: Rank 11 throughput= 1552.6782 frames / second.
+TIME: Rank 12 throughput= 1569.0596 frames / second.
+TIME: Rank 13 throughput= 1552.2116 frames / second.
+TIME: Rank 14 throughput= 1566.1836 frames / second.
+TIME: Rank 15 throughput= 1560.7043 frames / second.
+TIME: Rank 16 throughput= 1549.4334 frames / second.
+TIME: Rank 17 throughput= 1540.0232 frames / second.
+TIME: Rank 18 throughput= 1539.3420 frames / second.
+TIME: Rank 19 throughput= 1526.3179 frames / second.
+TIME: Rank 20 throughput= 1553.9308 frames / second.
+TIME: Rank 21 throughput= 1558.6587 frames / second.
+TIME: Rank 22 throughput= 1534.8184 frames / second.
+TIME: Rank 23 throughput= 1550.9484 frames / second.
+TIME: Rank 24 throughput= 1538.0241 frames / second.
+TIME: Rank 25 throughput= 1565.7982 frames / second.
+TIME: Rank 26 throughput= 1555.7845 frames / second.
+TIME: Rank 27 throughput= 1572.2609 frames / second.
+TIME: Rank 28 throughput= 1546.7238 frames / second.
+TIME: Rank 29 throughput= 1530.3328 frames / second.
+TIME: Rank 30 throughput= 1540.1462 frames / second.
+TIME: Rank 31 throughput= 1565.7978 frames / second.
+TIME: Avg. throughput= 48841.8316 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	rsmd_exp.dat "rsmd_exp.dat" (double, rms), size is 881372
+
+RUN TIMING:
+TIME:		Init               : 0.0053 s (  0.03%)
+TIME:		Trajectory Process : 18.0454 s ( 99.93%)
+TIME:		Data Set Sync      : 0.0054 s (  0.03%)
+TIME:		Action Post        : 0.0001 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0014 s (  0.00%)
+TIME:	Run Total 18.0577 s
+---------- RUN END ---------------------------------------------------
+  [exit]
+TIME: Total execution time: 18.4021 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.
