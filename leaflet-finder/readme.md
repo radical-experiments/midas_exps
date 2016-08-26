@@ -1,4 +1,1 @@
-Folders Iteration 1 and Iteration 2 are the raw data from the leaflet finder experiments that were run late 2015. The run is with a vanilla RADICAL-Pilot implementation.
-
-The implementation used the All-Pairs patterns for calculating the Adjastancy matrix and networkx for the calculation of the connected
-components.
+Data from the leaflet-finder experiments. This folder contains timing data from various implementations of leaflet finder, a Jupyter notebook used for plotting and all the generated plot in png format. The Notebook should always be up to date in order to quickly change the format of a plot from png to pdf.
