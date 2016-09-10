@@ -1,0 +1,112 @@
+TACC: Starting up job 7590973
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 256 threads
+| Date/time: 09/07/16 18:09:43
+| Available memory: 29.152 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [ensemble /scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0 1 80000 nosort trajnames /scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.1,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.2,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.3,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.4,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.5,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.6,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.7,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.8,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.9,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.10,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.11,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.12,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.13,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.14,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.15]
+Warning: Ensemble setup efficiency in parallel is greatly
+Warning:   improved via the 'ensemblesize' command.
+	Reading '/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+ENSEMBLE INFO:
+  Ensemble size is 16
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT ENSEMBLES (1 total):
+ 0: Trajectory ensemble (16 total), lowest replica 'test.dcd.0' (reading 80000 of 80000)
+	Not sorting ensemble.
+  Coordinate processing will occur on 80000 frames.
+
+PARALLEL INFO:
+  16 threads per ensemble member.
+  Thread 0 will process 5000 frames.
+  Thread 1 will process 5000 frames.
+  Thread 2 will process 5000 frames.
+  Thread 3 will process 5000 frames.
+  Thread 4 will process 5000 frames.
+  Thread 5 will process 5000 frames.
+  Thread 6 will process 5000 frames.
+  Thread 7 will process 5000 frames.
+  Thread 8 will process 5000 frames.
+  Thread 9 will process 5000 frames.
+  Thread 10 will process 5000 frames.
+  Thread 11 will process 5000 frames.
+  Thread 12 will process 5000 frames.
+  Thread 13 will process 5000 frames.
+  Thread 14 will process 5000 frames.
+  Thread 15 will process 5000 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL ENSEMBLE PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Member    0 ranks FPS=    19.60    19.73    20.54    20.37    19.96    22.85    21.55    19.68    19.49    20.02    19.98    19.54    22.16    20.12    19.65    19.54
+TIME: Member    1 ranks FPS=    19.77    20.48    19.53    20.62    19.63    20.87    20.02    20.02    19.66    20.10    20.24    20.46    19.88    20.45    19.74    20.72
+TIME: Member    2 ranks FPS=    34.33    33.31    33.80    35.68    44.97    68.20    35.59    53.48    33.66    33.45    35.36    33.08    44.72    37.16    40.90    42.10
+TIME: Member    3 ranks FPS=    29.04    30.54    30.09    33.50    30.09    33.75    38.88    43.59    30.38    30.00    32.85    33.46    30.63    31.01    37.94    33.17
+TIME: Member    4 ranks FPS=    35.86    37.01    37.25    40.08    37.16    46.68    40.91    43.46    38.92    36.73    52.57    41.58    63.34    39.86    40.78    39.06
+TIME: Member    5 ranks FPS=    22.64    22.35    24.24    23.11    22.40    23.07    22.28    24.31    22.31    22.83    22.74    23.09    22.71    22.32    22.56    23.68
+TIME: Member    6 ranks FPS=    27.91    27.67    29.26    29.49    31.46    32.32    29.43    28.91    28.28    27.76    28.60    28.60    28.63    29.83    28.10    27.77
+TIME: Member    7 ranks FPS=    33.18    36.00    36.25    43.82    81.15    73.05    52.47    93.94    33.44    33.66    33.11    33.54    33.03    33.52    36.40    38.29
+TIME: Member    8 ranks FPS=    35.01    42.42    38.32    34.29    42.76    41.23    37.85    38.07    33.78    46.25    33.84    39.89    34.90    44.73    49.73    40.59
+TIME: Member    9 ranks FPS=    35.09    39.01    38.62    40.72    44.20    39.14    51.11    41.46    36.03    35.45    34.71    35.52    39.07    36.89    36.58    41.75
+TIME: Member   10 ranks FPS=    32.43    32.82    33.57    33.15    37.09    44.08    38.90    36.71    38.49    33.83    37.23    34.95    35.06    39.77    35.96    32.85
+TIME: Member   11 ranks FPS=    33.84    39.82    34.11    39.51    38.35    56.72    40.86    50.61    34.21    33.21    34.42    38.05    36.02    44.51    41.39    37.67
+TIME: Member   12 ranks FPS=    19.26    19.23    19.86    19.13    19.86    21.19    19.79    19.65    19.22    19.56    20.82    19.34    20.13    19.63    20.35    19.21
+TIME: Member   13 ranks FPS=    22.65    20.44    20.38    26.41    29.59    23.69    23.69    23.94    20.41    20.01    28.09    22.86    24.11    21.23    34.67    22.63
+TIME: Member   14 ranks FPS=    20.60    20.52    22.25    23.85    20.72    30.88    20.43    21.51    21.16    20.55    24.42    20.56    20.82    20.38    22.07    20.46
+TIME: Member   15 ranks FPS=    31.35    31.71    33.54    33.27    32.56    36.91    34.28    37.44    35.34    31.12    35.04    37.21    33.99    35.45    38.43    44.15
+TIME: Avg. throughput= 306.1003 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001%0 "RMSD_00001%0" (double, rms), size is 80000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat.0 (Standard Data File):  RMSD_00001%0
+
+RUN TIMING:
+TIME:		Init               : 0.0211 s (  0.01%)
+TIME:		Trajectory Process : 261.3523 s ( 99.95%)
+TIME:		Data Set Sync      : 0.0005 s (  0.00%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0978 s (  0.04%)
+TIME:		Other              : 0.0233 s (  0.00%)
+TIME:	Run Total 261.4950 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 265.1687 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.

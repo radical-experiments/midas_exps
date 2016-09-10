@@ -1,0 +1,128 @@
+TACC: Starting up job 7574108
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 256 threads
+| Date/time: 09/02/16 18:57:44
+| Available memory: 29.143 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [ensemble /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.1 1 20000 nosort trajnames /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.2,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.3,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.4,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.5,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.6,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.7,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.8,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.9,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.10,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.11,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.12,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.13,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.14,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.15,/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.16]
+Warning: Ensemble setup efficiency in parallel is greatly
+Warning:   improved via the 'ensemblesize' command.
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC3.dcd.1' as Charmm DCD
+Warning: Replica GAAC3.dcd.2 frames (20000) does not match # frames in first replica (20001).
+Warning: Setting total # of frames to read from replica ensemble to 20000
+Warning: Replica GAAC3.dcd.3 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.4 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.5 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.6 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.7 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.8 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.9 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.10 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.11 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.12 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.13 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.14 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.15 frames (20000) does not match # frames in first replica (20001).
+Warning: Replica GAAC3.dcd.16 frames (20000) does not match # frames in first replica (20001).
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+ENSEMBLE INFO:
+  Ensemble size is 16
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT ENSEMBLES (1 total):
+ 0: Trajectory ensemble (16 total), lowest replica 'GAAC3.dcd.1' (reading 20000 of 20000)
+	Not sorting ensemble.
+  Coordinate processing will occur on 20000 frames.
+
+PARALLEL INFO:
+  16 threads per ensemble member.
+  Thread 0 will process 1250 frames.
+  Thread 1 will process 1250 frames.
+  Thread 2 will process 1250 frames.
+  Thread 3 will process 1250 frames.
+  Thread 4 will process 1250 frames.
+  Thread 5 will process 1250 frames.
+  Thread 6 will process 1250 frames.
+  Thread 7 will process 1250 frames.
+  Thread 8 will process 1250 frames.
+  Thread 9 will process 1250 frames.
+  Thread 10 will process 1250 frames.
+  Thread 11 will process 1250 frames.
+  Thread 12 will process 1250 frames.
+  Thread 13 will process 1250 frames.
+  Thread 14 will process 1250 frames.
+  Thread 15 will process 1250 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL ENSEMBLE PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Member    0 ranks FPS=    39.30    40.47    39.39    50.43    40.49    49.39    41.81    42.55    45.21    46.60    44.47    39.84    42.92    42.29    39.62    64.25
+TIME: Member    1 ranks FPS=    31.84    32.51    31.91    35.37    39.47    32.40    40.47    44.24    35.41    39.27    35.65    34.68    39.69    43.32    41.98    83.88
+TIME: Member    2 ranks FPS=    50.01    44.66    53.28    65.38    45.02    53.87    49.40    47.76    44.93    46.54    48.91    61.22    46.74    55.14    55.05    46.22
+TIME: Member    3 ranks FPS=    37.20    37.67    38.42    41.52    47.74    38.51    38.60    40.70    35.97    45.25    36.85    36.23    60.90    38.24    55.79    41.10
+TIME: Member    4 ranks FPS=    38.99    42.95    41.38    30.35    41.57    60.31    61.13    40.81    33.53    31.36    31.64    31.62    32.05    31.09    47.27    31.14
+TIME: Member    5 ranks FPS=    61.05   175.29    71.33    51.20    68.69    44.81   125.62    68.14    63.66    47.34    43.66    43.57    64.10    46.37    45.10    51.58
+TIME: Member    6 ranks FPS=    43.94    43.88    44.34    55.46    56.48    49.29    50.03    57.22    42.40    73.90   111.27    64.27    48.86    42.70    69.23    55.10
+TIME: Member    7 ranks FPS=    43.07    42.53    46.94    44.33    41.90    42.32    57.01    65.13    46.26    41.50    45.10    47.49    44.89    51.63    43.88    59.80
+TIME: Member    8 ranks FPS=    46.47    54.39    48.52    50.81    47.42    56.72    49.17    55.50    50.15    47.02   127.85    60.80    51.04    68.90    47.71    52.14
+TIME: Member    9 ranks FPS=    50.41    52.07    51.51    50.13    52.47    54.92    50.61    52.96    52.61    61.09    49.08    54.44    56.86    50.85    62.21    62.47
+TIME: Member   10 ranks FPS=    56.26    47.18    51.01    51.15    48.88    65.65    92.83    48.71    50.32    56.42    49.85    60.94   108.40    72.72   158.77    65.26
+TIME: Member   11 ranks FPS=    38.24    40.69    42.58    46.71    43.06    43.88    41.22    47.14    38.90    39.74    45.18    39.58    39.15    40.19    39.20    42.88
+TIME: Member   12 ranks FPS=    58.97    52.02    77.33    59.96    66.99    94.90    56.59    64.06    51.57    75.53    51.94    52.27    50.49   105.03    53.59    51.19
+TIME: Member   13 ranks FPS=    39.11    78.41    35.10    50.84    53.98    44.13    64.41   171.35    31.43    51.51    30.36    46.75    30.49    35.56    36.60    34.56
+TIME: Member   14 ranks FPS=    39.21    54.48    40.27    50.84    38.37    57.69    57.89    47.21    37.77   159.78    64.63    37.97    48.33    69.65    54.23    43.97
+TIME: Member   15 ranks FPS=    40.06    37.88    36.46    70.27    44.26    74.80    45.69    49.97    37.92    84.16    50.13    39.35    87.21    47.40    46.03    79.67
+TIME: Avg. throughput= 485.5553 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001%0 "RMSD_00001%0" (double, rms), size is 20000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat.0 (Standard Data File):  RMSD_00001%0
+
+RUN TIMING:
+TIME:		Init               : 0.0223 s (  0.05%)
+TIME:		Trajectory Process : 41.1900 s ( 99.87%)
+TIME:		Data Set Sync      : 0.0007 s (  0.00%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0246 s (  0.06%)
+TIME:		Other              : 0.0058 s (  0.00%)
+TIME:	Run Total 41.2434 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 43.2695 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.

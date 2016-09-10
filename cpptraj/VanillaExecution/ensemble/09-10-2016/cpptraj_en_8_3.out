@@ -1,0 +1,104 @@
+TACC: Starting up job 7590963
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 128 threads
+| Date/time: 09/07/16 17:47:53
+| Available memory: 29.168 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [ensemble /scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0 1 80000 nosort trajnames /scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.1,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.2,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.3,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.4,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.5,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.6,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.7,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.8,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.9,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.10,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.11,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.12,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.13,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.14,/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.15]
+Warning: Ensemble setup efficiency in parallel is greatly
+Warning:   improved via the 'ensemblesize' command.
+	Reading '/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+ENSEMBLE INFO:
+  Ensemble size is 16
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT ENSEMBLES (1 total):
+ 0: Trajectory ensemble (16 total), lowest replica 'test.dcd.0' (reading 80000 of 80000)
+	Not sorting ensemble.
+  Coordinate processing will occur on 80000 frames.
+
+PARALLEL INFO:
+  8 threads per ensemble member.
+  Thread 0 will process 10000 frames.
+  Thread 1 will process 10000 frames.
+  Thread 2 will process 10000 frames.
+  Thread 3 will process 10000 frames.
+  Thread 4 will process 10000 frames.
+  Thread 5 will process 10000 frames.
+  Thread 6 will process 10000 frames.
+  Thread 7 will process 10000 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL ENSEMBLE PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Member    0 ranks FPS=    35.61    35.48    36.59    36.02    35.71    36.25    35.50    35.41
+TIME: Member    1 ranks FPS=    41.28    42.09    41.88    43.55    43.83    44.02    43.22    42.03
+TIME: Member    2 ranks FPS=    64.20    72.41    68.83    73.48    68.57    67.11    72.14    67.00
+TIME: Member    3 ranks FPS=    52.84    54.68    55.53    53.72    52.62    57.26    53.62    58.31
+TIME: Member    4 ranks FPS=    57.22    59.00    60.17    59.94    62.90    64.50    59.77    62.83
+TIME: Member    5 ranks FPS=    51.96    53.65    53.07    52.67    55.16    53.99    52.72    58.79
+TIME: Member    6 ranks FPS=    49.51    50.77    50.87    54.17    54.34    54.01    52.72    50.02
+TIME: Member    7 ranks FPS=    49.86    50.60    51.10    51.44    55.47    55.09    55.21    55.23
+TIME: Member    8 ranks FPS=    61.43    62.41    63.24    65.28    62.34    75.07    63.65    66.42
+TIME: Member    9 ranks FPS=    63.88    69.16    74.10    67.00    69.68    65.89    68.85    71.65
+TIME: Member   10 ranks FPS=    59.28    62.95    61.41    63.24    61.30    62.34    68.28    64.01
+TIME: Member   11 ranks FPS=    59.80    66.83    60.25    61.24    61.77    66.01    63.59    61.88
+TIME: Member   12 ranks FPS=    36.03    36.08    37.03    38.08    36.38    36.96    37.41    36.71
+TIME: Member   13 ranks FPS=    35.02    35.33    35.94    36.20    35.47    36.35    35.80    36.55
+TIME: Member   14 ranks FPS=    42.02    42.88    44.91    43.01    41.70    41.95    48.41    43.57
+TIME: Member   15 ranks FPS=    52.98    54.07    57.97    55.51    57.15    58.40    58.88    56.72
+TIME: Avg. throughput= 280.1500 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001%0 "RMSD_00001%0" (double, rms), size is 80000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat.0 (Standard Data File):  RMSD_00001%0
+
+RUN TIMING:
+TIME:		Init               : 0.0187 s (  0.01%)
+TIME:		Trajectory Process : 285.5613 s ( 99.96%)
+TIME:		Data Set Sync      : 0.0005 s (  0.00%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0971 s (  0.03%)
+TIME:		Other              : 0.0034 s (  0.00%)
+TIME:	Run Total 285.6811 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 287.4620 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.
