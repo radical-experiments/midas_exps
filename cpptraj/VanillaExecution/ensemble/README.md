@@ -1,0 +1,4 @@
+-Folder 08-24-2016: Ensemble execution of CppTraj. 16 Ensemble members, 20K frames Used Hydrgen atoms
+-Folder 09-02-2016: Ensemble execution of CppTraj. 16 Ensemble members, 20K frames Used Hydrgen atoms
+-Folder 09-10-2016: Ensemble execution of CppTraj. 16 Ensemble members, 80K frames Used Hydrgen atoms
+-Folder 09-14-2016: Ensemble execution of CppTraj. 16 Ensemble members, 20K frames Used Hydrgen atoms
