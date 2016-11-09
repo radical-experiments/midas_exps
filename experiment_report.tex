@@ -1,0 +1,190 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,headheight=1in,headsep=1in,footskip=0.5in}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pifont}
+\newif\ifdraft
+\drafttrue
+\ifdraft
+\usepackage{xcolor}
+\definecolor{ocolor}{rgb}{1,0,0.4}
+\newcommand{\onote}[1]{ {\textcolor{ocolor} { (***Ole: #1) }}}
+\newcommand{\terminology}[1]{ {\textcolor{red} {(Terminology used: \textbf{#1}) }}}
+\newcommand{\owave}[1]{ {\cyanuwave{#1}}}
+\newcommand{\jwave}[1]{ {\reduwave{#1}}}
+\newcommand{\alwave}[1]{ {\blueuwave{#1}}}
+\newcommand{\jhanote}[1]{ {\textcolor{red} { ***shantenu: #1 }}}
+\newcommand{\alnote}[1]{ {\textcolor{blue} { ***andreL: #1 }}}
+\newcommand{\amnote}[1]{ {\textcolor{blue} { ***andreM: #1 }}}
+\newcommand{\smnote}[1]{ {\textcolor{brown} { ***sharath: #1 }}}
+\newcommand{\pmnote}[1]{ {\textcolor{brown} { ***Pradeep: #1 }}}
+\newcommand{\msnote}[1]{ {\textcolor{cyan} { ***mark: #1 }}}
+\newcommand{\mrnote}[1]{ {\textcolor{purple} { ***melissa: #1 }}}
+\definecolor{orange}{rgb}{1,.5,0}
+\newcommand{\aznote}[1]{ {\textcolor{orange} { ***ashley: #1 }}}
+\definecolor{dandelion}{cmyk}{0,0.29,0.84,0}
+\newcommand{\mtnote}[1]{ {\textcolor{dandelion} { ***matteo: #1 }}}
+\newcommand{\gpnote}[1]{{\textcolor{green} {***giannis: #1}}}
+\newcommand{\note}[1]{ {\textcolor{magenta} { ***Note: #1 }}}
+\else
+\newcommand{\onote}[1]{}
+\newcommand{\terminology}[1]{}
+\newcommand{\owave}[1]{#1}
+\newcommand{\jwave}[1]{#1}
+\newcommand{\alnote}[1]{}
+\newcommand{\amnote}[1]{}
+\newcommand{\athotanote}[1]{}
+\newcommand{\smnote}[1]{}
+\newcommand{\pmnote}[1]{}
+\newcommand{\jhanote}[1]{}
+\newcommand{\msnote}[1]{}
+\newcommand{\mrnote}[1]{}
+\newcommand{\aznote}[1]{}
+\newcommand{\mtnote}[1]{}
+\newcommand{\note}[1]{}
+\fi
+\begin{document}
+
+\title{Experiments Report}
+
+\maketitle
+
+\begin{abstract}
+This report will include the discussion for the experiments. The experiments section will have
+data plotting and an initial analysis (model and discussion) based on the developed understanding. 
+A Q \& A subsection will follow after the discussion. I will add questions there that still need answering.
+It would be nice if others contributed with questions!
+\end{abstract}
+
+
+\section{PSA: Hausdorff Distance}
+
+The PSA Hausdorff Distance execution is happening upon a set of trajectories. It is similar to an
+outer product multiplication between two vectors where the calculation instead of the multiplication
+is the Hausdorff distance of two trajectories. The algorithm for this analysis is
+
+Let $dH$ be the time to calculate the Hausdorff distance between
+two trajectories. The following algorithm describes it in pseudocode.
+The description will help the following analysis
+
+\begin{algorithm}
+\begin{algorithmic}[1]
+\Procedure{HausdorffDistance}{$T_1,T_2$}\Comment{$T_1$ and $T_2$ are a set of 3D points}
+\For{\forall $t_1$ in $T_1$}
+\For{\forall$t_2$ in $T_2$}
+\State \texttt{Append in $D_1$ calculated d($t_1, t_2$)}
+\EndFor
+\State\texttt{$D_t_1$ append max($D_1$)}
+\EndFor
+\State $N_1$ = min($D_t_1$)
+\For{\forall $t_2$ in $T_2$}
+\For{\forall$t_1$ in $T_1$}
+\State \texttt{Append in $D_2$ calculated d($t_2, t_1$)}
+\EndFor
+\State\texttt{$D_t_2$ append max($D_2$)}
+\EndFor
+\State $N_2$ = min($D_t_2$)
+\State \textbf{return} max($N_1$,$N_2$)
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+%\begin{algorithm}
+%Let \$T\_1\$ and \$T\_2\$ be the two trajectories
+%\For{\forall t\_1\textbackslash{}in T\_1\$}
+%\&nbsp;\&nbsp;For \$\textbackslash{}forall t\_2\textbackslash{}in
+%T\_2\$ do:
+%\&nbsp;\&nbsp;\&nbsp;\&nbsp;Append in \$D\_1\$ d(\$t\_1, t\_2\$)
+%\&nbsp;\&nbsp;EndDo
+%\&nbsp;\&nbsp;D = max(\$D\_1\$)
+%EndFor
+%\$N\_1\$=max(D)
+%For \$\textbackslash{}forall t\_2\textbackslash{}in T\_2\$ do:
+%\&nbsp;\&nbsp;For \$\textbackslash{}forall t\_1\textbackslash{}in
+%T\_1\$ do:
+%\&nbsp;\&nbsp;\&nbsp;\&nbsp;Append in \$D\_2\$ d(\$t\_2, t\_1\$);
+%\&nbsp;\&nbsp;EndDo
+%\&nbsp;\&nbsp;D = max(\$D\_2\$)
+%EndFor
+%\$N\_2\$=max(D)
+%Return max(\$N\_1, N\_2\$)
+%\caption{hello}
+%\end{algorithm}
+
+\section{Leaflet Finder}
+There are two basic algorithms that are used in the task level parallel
+and Spark implementation of leaflet finder. The first part of the
+algorithm is the calculation of the adjanceny matrix and the second
+the calculation of te connected components. The adjacency matrix is
+calculated in different tasks. Each task is responsible for calculating
+a submatrix. As a result each task executes $\Big(\frac{n}{k}\Big)^{2}$,
+where $n$ is the total number of atoms and $k$ is the number of
+equally distributed parts of the dataset. The connected components
+of the networkx python package uses BFS from every node that is not
+visited, thus the complexity is $O\Big(E^{2}+EV\Big)$ with $E$ the
+number of nodes and $V$ the number of edges in the graph. Thus, the
+execution time of each part is 
+\begin{eqnarray}
+ET_{AM} & = & \alpha_{AM}\Big(\frac{n}{k}\Big)^{2}+\beta_{AM}\Big(\frac{k(k+1)}{2}\Big)\label{eq:1}\\
+ET_{CC} & = & \alpha_{CC}\Big(n^{2}+nV\Big)+\beta_{CC}\label{eq:2}
+\end{eqnarray}
+The term $\alpha$ is the multiplier of the execution time of each
+task and $\beta$ is the multiplier for the communication overhead
+of each backend. Communication overhead is considered the time needed
+to describe and schedule each task as well as any time needed to gather
+its results. Pointer $AM$ represents the Adjacency Matrix calculation
+anc $CC$ the connected components calculation.\\
+In our case, $n$ is145746 atoms, $V$ is the number of edges in the
+graph (855192 in total). Thus the total execution time for the Leaflet
+Finder is
+\begin{equation}
+ET_{LF}=ET_{AM}+ET_{CC}+\gamma\label{eq:3}
+\end{equation}
+\\
+Term $\gamma$ in \ref{eq:3} is to account any extra time added by each backend
+for starting and finalizing the execution of the application. 
+
+In order to find the values of $\alpha_{AM},\beta_{AM},\alpha_{CC},\beta_{CC}$ and $\gamma$ we need to
+solve a 5 by 5 linear system with form $b = Ax$, where $b$ the vector with the execution time, $A$ is a
+5 b 5 matrix with the following values
+
+\[
+A=\left[\begin{array}{ccccc}
+24291^2 & 21 & (145746^2 + 145746*855192)  & 1 & 1\\
+16194^2 & 45 & (145746^2 + 145746*855192)  & 1 & 1\\
+8097^2 & 171 & (145746^2 + 145746*855192)  & 1 & 1\\
+5398^2 & 378 & (145746^2 + 145746*855192)  & 1 & 1\\
+2699^2 & 1485 & (145746^2 + 145746*855192)  & 1 & 1\\
+\end{array}\right]
+\]
+
+$x$ is 
+
+\[
+x=\left[\begin{array}{c}
+\alpha_{AM}\\
+\beta_{AM}\\
+\alpha_{CC}\\
+\beta_{CC}\\
+\gamma\\
+\end{array}\right]
+\]
+
+When this system is solved for RP-Spark execution on Comet the result is
+\[\begin{array}{c}
+\alpha_{AM}=5.81581051e-06, \beta_{AM}=-4.45020671e-02, \\
+\alpha_{CC}=8.47564591e+06, \beta_{CC}=3.62162810e+17, \gamma=-1.59861300e+18
+\end{array}\]
+
+
+\section{CPPTraj RMSD}
+
+\end{document}
