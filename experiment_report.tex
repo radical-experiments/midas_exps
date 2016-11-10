@@ -10,6 +10,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{pifont}
+\usepackage[parfill]{parskip}
 \newif\ifdraft
 \drafttrue
 \ifdraft
@@ -63,128 +64,118 @@ A Q \& A subsection will follow after the discussion. I will add questions there
 It would be nice if others contributed with questions!
 \end{abstract}
 
-
-\section{PSA: Hausdorff Distance}
-
-The PSA Hausdorff Distance execution is happening upon a set of trajectories. It is similar to an
-outer product multiplication between two vectors where the calculation instead of the multiplication
-is the Hausdorff distance of two trajectories. The algorithm for this analysis is
-
-Let $dH$ be the time to calculate the Hausdorff distance between
-two trajectories. The following algorithm describes it in pseudocode.
-The description will help the following analysis
-
-\begin{algorithm}
-\begin{algorithmic}[1]
-\Procedure{HausdorffDistance}{$T_1,T_2$}\Comment{$T_1$ and $T_2$ are a set of 3D points}
-\For{\forall $t_1$ in $T_1$}
-\For{\forall$t_2$ in $T_2$}
-\State \texttt{Append in $D_1$ calculated d($t_1, t_2$)}
-\EndFor
-\State\texttt{$D_t_1$ append max($D_1$)}
-\EndFor
-\State $N_1$ = min($D_t_1$)
-\For{\forall $t_2$ in $T_2$}
-\For{\forall$t_1$ in $T_1$}
-\State \texttt{Append in $D_2$ calculated d($t_2, t_1$)}
-\EndFor
-\State\texttt{$D_t_2$ append max($D_2$)}
-\EndFor
-\State $N_2$ = min($D_t_2$)
-\State \textbf{return} max($N_1$,$N_2$)
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
+%\begin{itemize}
+%	\item
+%	\begin{itemize}
+%		\item
+%		\item
+%		\item 
+%		\item 
+%		\item 
+%		\item 
+%		\item
+%\end{itemize}
 
 
-%\begin{algorithm}
-%Let \$T\_1\$ and \$T\_2\$ be the two trajectories
-%\For{\forall t\_1\textbackslash{}in T\_1\$}
-%\&nbsp;\&nbsp;For \$\textbackslash{}forall t\_2\textbackslash{}in
-%T\_2\$ do:
-%\&nbsp;\&nbsp;\&nbsp;\&nbsp;Append in \$D\_1\$ d(\$t\_1, t\_2\$)
-%\&nbsp;\&nbsp;EndDo
-%\&nbsp;\&nbsp;D = max(\$D\_1\$)
-%EndFor
-%\$N\_1\$=max(D)
-%For \$\textbackslash{}forall t\_2\textbackslash{}in T\_2\$ do:
-%\&nbsp;\&nbsp;For \$\textbackslash{}forall t\_1\textbackslash{}in
-%T\_1\$ do:
-%\&nbsp;\&nbsp;\&nbsp;\&nbsp;Append in \$D\_2\$ d(\$t\_2, t\_1\$);
-%\&nbsp;\&nbsp;EndDo
-%\&nbsp;\&nbsp;D = max(\$D\_2\$)
-%EndFor
-%\$N\_2\$=max(D)
-%Return max(\$N\_1, N\_2\$)
-%\caption{hello}
-%\end{algorithm}
+%\begnn{table}[t]
+%\centering
+%\begin{tabular}{|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|} \hline
+%Property 				  &CPPTraj (RMSD) &Hausdorff Distance &Leaflet Finder\\ \hline
+%Single Data Scan      	  &		   &                        & \\ \hline
+%Iterative      			  &No 	   &No     &Connected Components \\ \hline5
+%
+%All-Pairs      			  &No      &Yes          &Pairwise Distance  \\ \hline
+%Intermediate Data/Shuffle &Medium  &No Shuffling       & \\ \hline
+%Output Data Volume        &Low	   &Low        & \\ \hline
+%\end{tabular}
+%\caption{Advanced Analytics Application Characteristics}
+%\end{table}
 
-\section{Leaflet Finder}
-There are two basic algorithms that are used in the task level parallel
-and Spark implementation of leaflet finder. The first part of the
-algorithm is the calculation of the adjanceny matrix and the second
-the calculation of te connected components. The adjacency matrix is
-calculated in different tasks. Each task is responsible for calculating
-a submatrix. As a result each task executes $\Big(\frac{n}{k}\Big)^{2}$,
-where $n$ is the total number of atoms and $k$ is the number of
-equally distributed parts of the dataset. The connected components
-of the networkx python package uses BFS from every node that is not
-visited, thus the complexity is $O\Big(E^{2}+EV\Big)$ with $E$ the
-number of nodes and $V$ the number of edges in the graph. Thus, the
-execution time of each part is 
-\begin{eqnarray}
-ET_{AM} & = & \alpha_{AM}\Big(\frac{n}{k}\Big)^{2}+\beta_{AM}\Big(\frac{k(k+1)}{2}\Big)\label{eq:1}\\
-ET_{CC} & = & \alpha_{CC}\Big(n^{2}+nV\Big)+\beta_{CC}\label{eq:2}
-\end{eqnarray}
-The term $\alpha$ is the multiplier of the execution time of each
-task and $\beta$ is the multiplier for the communication overhead
-of each backend. Communication overhead is considered the time needed
-to describe and schedule each task as well as any time needed to gather
-its results. Pointer $AM$ represents the Adjacency Matrix calculation
-anc $CC$ the connected components calculation.\\
-In our case, $n$ is145746 atoms, $V$ is the number of edges in the
-graph (855192 in total). Thus the total execution time for the Leaflet
-Finder is
-\begin{equation}
-ET_{LF}=ET_{AM}+ET_{CC}+\gamma\label{eq:3}
-\end{equation}
-\\
-Term $\gamma$ in \ref{eq:3} is to account any extra time added by each backend
-for starting and finalizing the execution of the application. 
+%\begin{figure}[t]
+%  \includegraphics[width=.45\textwidth]{figures/CPPTrajExecutionSchematicSingleTrajectory.jpg}\quad
+%  \caption{}
+%  \label{fig:}
+%\end{figure}
 
-In order to find the values of $\alpha_{AM},\beta_{AM},\alpha_{CC},\beta_{CC}$ and $\gamma$ we need to
-solve a 5 by 5 linear system with form $b = Ax$, where $b$ the vector with the execution time, $A$ is a
-5 b 5 matrix with the following values
+\section*{CPPTraj RMSD}
+The data reported are CPPTraj comparing experiments between Vanilla (MPI) execution and the task parallel execution of CPPTraj via RADICAL-Pilot. The experiments setup is the following:
 
-\[
-A=\left[\begin{array}{ccccc}
-24291^2 & 21 & (145746^2 + 145746*855192)  & 1 & 1\\
-16194^2 & 45 & (145746^2 + 145746*855192)  & 1 & 1\\
-8097^2 & 171 & (145746^2 + 145746*855192)  & 1 & 1\\
-5398^2 & 378 & (145746^2 + 145746*855192)  & 1 & 1\\
-2699^2 & 1485 & (145746^2 + 145746*855192)  & 1 & 1\\
-\end{array}\right]
-\]
+\begin{itemize}
+\item RMSD over 160000 frames as a single trajectory and as an ensemble of 2 trajectories that contain 80000 frames each. (105GB filesize)
+\item RMSD over 320000 frames as a single trajectory and as an ensemble of 4 trajectories that contain 80000 frames each. (209GB filesize)
+\item RMSD over 640000 frames as a single trajectory and as an ensemble of 8 trajectories that contain 80000 frames each. (418GB filesize)
+\end{itemize}
 
-$x$ is 
+The configuration was from a core per 80000 trajectories up to a node per 80000 frames. All experiments were done on Stampede.
 
-\[
-x=\left[\begin{array}{c}
-\alpha_{AM}\\
-\beta_{AM}\\
-\alpha_{CC}\\
-\beta_{CC}\\
-\gamma\\
-\end{array}\right]
-\]
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{cpptraj/cpptrajcomparison_160Kframes.pdf}
+  \caption{Time to Execution and Throughput comparison between different ways of executing the same 
+  CPPTraj analysis. There are in total 160K frames organized as a single trajectory file for the 
+  Single trajectory case and as an ensemble of 2 trajectories for the ensemble case}
+  \label{fig:cpptrajcomparison_160Kframes}
+\end{figure}
 
-When this system is solved for RP-Spark execution on Comet the result is
-\[\begin{array}{c}
-\alpha_{AM}=5.81581051e-06, \beta_{AM}=-4.45020671e-02, \\
-\alpha_{CC}=8.47564591e+06, \beta_{CC}=3.62162810e+17, \gamma=-1.59861300e+18
-\end{array}\]
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{cpptraj/cpptrajcomparison_320Kframes.pdf}
+  \caption{Time to Execution and Throughput comparison between different ways of executing the same 
+  CPPTraj analysis. There are in total 320K frames organized as a single trajectory file for the 
+  Single trajectory case and as an ensemble of 4 trajectories for the ensemble case.}
+  \label{fig:cpptrajcomparison_320Kframes}
+\end{figure}
 
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{cpptraj/cpptrajcomparison_640Kframes.pdf}
+  \caption{Time to Execution and Throughput comparison between different ways of executing the same 
+  CPPTraj analysis. There are in total 640K frames organized as a single trajectory file for the 
+  Single trajectory case and as an ensemble of 8 trajectories for the ensemble case.}
+  \label{fig:cpptrajcomparison_640Kframes}
+\end{figure}
 
-\section{CPPTraj RMSD}
+\gpnote{The Throughput for the Ensemble Cases is for one Ensemble member. The figures need to be updated}
+
+The top subplot show the Execution time for Vanilla and RADICAL-Pilot. The bottom
+subplot shows the Average Throughput. In all figures  the order of the bars is from 
+right to left:
+\begin{itemize}
+\item[1] Single Trajectory Vanilla, 
+\item[2] RP-CPPTraj single trajectory,
+\item[3] CPPTraj Vanilla Ensemble and 
+\item[4] RP-CPPTraj Ensemble
+\end{itemize}  
+
+One important note to make, is that as the core count increases, the MPI implementation does not scale in 
+ensemble case as the task level parallel for the 320K, Figure \ref{fig:cpptrajcomparison_320Kframes}, and 
+640K frames, Figure \ref{fig:cpptrajcomparison_640Kframes}. The main difference between those two is that 
+the CPPTraj execution via RADICAL-Pilot introduces a small delay between the launching of each CPPTraj 
+process. I believe that this delay reduces the strain CPPTraj's MPI implementation puts to the filesystem 
+and the data are read faster. In the next set of experiments with RMSD, I want to find the filesize, or 
+better the system size, where the MPI implementation cannot scale anymore and the task level parallel 
+can.
+
+The reason behind the above statement is the fact that throughput remains relatively stable. 
+Throughput, here measured as frames per second, is the amount of computed data per time unit. We 
+can say it is the computation velocity. Throughput is a function of input rate and the number
+of computing blocks. By computating blocks, I mean a self contained element that takes an input, does 
+some sort of processing on the input and gives an output. In this case,it can either be a MPI process 
+or a task.
+
+Assuming that the input rate, throughin, is infinite and it can feed continuously and steadily any number of 
+computing blocks, the throughput will increase linearly as we increase the number of computing blocks.
+Say that such a block can process $N$ inputs per time unit. Adding a second computing block $2N$ 
+inputs per time unit can now be processed. Thus, with $K$ computing blocks the throughput is $KN$ inputs 
+per time unit. It is now established how throughput changes when the computation blocks vary and the input rate
+is large enough to accomodate any number of them. 
+
+Assume now that the input rate is finite to a maximum of $M$ inputs per time unit. In case $M < N$, throughput
+is dectated by the input rate. In case $M \geq N$, throughput will increase linearly as long as the number
+of computing blocks is less or equal to $\lfloor\frac{M}{N}\rfloor$. When the number of computing blocks,
+becomes larger than the previous number, throuput flats to a rate equal to the rate in which the input is produced.
+
+The question that needs to be answered now is what is the rate that CPPTraj reads in data. The experiments will read
+the file and do nothing else. 
 
 \end{document}
