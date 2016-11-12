@@ -1,0 +1,4 @@
+Data Read: 0.123437 sec, Exec: 2.147389
+Total Time of execution is : 2.273809 sec 
+[ORTE] Task: 0 is launched! (Job ID: [2225,10])
+[ORTE] Task: 0 returned: 0 (Job ID: [2225,10])
