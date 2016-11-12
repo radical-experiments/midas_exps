@@ -135,8 +135,6 @@ The configuration was from a core per 80000 trajectories up to a node per 80000 
   \label{fig:cpptrajcomparison_640Kframes}
 \end{figure}
 
-\gpnote{The Throughput for the Ensemble Cases is for one Ensemble member. The figures need to be updated}
-
 The top subplot show the Execution time for Vanilla and RADICAL-Pilot. The bottom
 subplot shows the Average Throughput. In all figures  the order of the bars is from 
 right to left:
@@ -178,4 +176,83 @@ becomes larger than the previous number, throuput flats to a rate equal to the r
 The question that needs to be answered now is what is the rate that CPPTraj reads in data. The experiments will read
 the file and do nothing else. 
 
+\section{Hausdorff Distance}
+
+\subsection{Useful Definitions}
+\begin{itemize}
+\item $N_I$: Number of Input files
+
+\item $S_I$: Size of each file
+
+\item $k$: Number of tasks
+
+\item $N_O$: Number of Output files
+
+\item $S_O$: Size of each file
+
+\item $\alpha$: the coefficient of Staging In
+
+\item $\beta$: the coefficient of the Scheduling delay
+
+\item $\gamma$: the coefficient of the Execution
+
+\item $\delta$: the coefficient of the Staging Out
+\end{itemize}
+
+\subsection{Analysis}
+The execution model can be easily broken to different parts.  First part of the model is data StageIn. In case of RADICAL-Pilot StageIn is rather easy to undeerstand. In case of Spark, I consider as StageIn the part of the code that is written before partitioning the data. Second part is the time need to schedule a task. Third is the actual execution of the task, which can be broken further more to read, exec and write. Finally, the last part of the model is the time necessary to stage out the data. In case of RADICAL-Pilot it is easy to understand. In Spark, I consider as the time needed from the time that all tasks have returned their data until the end of the script.
+
+Essentially, the model will look like:
+
+$$T=\alpha(N_I S_I)+\beta\frac{k(k+1)}{2}+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}$$
+
+$Y$ is the tme of the execution of the task.
+\subsubsection{Task Execution Analysis}
+That is dependent to the number of trajectories being processed and the number of points in each 
+trajectory. Let $T_N$ be the number of trajectories per task and $T_S$ the size of each trajectory, 
+i.e. the number of points.Thus, the above execution time can be
+
+$$Y = (T_N T_S)r+{T_N}^2 dH +{T_N}^2 w$$
+
+Let $dH$ be the time to calculate the Hausdorff distance between two trajectories. The following 
+algorithm describes it in pseudocode. The description will help the following analysis:
+
+\begin{algorithm}
+\begin{algorithmic}[1]
+\Procedure{HausdorffDistance}{$T_1,T_2$}\Comment{$T_1$ and $T_2$ are a set of 3D points}
+\For{\forall $t_1$ in $T_1$}
+\For{\forall$t_2$ in $T_2$}
+\State \texttt{Append in $D_1$ calculated d($t_1, t_2$)}
+\EndFor
+\State\texttt{$D_t_1$ append max($D_1$)}
+\EndFor
+\State $N_1$ = min($D_t_1$)
+\For{\forall $t_2$ in $T_2$}
+\For{\forall$t_1$ in $T_1$}
+\State \texttt{Append in $D_2$ calculated d($t_2, t_1$)}
+\EndFor
+\State\texttt{$D_t_2$ append max($D_2$)}
+\EndFor
+\State $N_2$ = min($D_t_2$)
+\State \textbf{return} max($N_1$,$N_2$)
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+Thus, the complexity of $dH$ is
+
+$$dH =\mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S) + \mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S)$$
+
+\subsection{RP Fitting}
+C is the coefficient vector. y is the total execution times and A will be the matrix that holds the 
+several values. The calculations will happen for CA short and it will verifythe other 2.
+
+$$y = \left[\begin{array}{cccc} 20.83152014 \\  12.18815162 \\  6.06983352  \\  3.94762929\end{array}\right]$$
+
+$$ A = \left[\begin{array}{cccc}
+    544 &  21 &   20.7635511 & 21 \\
+    408 & 36  & 12.1358488  &  36  \\
+    272 & 78  & 6.03011796  &  78  \\  
+    204 & 136 & 3.91804321  &  136\end{array}\right]$$
+$$C = \left[\begin{array}{cccc}1.34411980e-05 \\  9.88082352e+11 \\  9.99759905e-01 \\ -9.88082352e+11\end{array}\right]$$
 \end{document}
