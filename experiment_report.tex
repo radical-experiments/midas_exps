@@ -176,9 +176,52 @@ becomes larger than the previous number, throuput flats to a rate equal to the r
 The question that needs to be answered now is what is the rate that CPPTraj reads in data. The experiments will read
 the file and do nothing else. 
 
-\section{Hausdorff Distance}
+\section*{Hausdorff Distance}
 
-\subsection{Useful Definitions}
+The data reported here are comparing the Hausdorff Distance calculation via a RADICAL-Pilot and a 
+Spark implementation. Both use the same implementation for the main function and both use parallel
+read. The experiments were executed over 192 trajectories of CA atoms on Comet. Figure 
+\ref{fig:HausdorffMeanTaskBreakDownPr} show the mean time to execution for all three cases of 
+trajectory size for the CA atoms. 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{Hausdorff/MeanTaskBreakDownPr.pdf}
+  \caption{Time to Execution Hausdorff Distance. From top to bottom Short trajectory, Medium 
+           Trajectory, Long Trajectory}
+  \label{fig:HausdorffMeanTaskBreakDownPr}
+\end{figure}
+
+Figures \ref{fig:DetailedMeanTaskBreakDownShort},\ref{fig:DetailedMeanTaskBreakDownMed} and 
+\ref{fig:DetailedMeanTaskBreakDownLong} show in more detail how the execution between the two 
+frameworks differ. Two main differences is that RADICAL-Pilot spends more time to stage in and 
+stage out data to and from a task, where Spark is more expensive in scheduling tasks.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{Hausdorff/DetailedMeanTaskBreakDownShortPr.pdf}
+  \caption{Execution break down between RADICAL-Pilot and Spark execution. The Y axis represents 
+  the time spent in each part and the X axis the number of core. This is short trajectory size}
+  \label{fig:DetailedMeanTaskBreakDownShort}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{Hausdorff/DetailedMeanTaskBreakDownMedPr.pdf}
+  \caption{Execution break down between RADICAL-Pilot and Spark execution. The Y axis represents 
+  the time spent in each part and the X axis the number of core. This is medium trajectory size}
+  \label{fig:DetailedMeanTaskBreakDownMed}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{Hausdorff/DetailedMeanTaskBreakDownLongPr.pdf}
+  \caption{Execution break down between RADICAL-Pilot and Spark execution. The Y axis represents 
+  the time spent in each part and the X axis the number of core. This is Long trajectory size}
+  \label{fig:DetailedMeanTaskBreakDownLong}
+\end{figure}
+
+\subsection*{Useful Definitions}
 \begin{itemize}
 \item $N_I$: Number of Input files
 
@@ -199,15 +242,21 @@ the file and do nothing else.
 \item $\delta$: the coefficient of the Staging Out
 \end{itemize}
 
-\subsection{Analysis}
-The execution model can be easily broken to different parts.  First part of the model is data StageIn. In case of RADICAL-Pilot StageIn is rather easy to undeerstand. In case of Spark, I consider as StageIn the part of the code that is written before partitioning the data. Second part is the time need to schedule a task. Third is the actual execution of the task, which can be broken further more to read, exec and write. Finally, the last part of the model is the time necessary to stage out the data. In case of RADICAL-Pilot it is easy to understand. In Spark, I consider as the time needed from the time that all tasks have returned their data until the end of the script.
+\subsection*{Analysis}
+The execution model can be easily broken to different parts.  First part of the model is data 
+StageIn. In case of RADICAL-Pilot StageIn is rather easy to undeerstand. In case of Spark, I 
+consider as StageIn the part of the code that is written before partitioning the data. Second part 
+is the time need to schedule a task. Third is the actual execution of the task, which can be broken 
+further more to read, exec and write. Finally, the last part of the model is the time necessary to 
+stage out the data. In case of RADICAL-Pilot it is easy to understand. In Spark, I consider as the 
+time needed from the time that all tasks have returned their data until the end of the script.
 
 Essentially, the model will look like:
 
 $$T=\alpha(N_I S_I)+\beta\frac{k(k+1)}{2}+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}$$
 
 $Y$ is the tme of the execution of the task.
-\subsubsection{Task Execution Analysis}
+\subsubsection*{Task Execution Analysis}
 That is dependent to the number of trajectories being processed and the number of points in each 
 trajectory. Let $T_N$ be the number of trajectories per task and $T_S$ the size of each trajectory, 
 i.e. the number of points.Thus, the above execution time can be
@@ -243,9 +292,10 @@ Thus, the complexity of $dH$ is
 
 $$dH =\mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S) + \mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S)$$
 
-\subsection{RP Fitting}
+\subsection*{RP Fitting}
 C is the coefficient vector. y is the total execution times and A will be the matrix that holds the 
-several values. The calculations will happen for CA short and it will verifythe other 2.
+several values. The calculations were done for CA short 21,36,78 and 136 tasks and the result is 
+used to verify the rest.
 
 $$y = \left[\begin{array}{cccc} 20.83152014 \\  12.18815162 \\  6.06983352  \\  3.94762929\end{array}\right]$$
 
@@ -255,4 +305,39 @@ $$ A = \left[\begin{array}{cccc}
     272 & 78  & 6.03011796  &  78  \\  
     204 & 136 & 3.91804321  &  136\end{array}\right]$$
 $$C = \left[\begin{array}{cccc}1.34411980e-05 \\  9.88082352e+11 \\  9.99759905e-01 \\ -9.88082352e+11\end{array}\right]$$
+
+The next table shows the calculated values for the time to execution, the actual measured mean values and the ablsolute error from the calculation.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc} \hline
+Trajectory Size  &Number of Tasks & Predicted Time &Actual Time & Error\\ \hline
+Short & 300 & 2.19505713407 & 2.38752645466 & 0.192469320591\\ \hline
+Short & 528 & 1.26865175492 & 1.61307469131 & 0.344422936393\\ \hline
+Medium & 21 & 33.3136668993 & 33.3253119711 & 0.0116450718086\\ \hline
+Medium & 36 & 22.2328782699 & 22.2469520392 & 0.0140737693618\\ \hline
+Medium & 78 & 10.8452443487 & 10.8571666795 & 0.0119223308157\\ \hline
+Medium & 136 & 6.8738059856 & 6.88058625833 & 0.00678027273885\\ \hline
+Medium & 300 & 3.63918139191 & 3.67618065543 & 0.0369992635193\\ \hline
+Medium & 528 & 2.40475870352 & 3.23822765489 & 0.833468951372\\ \hline
+Long & 21 & 43.8873638582 & 43.8923199669 & 0.00495610872072\\ \hline
+Long & 36 & 30.9028212926 & 30.9349148759 & 0.0320935833527\\ \hline
+Long & 78 & 17.1266483406 & 17.1459104994 & 0.0192621588231\\ \hline
+Long & 136 & 11.1204478449 & 11.1351985826 & 0.0147507377432\\ \hline
+Long & 300 & 4.34514286961 & 5.26987538991 & 0.924732520303\\ \hline
+Long & 528 & 4.34051945651 & 5.26987538991 & 0.929355933395\\ \hline
+\end{tabular}
+\end{table}
+\subsection*{Spark Fitting}
+
+The Spark execution model requires one extra term. That term is shows the time that is needed to
+for Spark to launch its executors. An executor is the process responsibe to execute the tasks. So,
+the model will be 
+
+$$T=\alpha(N_I S_I)+\beta\frac{k(k+1)}{2}+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}+\epsilonW$$
+
+where $W$ is the number of worker nodes.
+
+\gpnote{TODO: Solve the system}
+
 \end{document}
