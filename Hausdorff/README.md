@@ -50,7 +50,6 @@ Figures:
       tasks read their data in parallel. The RP-Spark reads all the data serially,
       organizes them so that each map task takes the same amount of data and 
       finally it creates an RDD.
-
 * DetailedMenaTaskBreakDownLongPr.pdf : This figure show the comparison between 
       Vanilla-RP and RP-Spark. The experiment configuration was: 1)CA atoms,
       2) 192 trajectories in total, 3) Long trajectory. The number of cores range
