@@ -221,24 +221,49 @@ stage out data to and from a task, where Spark is more expensive in scheduling t
   \label{fig:DetailedMeanTaskBreakDownLong}
 \end{figure}
 
-\subsection*{Useful Definitions}
+Extra experiments were executed with the following configuration on Comet:
 \begin{itemize}
-\item $N_I$: Number of Input files
+\item Number of trajectories is 128
+\item Number of atoms 214 and frames 102. Trajectory sizes are Short, Medium and Long. This is
+      equivalent to 214 atoms per frame, 428 and 856 respectively.
+\item The whole matrix was calculated
+\item Core count: 16, 64, 256 and 1024
+\item Execution was done with RADICAL-Pilot and Pilot-Spark.
+\end{itemize}
 
-\item $S_I$: Size of each file
+The following figures show that comparison.
 
-\item $k$: Number of tasks
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{Hausdorff/MeanTaskBreakDownPower2.pdf}
+  \includegraphics[scale=.45]{Hausdorff/LogMeanTaskBreakDownPower2Short.pdf}
+  \label{fig:MeanTaskBreakDownPower2Short}
+\end{figure}
 
-\item $N_O$: Number of Output files
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{Hausdorff/MeanTaskBreakDownPower2Med.pdf}
+  \includegraphics[scale=.45]{Hausdorff/LogMeanTaskBreakDownPower2Med.pdf}
+  \label{fig:MeanTaskBreakDownPower2Med}
+\end{figure}
 
-\item $S_O$: Size of each file
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{Hausdorff/MeanTaskBreakDownPower2Long.pdf}
+  \includegraphics[scale=.45]{Hausdorff/LogMeanTaskBreakDownPower2Long.pdf}
+  \label{fig:MeanTaskBreakDownPower2Long}
+\end{figure}
 
+\subsection*{Useful Definitions [Updated*]}
+\begin{itemize}
+\item $N_{Tr}$: Number of Trajectories per task
+\item $N_A$: Number of atoms in a frame.
+\item $N_F$: Number of frames per trajectory. All trajectory files have the same number of 
+frames, 102.
+\item $N_T$: Number of tasks
 \item $\alpha$: the coefficient of Staging In
-
 \item $\beta$: the coefficient of the Scheduling delay
-
 \item $\gamma$: the coefficient of the Execution
-
 \item $\delta$: the coefficient of the Staging Out
 \end{itemize}
 
@@ -251,9 +276,11 @@ further more to read, exec and write. Finally, the last part of the model is the
 stage out the data. In case of RADICAL-Pilot it is easy to understand. In Spark, I consider as the 
 time needed from the time that all tasks have returned their data until the end of the script.
 
+\gpnote{Why is the need for every parameter?}
+
 Essentially, the model will look like:
 
-$$T=\alpha(N_I S_I)+\beta\frac{k(k+1)}{2}+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}$$
+$$T=\alpha(N_I)+\beta N_T+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}$$
 
 $Y$ is the tme of the execution of the task.
 \subsubsection*{Task Execution Analysis}
@@ -261,7 +288,7 @@ That is dependent to the number of trajectories being processed and the number o
 trajectory. Let $T_N$ be the number of trajectories per task and $T_S$ the size of each trajectory, 
 i.e. the number of points.Thus, the above execution time can be
 
-$$Y = (T_N T_S)r+{T_N}^2 dH +{T_N}^2 w$$
+$$Y = \Big{O}((N_Tr N_F N_A)^2)$$
 
 Let $dH$ be the time to calculate the Hausdorff distance between two trajectories. The following 
 algorithm describes it in pseudocode. The description will help the following analysis:
@@ -293,48 +320,84 @@ Thus, the complexity of $dH$ is
 $$dH =\mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S) + \mathcal{O}({T_S}^2) + T_S \mathcal{O}(T_S)$$
 
 \subsection*{RP Fitting}
-C is the coefficient vector. y is the total execution times and A will be the matrix that holds the 
-several values. The calculations were done for CA short 21,36,78 and 136 tasks and the result is 
-used to verify the rest.
+Before solving any system, I will add some assumptions that will try to simplify the 
+model as well as better understand how the scheduler and data stage in overheads 
+affect the execution.
 
-$$y = \left[\begin{array}{cccc} 20.83152014 \\  12.18815162 \\  6.06983352  \\  3.94762929\end{array}\right]$$
+\begin{itemize}
+\item RADICAL-Pilot's staging output does not affect the execution pattern of the
+tasks. All tasks are executed in parallel and there is no data movement from the 
+executing resource to the client. Also, there is no continuation in the execution
+since only one pass is done over the data.
+\item Any delay between the moment a Compute Unit goes to the Executing state and starts execute as well 
+as the delay from the moment it returns until it moves to the next stage, are assumed as part of the 
+execution time of the task.
+\item Parameter $\gamma$ is set to 1 in this case, because the timing parameters for the execution are
+captured inside $Y$.
+\end{itemize}
 
-$$ A = \left[\begin{array}{cccc}
-    544 &  21 &   20.7635511 & 21 \\
-    408 & 36  & 12.1358488  &  36  \\
-    272 & 78  & 6.03011796  &  78  \\  
-    204 & 136 & 3.91804321  &  136\end{array}\right]$$
-$$C = \left[\begin{array}{cccc}1.34411980e-05 \\  9.88082352e+11 \\  9.99759905e-01 \\ -9.88082352e+11\end{array}\right]$$
+\gpnote{What is $x^2$ value? What is the goodness of the values? What is the error in all these?}
 
-The next table shows the calculated values for the time to execution, the actual measured mean values and the ablsolute error from the calculation.
+[Update]
+The execution time of the tasks depend on the number of trajectory files that it gets, the number
+frames per trajectory and the number of atoms. The number of atoms affects the exeution time linearly,
+the number of frames and the number of trajectories affect in a squared fashion.
+
+Thus $T_{Ex}(N_{Tr},N_A,N_F) = e_1 N_{Tr}^{2} N_{F}^{2} N_A + e_2$
+
+After appling the least square method the values found for $e_1$ and $e_2$ are:
+$$e_1=1.33271794e-08 \quad e_2=8.09404416e-02$$
+
+The $\chi^2$ test was applied to the following points:
 
 \begin{table}[H]
 \centering
-\begin{tabular}{ccccc} \hline
-Trajectory Size  &Number of Tasks & Predicted Time &Actual Time & Error\\ \hline
-Short & 300 & 2.19505713407 & 2.38752645466 & 0.192469320591\\ \hline
-Short & 528 & 1.26865175492 & 1.61307469131 & 0.344422936393\\ \hline
-Medium & 21 & 33.3136668993 & 33.3253119711 & 0.0116450718086\\ \hline
-Medium & 36 & 22.2328782699 & 22.2469520392 & 0.0140737693618\\ \hline
-Medium & 78 & 10.8452443487 & 10.8571666795 & 0.0119223308157\\ \hline
-Medium & 136 & 6.8738059856 & 6.88058625833 & 0.00678027273885\\ \hline
-Medium & 300 & 3.63918139191 & 3.67618065543 & 0.0369992635193\\ \hline
-Medium & 528 & 2.40475870352 & 3.23822765489 & 0.833468951372\\ \hline
-Long & 21 & 43.8873638582 & 43.8923199669 & 0.00495610872072\\ \hline
-Long & 36 & 30.9028212926 & 30.9349148759 & 0.0320935833527\\ \hline
-Long & 78 & 17.1266483406 & 17.1459104994 & 0.0192621588231\\ \hline
-Long & 136 & 11.1204478449 & 11.1351985826 & 0.0147507377432\\ \hline
-Long & 300 & 4.34514286961 & 5.26987538991 & 0.924732520303\\ \hline
-Long & 528 & 4.34051945651 & 5.26987538991 & 0.929355933395\\ \hline
+\begin{tabular}{|c|c|c|c|c|} \hline
+Trajectories&Frames&Atoms& Observed Time &Predicted Time \\ \hline
+32&102&214&25.46786774&30.46545617 \\ \hline
+16&102&214&7.00346226&7.67706937 \\ \hline
+ 8&102&214&2.0758777&1.97997267  \\ \hline
+ 4&102&214&0.76485454&0.5556985 \\ \hline
+
+32&102&418&57.81401424&60.84997191 \\ \hline
+16&102&418&15.59695303&15.27319831 \\ \hline
+ 8&102&418&4.39942563&3.87900491  \\ \hline
+ 4&102&418&1.3047394&1.03045656 \\ \hline
+
+32&102&856&123.41059877&121.61900337 \\ \hline
+16&102&856&33.88301111&30.46545617 \\ \hline
+ 8&102&856&9.16800458&7.67706937  \\ \hline
+ 4&102&856&2.56352096&1.97997267 \\ \hline
 \end{tabular}
 \end{table}
+
+The tested null hypothesis is the observed values belong to the predicted distribution
+
+The $\chi^2$ is calculated with the following formula:
+
+$$ \chi^2 = \sum^{12}_{1} \frac{(O_i - P_i)^2}{P_i}$$
+
+The $\chi^2$ value is $2.13474849056$. This value is smaller than the $\chi^2_0.05$ for $11$ 
+degress of freedom, thus we cannot reject the null hypothesis for the $0.05$ significance 
+level.
+
+The Last Unit arrival time is considered as the time the last CU entered the State 
+AgentStagingInput where input staging start to be executed.
+
+The Least Squares Fit was done over the points obtained for 16, 64, 256 and 1024 CUs.
+The line that was obtained is the following
+
+$$T_{A}(N_T) = 0.01313076 N_T + 7.66860076 $$
+
 \subsection*{Spark Fitting}
 
 The Spark execution model requires one extra term. That term is shows the time that is needed to
-for Spark to launch its executors. An executor is the process responsibe to execute the tasks. So,
+for Spark to launch its executors. An executor is the process responsibe to execute the tasks. An 
+assumption that is made is the fact that stagein in the Spark execution does not significantly 
+change the execution time since it creates an RDD with the paths where the file are. So,
 the model will be 
 
-$$T=\alpha(N_I S_I)+\beta\frac{k(k+1)}{2}+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}+\epsilonW$$
+$$T=\beta\frac{k(k+1)}{2}+ Y +\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)}+\epsilon W$$
 
 where $W$ is the number of worker nodes.
 
