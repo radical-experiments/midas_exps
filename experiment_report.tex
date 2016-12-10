@@ -174,7 +174,19 @@ of computing blocks is less or equal to $\lfloor\frac{M}{N}\rfloor$. When the nu
 becomes larger than the previous number, throuput flats to a rate equal to the rate in which the input is produced.
 
 The question that needs to be answered now is what is the rate that CPPTraj reads in data. The experiments will read
-the file and do nothing else. 
+the file and do nothing else.
+
+\underline{\textbf{[Update 12/9/2016]}}
+CPPTraj was executed with the following ways:
+\begin{itemize}
+\item[1] By using numactl and binding the processes in specific cores. 
+         Specifically: ibrun -np 4 numactl --physprocbind=0,7,15,23
+\item[2] By requesting 1 nodes and 2 tasks and 2 nodes and 4 tasks. 
+\end{itemize} 
+
+The change in the execution time was as small as already reported. So I thought, what will happen if
+the tasks used in the RP execution were more than the cores by a factor of 2 and a factor of 4. Experiments
+are running and will report further the next days.
 
 \section*{Hausdorff Distance}
 
@@ -224,7 +236,7 @@ stage out data to and from a task, where Spark is more expensive in scheduling t
 Extra experiments were executed with the following configuration on Comet:
 \begin{itemize}
 \item Number of trajectories is 128
-\item Number of atoms 214 and frames 102. Trajectory sizes are Short, Medium and Long. This is
+\item Number of atoms 214 and frames 102. System sizes are Small, Medium and Large. This is
       equivalent to 214 atoms per frame, 428 and 856 respectively.
 \item The whole matrix was calculated
 \item Core count: 16, 64, 256 and 1024
@@ -235,8 +247,9 @@ The following figures show that comparison.
 
 \begin{figure}[H]
 \centering
-  \includegraphics[scale=.45]{Hausdorff/MeanTaskBreakDownPower2.pdf}
+  \includegraphics[scale=.45]{Hausdorff/MeanTaskBreakDownPower2Short.pdf}
   \includegraphics[scale=.45]{Hausdorff/LogMeanTaskBreakDownPower2Short.pdf}
+  \caption{}
   \label{fig:MeanTaskBreakDownPower2Short}
 \end{figure}
 
@@ -254,7 +267,88 @@ The following figures show that comparison.
   \label{fig:MeanTaskBreakDownPower2Long}
 \end{figure}
 
-\subsection*{Useful Definitions [Updated*]}
+\underline{\textbf{[Update 12/9/2016]}}
+
+Extra experiments were executed with the following configuration on Comet:
+\begin{itemize}
+\item Number of trajectories is 128
+\item Number of atoms 3341 and frames 102. System sizes are Small, Medium and Large. This is
+      equivalent to 3341 atoms per frame, 6682 and 13364 respectively.
+\item The whole matrix was calculated
+\item Core count: 16, 64, 256 and 1024
+\item Execution was done with RADICAL-Pilot and Pilot-Spark.
+\end{itemize}
+
+The following figures show that comparison.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.4]{Hausdorff/MeanTaskBreakDownPower2ShortLargeDataset.pdf}
+  \includegraphics[scale=.4]{Hausdorff/LogMeanTaskBreakDownPower2ShortLargeDataset.pdf}
+  \caption{Average Task execution time for four core counts. 128 trajectories were compared. 
+  Each trajectory has 102 frames of 3341 atoms(Small size trajectory). The execution partitioned the calculation 
+  of the distance matrix into the calculation of a number of submatrices (16,64,256,1024)}
+  \label{fig:MeanTaskBreakDownPower2ShortLarge}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.4]{Hausdorff/MeanTaskBreakDownPower2MedLargeDataset.pdf}
+  \includegraphics[scale=.4]{Hausdorff/LogMeanTaskBreakDownPower2MedLargeDataset.pdf}
+  \caption{Average Task execution time for four core counts. 128 trajectories were compared. 
+  Each trajectory has 102 frames of 6682 atoms(Medium size trajectory). The execution partitioned the calculation 
+  of the distance matrix into the calculation of a number of submatrices (16,64,256,1024)}
+  \label{fig:MeanTaskBreakDownPower2MedLarge}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.4]{Hausdorff/MeanTaskBreakDownPower2LongLargeDataset.pdf}
+  \includegraphics[scale=.4]{Hausdorff/LogMeanTaskBreakDownPower2LongLargeDataset.pdf}
+  \caption{Average Task execution time for four core counts. 128 trajectories were compared. 
+  Each trajectory has 102 frames of 13364 atoms (Large size trajectory). The execution partitioned the calculation 
+  of the distance matrix into the calculation of a number of submatrices (16,64,256,1024)}
+  \label{fig:MeanTaskBreakDownPower2LongLarge}
+\end{figure}
+
+Insight: In these type of applications both the task level parallel approach and the Spark approach
+show significant speed up as the number of cores increase.Although, in the case of the task level parallel
+approach, we see that speed up flattens when the time needed for the last task to reach the Staging input
+queue becomes twice as large as the execution time of a task. We realize that by looking at the case of Figure 
+\ref{fig:MeanTaskBreakDownPower2ShortLarge}. This is due to the usage of the remote database in RADICAL-Pilot.
+To make matters more clear look at table \ref{table:rpanalysis}. This table shows the times for the Small sized 
+trajectory of these experiments. For the execution through Spark, that specific time can be considered as part of
+the overheads that are introduced by RADICAL-Pilot (actually I would like to write Pilot-Spark, but I was not sure
+if it was the correct term). 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|} \hline
+Units&	RP StageInPending &	RP StageInDelay &	RP SchedulerDelay &	RP Execution \\ \hline
+16 &	6.627337 &	0.079313 &	0.003966 &	504.244539 \\ \hline
+64 &	9.361523 &	0.064966 &	0.003518 &	143.894596\\ \hline
+256 &	12.226125 &	0.035643 &	0.254092 &	37.532336\\ \hline
+1024 &	21.220789 &	0.034938 &	4.600481 &	9.847551\\ \hline
+\end{tabular}
+\caption{Average Task execution time for four core counts. 128 trajectories were compared. 
+  Each trajectory has 102 frames of 3341 atoms.}
+\label{table:rpanalysis}
+\end{table}
+
+The question raised after that was how did Spark tasks spent most of the time. Figure 
+\ref{fig:SparkLogMeanTaskBreakDownLargeDataset} shows
+that the largest percentage of the execution of the SPark was spent in the computation rather than
+scheduling or data movement from the workers to the driver.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.9]{Hausdorff/SparkLogMeanTaskBreakDownLargeDataset.pdf}
+  \caption{Spark's Average task execution. The top subplot is for the Small trajectory, the middle for the Medium
+  and the bottom one for the Large }
+  \label{fig:SparkLogMeanTaskBreakDownLargeDataset}
+\end{figure}
+
+\subsection*{Useful Definitions}
 \begin{itemize}
 \item $N_{Tr}$: Number of Trajectories per task
 \item $N_A$: Number of atoms in a frame.
@@ -336,9 +430,6 @@ execution time of the task.
 captured inside $Y$.
 \end{itemize}
 
-\gpnote{What is $x^2$ value? What is the goodness of the values? What is the error in all these?}
-
-[Update]
 The execution time of the tasks depend on the number of trajectory files that it gets, the number
 frames per trajectory and the number of atoms. The number of atoms affects the exeution time linearly,
 the number of frames and the number of trajectories affect in a squared fashion.
@@ -388,6 +479,8 @@ The Least Squares Fit was done over the points obtained for 16, 64, 256 and 1024
 The line that was obtained is the following
 
 $$T_{A}(N_T) = 0.01313076 N_T + 7.66860076 $$
+
+\gpnote{TODO: Update and verify with new dataset.}
 
 \subsection*{Spark Fitting}
 
