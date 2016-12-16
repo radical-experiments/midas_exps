@@ -251,6 +251,21 @@ offer anything.
   \label{fig:cpptrajWorkVsScratch100g}
 \end{figure}
 
+One way to understand why the two filesystems behave so differently is to see what is the Read Rate (MB/s) that
+can be achieved when CPPTraj is executed. Figure \ref{fig:cpptrajReadWorkVsScratch} shows how the filesystems 
+behave. The experiment was done with the 50GB and 100GB trajectory files with 1 MPI process per physical processor. 
+1 process per physical processor was selected because it is the one that scales as expected over the Work filesystem.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajReadWorkVsScratch50g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajReadWorkVsScratch100g.pdf}
+  \caption{Read Rate in MB per seconds for the 50GB (L) and 100GB (R) trajectory files vs number of processes. 
+   The figures compare the read rates between Work and Scratch filesystems. 1 process per physical processor was used.}
+  \label{fig:cpptrajReadWorkVsScratch}
+\end{figure}
+
+
 \section*{Hausdorff Distance}
 
 The data reported here are comparing the Hausdorff Distance calculation via a RADICAL-Pilot and a 
