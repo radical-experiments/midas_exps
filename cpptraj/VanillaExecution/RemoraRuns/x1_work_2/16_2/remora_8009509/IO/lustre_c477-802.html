@@ -1,0 +1,116 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['line']}); 
+google.charts.setOnLoadCallback(drawRQChart); 
+google.charts.setOnLoadCallback(drawDataChart); 
+function drawRQChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RQ'); 
+data.addColumn('number','work-RQ'); 
+data.addColumn('number','scratch-RQ'); 
+data.addRows([
+[0,0,0,0,],
+[1,0,48,1,],
+[2,2,49,0,],
+[3,0,49,0,],
+[4,0,49,0,],
+[5,18,78,0,],
+[6,2,65,0,],
+[8,0,75,53,],
+[9,0,135,1,],
+[10,0,64,0,],
+[11,0,64,0,],
+[12,4,64,0,],
+[13,0,64,0,],
+[14,0,64,0,],
+[15,0,64,0,],
+[16,0,64,0,],
+[18,0,64,0,],
+[19,1,52,0,],
+[20,0,49,0,],
+[21,0,49,0,],
+[22,2,49,0,],
+[23,0,49,0,],
+[24,0,49,0,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Number of Operations'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('dataRQ_div'));  
+chart.draw(data, options);  
+}  
+function drawDataChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RD'); 
+data.addColumn('number','home1-WR'); 
+data.addColumn('number','work-RD'); 
+data.addColumn('number','work-WR'); 
+data.addColumn('number','scratch-RD'); 
+data.addColumn('number','scratch-WR'); 
+data.addRows([
+[0,0,0,0,0,0,0,],
+[1,0,0,3980,2128,0,0,],
+[2,0,0,3980,2127,0,0,],
+[3,0,0,3980,2126,0,0,],
+[4,0,0,3980,2124,0,0,],
+[5,8528,0,23764,7066,0,0,],
+[6,0,0,23764,7066,0,0,],
+[8,0,0,24916,7069,76955936,0,],
+[9,0,0,679501020,7055,165579584,0,],
+[10,0,0,834690236,7054,0,0,],
+[11,0,0,813718716,7054,0,0,],
+[12,0,0,805330108,7055,0,0,],
+[13,0,0,809524412,7054,0,0,],
+[14,0,0,813718720,7055,0,0,],
+[15,0,0,809524416,7058,0,0,],
+[16,0,0,809524416,7057,0,0,],
+[18,0,0,734026944,7057,0,0,],
+[19,0,0,3988,2126,0,0,],
+[20,0,0,3988,2130,0,0,],
+[21,0,0,3988,2129,0,0,],
+[22,0,0,3988,2129,0,0,],
+[23,0,0,3988,2127,0,0,],
+[24,0,0,3988,2127,0,0,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Bytes Read/Write'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('data_div'));  
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'> 
+<tr> 
+<td><div id='dataRQ_div' style='border: 1px solid; color: LightGray'></div></td> 
+<td><div style='float:left; margin: 5px; background-color: blue;'></div></td> 
+<td><div id='data_div' style='border: 1px solid; color: LightGray'></div></td> 
+</tr> 
+</table> 
+</body>  
+</html>  

@@ -1,0 +1,80 @@
+
+CPPTRAJ: Trajectory Analysis. V16.00b
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 12/14/16 17:22:30
+| Available memory: 29.654 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [trajin /scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0 1 80000 nosort]
+	Reading '/scratch/03170/tg824689/cpptraj_exp_data/ens/test.dcd.0' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'test.dcd.0' is a CHARMM DCD file Little Endian 32 bit, Parm GAAC.topo (Orthogonal box) (reading 80000 of 80000)
+  Coordinate processing will occur on 80000 frames.
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+----- test.dcd.0 (1-80000, 1) -----
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+
+Read 80000 frames and processed 80000 frames.
+TIME: Avg. throughput= 338.3308 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 80000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat (Standard Data File):  RMSD_00001
+
+RUN TIMING:
+TIME:		Init               : 0.0220 s (  0.01%)
+TIME:		Trajectory Process : 236.4550 s ( 99.93%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.1326 s (  0.06%)
+TIME:		Other              : 0.0029 s (  0.00%)
+TIME:	Run Total 236.6126 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 237.4788 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+
+=============================== REMORA SUMMARY ===============================
+ Max Memory Used Per Node     : 0.77 GB
+ Total Elapsed Time           : 0d 0h 3m 58s 421ms
+------------------------------------------------------------------------------
+ Max IO Load / home1          :      87 IOPS      41 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / scratch        :     105 IOPS     537 RD(MB/S)       2 WR(MB/S)
+ Max IO Load / work           :       1 IOPS       0 RD(MB/S)       0 WR(MB/S)
+==============================================================================
+ Sampling Period              : 1 seconds
+ Complete Report Data         : /scratch/03170/tg824689/cpptraj_exp/x1_3/1_3/remora_8011064
+==============================================================================
+

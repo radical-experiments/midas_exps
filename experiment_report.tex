@@ -106,7 +106,8 @@ The data reported are CPPTraj comparing experiments between Vanilla (MPI) execut
 \item RMSD over 640000 frames as a single trajectory and as an ensemble of 8 trajectories that contain 80000 frames each. (418GB filesize)
 \end{itemize}
 
-The configuration was from a core per 80000 trajectories up to a node per 80000 frames. All experiments were done on Stampede.
+The configuration was from a core per 80000 trajectories up to a node per 80000 frames. All experiments were done on Stampede using
+the Scratch filesystem.
 
 \begin{figure}[H]
 \centering
@@ -177,7 +178,7 @@ The question that needs to be answered now is what is the rate that CPPTraj read
 the file and do nothing else.
 
 \underline{\textbf{[Update 12/9/2016]}}
-CPPTraj was executed with the following ways:
+CPPTraj was executed with the following ways, using the Scratch filesystem:
 \begin{itemize}
 \item[1] By using numactl and binding the processes in specific cores. 
          Specifically: ibrun -np 4 numactl --physprocbind=0,7,15,23
@@ -187,6 +188,68 @@ CPPTraj was executed with the following ways:
 The change in the execution time was as small as already reported. So I thought, what will happen if
 the tasks used in the RP execution were more than the cores by a factor of 2 and a factor of 4. Experiments
 are running and will report further the next days.
+
+\underline{\textbf{[Update 12/16/2016]}}
+CPPTraj was executed with the following ways, for a 50GB trajectory file and a 100GB trajectory file:
+\begin{itemize}
+\item[1] 1 process per core on Stampede using the Work filesystem
+\item[2] 1 process per physical processor on Stampede using the Work filesystem
+\item[3] 1 process per physical processor on Stampede using the Scratch filesystem
+\end{itemize} 
+
+The execution produced the following figures.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecCoreVsProc50g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajSpeedCoreVsProc50g.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 50GB trajectory file. The figure compares the time to execution
+   between 1 process per core - Stampede has 2 processors with 8 cores each - vs 1 process per physical processor.
+   The Work Filesystem was used.}
+  \label{fig:cpptrajCoreVsProc50g}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecCoreVsProc100g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajSpeedCoreVsProc100g.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 100GB trajectory file. The figure compares the time to execution
+   between 1 process per core - Stampede has 2 processors with 8 cores each - vs 1 process per physical processor.
+   The Work Filesystem was used.}
+  \label{fig:cpptrajCoreVsProc100g}
+\end{figure}
+
+As we can see in figures \ref{fig:cpptrajCoreVsProc50g} and \ref{fig:cpptrajCoreVsProc100g} the MPI execution
+scaling is quite different to the case of the 50GB file and the 100GB file. What is interesting is that for
+the 100GB file (figure \ref{fig:cpptrajCoreVsProc100g}) scaling stop at 8 MPI processes equally distributed
+as one process per physical processor and it is reverted when 32 processes were introduced.
+
+Because these results are different, in how CPPTraj behaves, I compared the behavior of the two filesystems,
+provided by Stampede. There I only used 1 process per physical processor. If somebody feels that there is a
+need for comparing 1 process per core, I will run the experiments. In figures \ref{fig:cpptrajWorkVsScratch50g}
+and \ref{fig:cpptrajWorkVsScratch100g}, we see how CPPTraj behaves when we change the filesystem used. Although
+this characterizes the filesystems, it shows us that Workis mainly optimized for execution and Scratch for Storage.
+It also shows a point where CPPTraj parallel MPI implementation stops scaling, i.e. 100GB, 16 and 32 processes, 1 process per
+physical core. It would be interesting to see if executing the same exactly configuration with RADICAL-Pilot will
+offer anything.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecWorkVsScratch50g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajSpeedWorkVsScratch50g.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 50GB trajectory file. The figure compares the time to execution
+   between Work and Scratch filesystems. 1 process per physical processor was used.}
+  \label{fig:cpptrajWorkVsScratch50g}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecWorkVsScratch100g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajSpeedWorkVsScratch100g.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 100GB trajectory file. The figure compares the time to execution
+   between Work and Scratch filesystems. 1 process per physical processor was used.}
+  \label{fig:cpptrajWorkVsScratch100g}
+\end{figure}
 
 \section*{Hausdorff Distance}
 

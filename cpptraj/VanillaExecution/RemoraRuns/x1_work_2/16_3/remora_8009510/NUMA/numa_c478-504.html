@@ -1,0 +1,208 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['corechart']}); 
+google.charts.setOnLoadCallback(drawHits); 
+google.charts.setOnLoadCallback(drawMiss); 
+google.charts.setOnLoadCallback(drawFree); 
+google.charts.setOnLoadCallback(drawUsed); 
+function drawHits() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number', 'Execution Time (s)'); 
+data.addColumn('number', 'Node0');   
+data.addColumn('number', 'Node1');   
+data.addRows([
+[0,0,0,],
+[1,31,31,],
+[2,30,30,],
+[3,29,32,],
+[4,46,44,],
+[6,39,73,],
+[7,30,34,],
+[8,39,286,],
+[9,50,967,],
+[10,53,1003,],
+[11,49,1030,],
+[12,49,1026,],
+[13,52,1014,],
+[14,52,1024,],
+[16,50,1023,],
+[17,52,1016,],
+[18,51,556,],
+[19,33,33,],
+[20,30,33,],
+[21,30,33,],
+[22,29,34,],
+[23,32,31,],
+]); 
+var options = {  
+title : 'NUMA Hits', 
+vAxis: {title: 'Events'}, 
+hAxis: {title: 'Time (s)'}, 
+seriesType: 'bars', 
+bar: { groupWidth: '95%' }, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.ComboChart(document.getElementById('chart_miss')); 
+chart.draw(data, options);  
+}  
+function drawMiss() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number', 'Execution Time (s)'); 
+data.addColumn('number', 'Node0');   
+data.addColumn('number', 'Node1');   
+data.addRows([
+[0,0,0,],
+[1,0,0,],
+[2,0,0,],
+[3,0,0,],
+[4,0,0,],
+[6,0,0,],
+[7,0,0,],
+[8,0,0,],
+[9,0,0,],
+[10,0,0,],
+[11,0,0,],
+[12,0,0,],
+[13,0,0,],
+[14,0,0,],
+[16,0,0,],
+[17,0,0,],
+[18,0,0,],
+[19,0,0,],
+[20,0,0,],
+[21,0,0,],
+[22,0,0,],
+[23,0,0,],
+]); 
+var options = {  
+title : 'NUMA Misses', 
+vAxis: {title: 'Events'}, 
+hAxis: {title: 'Time (s)'}, 
+seriesType: 'bars', 
+bar: { groupWidth: '95%' }, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.ComboChart(document.getElementById('chart_hits')); 
+chart.draw(data, options);  
+}  
+function drawFree() { 
+var data = google.visualization.arrayToDataTable([  
+['Execution Time (s)' 
+, 'Node0'   
+, 'Node1'   
+], 
+[0,15286.50,13006.59,],
+[1,15285.32,13006.83,],
+[2,15285.02,13006.20,],
+[3,15285.40,13006.32,],
+[4,15280.84,13004.86,],
+[6,15279.60,12977.58,],
+[7,15280.13,12977.02,],
+[8,15278.37,12904.52,],
+[9,15277.70,11944.17,],
+[10,15276.86,10953.70,],
+[11,15276.41,9939.23,],
+[12,15276.62,8930.09,],
+[13,15276.23,7930.16,],
+[14,15277.16,6921.22,],
+[16,15276.21,5911.49,],
+[17,15276.13,4908.71,],
+[18,15276.59,4386.79,],
+[19,15281.04,4477.17,],
+[20,15282.26,4477.78,],
+[21,15282.00,4476.98,],
+[22,15281.88,4477.76,],
+[23,15281.98,4477.35,],
+]); 
+var options = {  
+title : 'NUMA Free', 
+vAxis: {title: 'MBs'}, 
+hAxis: {title: 'Time (s)'}, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.AreaChart(document.getElementById('chart_free')); 
+chart.draw(data, options);  
+}  
+function drawUsed() { 
+var data = google.visualization.arrayToDataTable([  
+['Execution Time (s)' 
+, 'Node0'   
+, 'Node1'   
+], 
+[0,1048.06,3377.04,],
+[1,1049.66,3377.17,],
+[2,1048.86,3377.74,],
+[3,1048.85,3378.10,],
+[4,1053.03,3379.15,],
+[6,1055.00,3406.44,],
+[7,1054.82,3406.60,],
+[8,1055.54,3479.48,],
+[9,1058.01,4444.19,],
+[10,1057.40,5434.29,],
+[11,1057.44,6448.79,],
+[12,1058.03,7457.18,],
+[13,1057.66,8456.74,],
+[14,1057.08,9468.23,],
+[16,1058.00,10477.22,],
+[17,1058.08,11478.21,],
+[18,1058.75,11997.25,],
+[19,1053.21,11906.84,],
+[20,1051.99,11906.56,],
+[21,1051.84,11907.02,],
+[22,1052.00,11906.27,],
+[23,1052.62,11906.26,],
+]); 
+var options = {  
+title : 'NUMA Used', 
+vAxis: {title: 'MBs'}, 
+hAxis: {title: 'Time (s)'}, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.AreaChart(document.getElementById('chart_used')); 
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'>  
+<tr>  
+<td width='800' height='600'><div id='chart_hits' style='border: 1px solid; color: LightGray'></div></td>  
+<td width='800' height='600'><div id='chart_miss' style='border: 1px solid; color: LightGray'></div></td>  
+</tr> 
+ <tr> 
+<td width='800' height='600'><div id='chart_free' style='border: 1px solid; color: LightGray'></div></td>  
+<td width='800' height='600'><div id='chart_used' style='border: 1px solid; color: LightGray'></div></td>  
+</tr>  
+</table> 
+</body>  
+</html>  

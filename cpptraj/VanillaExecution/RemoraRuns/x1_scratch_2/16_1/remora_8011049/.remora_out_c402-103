@@ -1,0 +1,5 @@
+rm: cannot remove `/scratch/03170/tg824689/cpptraj_exp/x1_3/16_1/remora_8011049/cpu_c402-103.txt': No such file or directory
+rm: cannot remove `/scratch/03170/tg824689/cpptraj_exp/x1_3/16_1/remora_8011049/memory_stats_c402-103.txt': No such file or directory
+/opt/apps/remora/1.7/bin/modules/power: line 31: sensors: command not found
+ls: cannot access /sys/devices/platform/coretemp.0/temp*_input: No such file or directory
+/opt/apps/remora/1.7/bin/modules/eth: line 30: /scratch/03170/tg824689/cpptraj_exp/x1_3/16_1/remora_8011049/network_eth_traffic-c402-103.txt: No such file or directory

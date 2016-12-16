@@ -1,0 +1,11 @@
+=============================== REMORA SUMMARY ===============================
+ Max Memory Used Per Node     : 1.31 GB
+ Total Elapsed Time           : 0d 0h 3m 0s 534ms
+------------------------------------------------------------------------------
+ Max IO Load / home1          :     354 IOPS      49 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / scratch        :     128 IOPS     591 RD(MB/S)       2 WR(MB/S)
+ Max IO Load / work           :       1 IOPS       0 RD(MB/S)       0 WR(MB/S)
+==============================================================================
+ Sampling Period              : 1 seconds
+ Complete Report Data         : /scratch/03170/tg824689/cpptraj_exp/x1_3/2_1/remora_8011038
+==============================================================================

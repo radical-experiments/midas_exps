@@ -1,0 +1,252 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['corechart']}); 
+google.charts.setOnLoadCallback(drawHits); 
+google.charts.setOnLoadCallback(drawMiss); 
+google.charts.setOnLoadCallback(drawFree); 
+google.charts.setOnLoadCallback(drawUsed); 
+function drawHits() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number', 'Execution Time (s)'); 
+data.addColumn('number', 'Node0');   
+data.addColumn('number', 'Node1');   
+data.addRows([
+[0,0,0,],
+[1,45,36,],
+[2,34,34,],
+[4,54,32,],
+[5,34,46,],
+[6,35,68,],
+[7,66,52,],
+[8,107,66,],
+[9,117,63,],
+[10,34,56,],
+[11,44,680,],
+[13,53,1029,],
+[14,52,1024,],
+[15,54,1008,],
+[16,51,1019,],
+[17,52,1018,],
+[18,51,1017,],
+[19,54,1002,],
+[21,51,1014,],
+[22,52,1015,],
+[23,54,1006,],
+[24,54,1014,],
+[25,55,1006,],
+[26,57,885,],
+[28,58,580,],
+[29,56,570,],
+[30,56,574,],
+[31,55,577,],
+[32,56,562,],
+[33,56,235,],
+[35,83,23,],
+[36,54,67,],
+[37,42,68,],
+]); 
+var options = {  
+title : 'NUMA Hits', 
+vAxis: {title: 'Events'}, 
+hAxis: {title: 'Time (s)'}, 
+seriesType: 'bars', 
+bar: { groupWidth: '95%' }, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.ComboChart(document.getElementById('chart_miss')); 
+chart.draw(data, options);  
+}  
+function drawMiss() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number', 'Execution Time (s)'); 
+data.addColumn('number', 'Node0');   
+data.addColumn('number', 'Node1');   
+data.addRows([
+[0,0,0,],
+[1,0,0,],
+[2,0,0,],
+[4,0,0,],
+[5,0,0,],
+[6,0,0,],
+[7,0,0,],
+[8,0,0,],
+[9,0,0,],
+[10,0,0,],
+[11,0,0,],
+[13,0,0,],
+[14,0,0,],
+[15,0,0,],
+[16,0,0,],
+[17,0,0,],
+[18,0,0,],
+[19,0,0,],
+[21,0,0,],
+[22,0,0,],
+[23,0,0,],
+[24,0,0,],
+[25,0,0,],
+[26,0,0,],
+[28,0,0,],
+[29,0,0,],
+[30,0,0,],
+[31,0,0,],
+[32,0,0,],
+[33,0,0,],
+[35,0,0,],
+[36,0,0,],
+[37,0,0,],
+]); 
+var options = {  
+title : 'NUMA Misses', 
+vAxis: {title: 'Events'}, 
+hAxis: {title: 'Time (s)'}, 
+seriesType: 'bars', 
+bar: { groupWidth: '95%' }, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.ComboChart(document.getElementById('chart_hits')); 
+chart.draw(data, options);  
+}  
+function drawFree() { 
+var data = google.visualization.arrayToDataTable([  
+['Execution Time (s)' 
+, 'Node0'   
+, 'Node1'   
+], 
+[0,15249.80,12994.82,],
+[1,15256.48,12993.71,],
+[2,15255.47,12993.24,],
+[4,15249.61,12993.07,],
+[5,15250.39,12984.00,],
+[6,15250.65,12975.62,],
+[7,15228.47,12971.84,],
+[8,15185.85,12977.25,],
+[9,15181.02,12965.69,],
+[10,15181.28,12959.64,],
+[11,15180.52,12488.82,],
+[13,15179.07,11470.51,],
+[14,15178.57,10474.72,],
+[15,15178.50,9475.68,],
+[16,15179.36,8474.21,],
+[17,15179.18,7471.81,],
+[18,15178.82,6474.34,],
+[19,15178.86,5484.86,],
+[21,15178.46,4492.27,],
+[22,15178.99,3495.31,],
+[23,15179.00,2501.89,],
+[24,15178.48,1506.19,],
+[25,15179.39,510.84,],
+[26,15178.38,55.44,],
+[28,15178.28,55.07,],
+[29,15178.57,55.05,],
+[30,15178.22,55.03,],
+[31,15178.77,55.42,],
+[32,15178.45,55.42,],
+[33,15178.46,68.64,],
+[35,15169.84,164.79,],
+[36,15176.30,162.09,],
+[37,15173.39,158.58,],
+]); 
+var options = {  
+title : 'NUMA Free', 
+vAxis: {title: 'MBs'}, 
+hAxis: {title: 'Time (s)'}, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.AreaChart(document.getElementById('chart_free')); 
+chart.draw(data, options);  
+}  
+function drawUsed() { 
+var data = google.visualization.arrayToDataTable([  
+['Execution Time (s)' 
+, 'Node0'   
+, 'Node1'   
+], 
+[0,1084.43,3388.83,],
+[1,1078.51,3389.92,],
+[2,1078.84,3390.39,],
+[4,1084.20,3391.29,],
+[5,1083.85,3399.64,],
+[6,1083.62,3407.98,],
+[7,1106.51,3412.56,],
+[8,1149.53,3404.23,],
+[9,1153.63,3418.28,],
+[10,1153.70,3423.98,],
+[11,1153.69,3903.52,],
+[13,1155.12,4914.23,],
+[14,1155.68,5917.61,],
+[15,1155.77,6914.89,],
+[16,1155.27,7914.87,],
+[17,1155.45,8916.17,],
+[18,1155.46,9913.67,],
+[19,1155.72,10900.60,],
+[21,1155.77,11896.82,],
+[22,1156.03,12897.41,],
+[23,1155.18,13884.65,],
+[24,1155.75,14885.07,],
+[25,1155.52,15874.25,],
+[26,1156.24,16328.56,],
+[28,1156.36,16328.93,],
+[29,1155.64,16328.60,],
+[30,1156.04,16328.59,],
+[31,1155.85,16328.91,],
+[32,1155.79,16328.58,],
+[33,1156.18,16315.00,],
+[35,1164.80,16219.23,],
+[36,1158.32,16221.91,],
+[37,1161.96,16225.78,],
+]); 
+var options = {  
+title : 'NUMA Used', 
+vAxis: {title: 'MBs'}, 
+hAxis: {title: 'Time (s)'}, 
+isStacked: true, 
+width: 800,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+ };  
+ var chart = new google.visualization.AreaChart(document.getElementById('chart_used')); 
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'>  
+<tr>  
+<td width='800' height='600'><div id='chart_hits' style='border: 1px solid; color: LightGray'></div></td>  
+<td width='800' height='600'><div id='chart_miss' style='border: 1px solid; color: LightGray'></div></td>  
+</tr> 
+ <tr> 
+<td width='800' height='600'><div id='chart_free' style='border: 1px solid; color: LightGray'></div></td>  
+<td width='800' height='600'><div id='chart_used' style='border: 1px solid; color: LightGray'></div></td>  
+</tr>  
+</table> 
+</body>  
+</html>  

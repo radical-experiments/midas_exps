@@ -1,0 +1,7 @@
+From ca {0x0002c90300f72f00} portnum 1 lid 6319-6319 "c402-303 HCA-1"
+[1] -> switch port {0x0002c9030076caf0}[24] lid 6335-6335 "SwitchX -  Mellanox Technologies"
+[25] -> switch port {0x0002c903006a8d90}[16] lid 1735-1735 "MF0;core6:SX6536/L12/U1"
+[15] -> switch port {0x0002c9030076c4f0}[25] lid 6380-6380 "SwitchX -  Mellanox Technologies"
+[18] -> ca port {0x0002c90300f54731}[1] lid 6365-6365 "c402-902 HCA-1"
+To ca {0x0002c90300f54730} portnum 1 lid 6365-6365 "c402-902 HCA-1"
+_____________

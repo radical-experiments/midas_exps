@@ -1,0 +1,102 @@
+TACC: Starting up job 8009500
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 8 threads
+| Date/time: 12/14/16 11:44:46
+| Available memory: 29.495 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [trajin ../test.dcd.0 1 80000 nosort]
+	Reading '../test.dcd.0' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'test.dcd.0' is a CHARMM DCD file Little Endian 32 bit, Parm GAAC.topo (Orthogonal box) (reading 80000 of 80000)
+  Coordinate processing will occur on 80000 frames.
+
+PARALLEL INFO:
+  Thread 0 will process 10000 frames.
+  Thread 1 will process 10000 frames.
+  Thread 2 will process 10000 frames.
+  Thread 3 will process 10000 frames.
+  Thread 4 will process 10000 frames.
+  Thread 5 will process 10000 frames.
+  Thread 6 will process 10000 frames.
+  Thread 7 will process 10000 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL TRAJECTORY PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Rank 0 throughput= 474.1526 frames / second.
+TIME: Rank 1 throughput= 455.0384 frames / second.
+TIME: Rank 2 throughput= 461.9572 frames / second.
+TIME: Rank 3 throughput= 463.7759 frames / second.
+TIME: Rank 4 throughput= 462.2122 frames / second.
+TIME: Rank 5 throughput= 477.1518 frames / second.
+TIME: Rank 6 throughput= 467.4220 frames / second.
+TIME: Rank 7 throughput= 474.8311 frames / second.
+TIME: Avg. throughput= 3640.2491 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 80000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat (Standard Data File):  RMSD_00001
+
+RUN TIMING:
+TIME:		Init               : 0.0158 s (  0.07%)
+TIME:		Trajectory Process : 21.9765 s ( 98.11%)
+TIME:		Data Set Sync      : 0.0047 s (  0.02%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.4004 s (  1.79%)
+TIME:		Other              : 0.0035 s (  0.00%)
+TIME:	Run Total 22.4010 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 22.7823 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.
+
+=============================== REMORA SUMMARY ===============================
+ Max Memory Used Per Node     : 1.51 GB
+ Total Elapsed Time           : 0d 0h 0m 31s 325ms
+------------------------------------------------------------------------------
+ Max IO Load / home1          :     286 IOPS      51 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / scratch        :      21 IOPS     243 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / work           :     356 IOPS    3293 RD(MB/S)       0 WR(MB/S)
+==============================================================================
+ Sampling Period              : 1 seconds
+ Complete Report Data         : /work/03170/tg824689/cpptraj_exp/VanillaCppTrajEn/run6/x1_1/8_1/remora_8009500
+==============================================================================
+
