@@ -266,6 +266,24 @@ behave. The experiment was done with the 50GB and 100GB trajectory files with 1 
 \end{figure}
 
 
+\underline{\textbf{[Update 12/19/2016]}}
+
+The following result is extremely interesting. Figure \ref{fig:cpptrajExecTimeVanillaVsRP100g} compares
+the execution of the 100GB file between CPPTraj MPI and RADICAL-Pilot using the single core CPPTraj implementation
+for the units. The execution was done on the Work Filesystem of Stampede. Since we have established that the execution
+is depends highly by the filesystem for this type of application, it is reasonable to assume that task-parallel
+execution relieves the filesystem from the strain the MPI execution creates. It needs though further experimentation to
+ensure that this is the case and that the results were not just a lucky hit.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.70]{cpptraj/cpptrajExecTimeVanillaVsRP100g.pdf}
+  \caption{Execution time of CPPTraj MPI and Task level parallel CPPTraj execution through
+  RADICAL-Pilot for a 100GB trajectory file. In the MPI case 1 processes per physical processor was used.
+  For the RADICAL-Pilot execution 1 unit per 8 cores were submitted to achieve the desired 2 units per node.}
+  \label{fig:cpptrajExecTimeVanillaVsRP100g}
+\end{figure}
+
 \section*{Hausdorff Distance}
 
 The data reported here are comparing the Hausdorff Distance calculation via a RADICAL-Pilot and a 
