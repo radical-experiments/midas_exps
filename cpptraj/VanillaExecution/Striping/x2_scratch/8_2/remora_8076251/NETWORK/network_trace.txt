@@ -1,0 +1,21 @@
+From ca {0x0002c90300f751e0} portnum 1 lid 6333-6333 "c402-302 HCA-1"
+[1] -> switch port {0x0002c9030076caf0}[14] lid 6335-6335 "SwitchX -  Mellanox Technologies"
+[11] -> switch port {0x0002c903006f9010}[4] lid 6416-6416 "MF0;core3:SX6536/L09/U1"
+[3] -> switch port {0x0002c9030076c4f0}[11] lid 6380-6380 "SwitchX -  Mellanox Technologies"
+[35] -> ca port {0x0002c90300f54721}[1] lid 6362-6362 "c402-503 HCA-1"
+To ca {0x0002c90300f54720} portnum 1 lid 6362-6362 "c402-503 HCA-1"
+_____________
+From ca {0x0002c90300f751e0} portnum 1 lid 6333-6333 "c402-302 HCA-1"
+[1] -> switch port {0x0002c9030076caf0}[14] lid 6335-6335 "SwitchX -  Mellanox Technologies"
+[11] -> switch port {0x0002c903006f9010}[4] lid 6416-6416 "MF0;core3:SX6536/L09/U1"
+[3] -> switch port {0x0002c9030076c4f0}[11] lid 6380-6380 "SwitchX -  Mellanox Technologies"
+[4] -> ca port {0x0002c9030044b1c1}[1] lid 6378-6378 "c402-601 HCA-1"
+To ca {0x0002c9030044b1c0} portnum 1 lid 6378-6378 "c402-601 HCA-1"
+_____________
+From ca {0x0002c90300f751e0} portnum 1 lid 6333-6333 "c402-302 HCA-1"
+[1] -> switch port {0x0002c9030076caf0}[14] lid 6335-6335 "SwitchX -  Mellanox Technologies"
+[9] -> switch port {0x0002c903006a9210}[16] lid 7054-7054 "MF0;core2:SX6536/L12/U1"
+[15] -> switch port {0x0002c9030076c4f0}[9] lid 6380-6380 "SwitchX -  Mellanox Technologies"
+[6] -> ca port {0x0002c90300fe5961}[1] lid 6367-6367 "c402-602 HCA-1"
+To ca {0x0002c90300fe5960} portnum 1 lid 6367-6367 "c402-602 HCA-1"
+_____________

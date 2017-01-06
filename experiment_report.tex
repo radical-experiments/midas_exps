@@ -284,6 +284,26 @@ ensure that this is the case and that the results were not just a lucky hit.
   \label{fig:cpptrajExecTimeVanillaVsRP100g}
 \end{figure}
 
+\underline{\textbf{[Update 1/6/2017]}}
+
+An experiment was executed where the stripe count was supposed to change in Scratch. According to TACC documentation the stripe
+count should be set to the number of nodes that are accessing the file. The experiment preserves the 1 MPI process
+per physical processor. Figure \ref{fig:cpptrajWorkVsScratchStriping100g} shows the results of the experiment.
+Despite the fact that the default stripe count was changed by the script that was executed, the actual number of
+stripes for the file did not change and remain to 2. The number of stripes should be set when a file is written,
+so that it can be distributed over different storage targets.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecWorkVsScratchStriping100g.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajReadWorkVsScratchStriping100g.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 100GB trajectory file. The figures compare 
+   the time to execution and read rate between Work, Scratch with default striping and Scratch with the
+   number of stripes equal to 2. 1 MPI process per physical processor was used.
+   The input data is 100GB}
+  \label{fig:cpptrajWorkVsScratchStriping100g}
+\end{figure}
+
 \section*{Hausdorff Distance}
 
 The data reported here are comparing the Hausdorff Distance calculation via a RADICAL-Pilot and a 

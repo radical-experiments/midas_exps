@@ -1,0 +1,18 @@
+error: setstripe: missing filename|dirname
+Create a new file with a specific striping pattern or
+set the default striping pattern on an existing directory or
+delete the default striping pattern from an existing directory
+usage: setstripe -d <directory>   (to delete default striping)
+ or
+usage: setstripe [--stripe-count|-c <stripe_count>]
+                 [--stripe-index|-i <start_ost_idx>]
+                 [--stripe-size|-S <stripe_size>]
+                 [--pool|-p <pool_name>]
+                 [--block|-b] <directory|filename>
+	stripe_size:  Number of bytes on each OST (0 filesystem default)
+	              Can be specified with k, m or g (in KB, MB and GB
+	              respectively)
+	start_ost_idx: OST index of first stripe (-1 default)
+	stripe_count: Number of OSTs to stripe over (0 default, -1 all)
+	pool_name:    Name of OST pool to use (default none)
+	block:	 Block file access during data migration

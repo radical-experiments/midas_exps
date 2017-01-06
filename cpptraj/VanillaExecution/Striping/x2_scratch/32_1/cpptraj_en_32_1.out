@@ -1,0 +1,150 @@
+TACC: Starting up job 8076257
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 32 threads
+| Date/time: 01/05/17 18:18:31
+| Available memory: 29.427 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [trajin ../ens2.dcd 1 160000 nosort]
+	Reading '../ens2.dcd' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'ens2.dcd' is a CHARMM DCD file Little Endian 32 bit, Parm GAAC.topo (Orthogonal box) (reading 160000 of 160000)
+  Coordinate processing will occur on 160000 frames.
+
+PARALLEL INFO:
+  Thread 0 will process 5000 frames.
+  Thread 1 will process 5000 frames.
+  Thread 2 will process 5000 frames.
+  Thread 3 will process 5000 frames.
+  Thread 4 will process 5000 frames.
+  Thread 5 will process 5000 frames.
+  Thread 6 will process 5000 frames.
+  Thread 7 will process 5000 frames.
+  Thread 8 will process 5000 frames.
+  Thread 9 will process 5000 frames.
+  Thread 10 will process 5000 frames.
+  Thread 11 will process 5000 frames.
+  Thread 12 will process 5000 frames.
+  Thread 13 will process 5000 frames.
+  Thread 14 will process 5000 frames.
+  Thread 15 will process 5000 frames.
+  Thread 16 will process 5000 frames.
+  Thread 17 will process 5000 frames.
+  Thread 18 will process 5000 frames.
+  Thread 19 will process 5000 frames.
+  Thread 20 will process 5000 frames.
+  Thread 21 will process 5000 frames.
+  Thread 22 will process 5000 frames.
+  Thread 23 will process 5000 frames.
+  Thread 24 will process 5000 frames.
+  Thread 25 will process 5000 frames.
+  Thread 26 will process 5000 frames.
+  Thread 27 will process 5000 frames.
+  Thread 28 will process 5000 frames.
+  Thread 29 will process 5000 frames.
+  Thread 30 will process 5000 frames.
+  Thread 31 will process 5000 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL TRAJECTORY PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Rank 0 throughput= 26.9654 frames / second.
+TIME: Rank 1 throughput= 27.1575 frames / second.
+TIME: Rank 2 throughput= 27.3717 frames / second.
+TIME: Rank 3 throughput= 27.0951 frames / second.
+TIME: Rank 4 throughput= 28.5335 frames / second.
+TIME: Rank 5 throughput= 29.1057 frames / second.
+TIME: Rank 6 throughput= 30.4458 frames / second.
+TIME: Rank 7 throughput= 31.2177 frames / second.
+TIME: Rank 8 throughput= 32.0233 frames / second.
+TIME: Rank 9 throughput= 32.5107 frames / second.
+TIME: Rank 10 throughput= 31.9824 frames / second.
+TIME: Rank 11 throughput= 32.4609 frames / second.
+TIME: Rank 12 throughput= 32.5393 frames / second.
+TIME: Rank 13 throughput= 33.4694 frames / second.
+TIME: Rank 14 throughput= 33.1033 frames / second.
+TIME: Rank 15 throughput= 33.1868 frames / second.
+TIME: Rank 16 throughput= 33.1671 frames / second.
+TIME: Rank 17 throughput= 33.0296 frames / second.
+TIME: Rank 18 throughput= 31.3650 frames / second.
+TIME: Rank 19 throughput= 31.1981 frames / second.
+TIME: Rank 20 throughput= 32.0113 frames / second.
+TIME: Rank 21 throughput= 31.9277 frames / second.
+TIME: Rank 22 throughput= 34.6426 frames / second.
+TIME: Rank 23 throughput= 34.1570 frames / second.
+TIME: Rank 24 throughput= 33.5914 frames / second.
+TIME: Rank 25 throughput= 32.6426 frames / second.
+TIME: Rank 26 throughput= 30.7388 frames / second.
+TIME: Rank 27 throughput= 30.8402 frames / second.
+TIME: Rank 28 throughput= 29.5170 frames / second.
+TIME: Rank 29 throughput= 29.2312 frames / second.
+TIME: Rank 30 throughput= 27.7258 frames / second.
+TIME: Rank 31 throughput= 27.3203 frames / second.
+TIME: Avg. throughput= 862.8917 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 160000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat (Standard Data File):  RMSD_00001
+
+RUN TIMING:
+TIME:		Init               : 0.0204 s (  0.01%)
+TIME:		Trajectory Process : 185.4230 s ( 99.87%)
+TIME:		Data Set Sync      : 0.0034 s (  0.00%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.2215 s (  0.12%)
+TIME:		Other              : 0.0035 s (  0.00%)
+TIME:	Run Total 185.6718 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 186.0693 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.
+
+=============================== REMORA SUMMARY ===============================
+ Max Memory Used Per Node     : 2.25 GB
+ Total Elapsed Time           : 0d 0h 3m 15s 500ms
+------------------------------------------------------------------------------
+ Max IO Load / home1          :     357 IOPS     445 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / scratch        :    1188 IOPS    1091 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / work           :       3 IOPS       0 RD(MB/S)       0 WR(MB/S)
+==============================================================================
+ Sampling Period              : 1 seconds
+ Complete Report Data         : /scratch/03170/tg824689/cpptraj_exp/x2_scratch_2/32_1/remora_8076257
+==============================================================================
+
