@@ -1,0 +1,118 @@
+TACC: Starting up job 8081661
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+
+CPPTRAJ: Trajectory Analysis. V16.00b MPI
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Running on 16 threads
+| Date/time: 01/06/17 18:12:09
+| Available memory: 29.379 GB
+
+INPUT: Reading input from 'cpptraj_ens.in'
+  [parm /scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo]
+	Reading '/scratch/03170/tg824689/amber_test/utah_DNA/amber.utah.edu/DNA-dynamics/GAAC/Anton-data/GAAC3/GAAC.topo' as Amber Topology
+  [trajin ../16_1/ens2.dcd 1 160000 nosort]
+	Reading '../16_1/ens2.dcd' as Charmm DCD
+  [rmsd first @H* out rsmd_exp_ens.dat]
+    RMSD: (@H*), reference is first frame (@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [run]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: GAAC.topo, 58329 atoms, 19202 res, box: Orthogonal, 19168 mol, 19012 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'ens2.dcd' is a CHARMM DCD file Little Endian 32 bit, Parm GAAC.topo (Orthogonal box) (reading 160000 of 160000)
+  Coordinate processing will occur on 160000 frames.
+
+PARALLEL INFO:
+  Thread 0 will process 10000 frames.
+  Thread 1 will process 10000 frames.
+  Thread 2 will process 10000 frames.
+  Thread 3 will process 10000 frames.
+  Thread 4 will process 10000 frames.
+  Thread 5 will process 10000 frames.
+  Thread 6 will process 10000 frames.
+  Thread 7 will process 10000 frames.
+  Thread 8 will process 10000 frames.
+  Thread 9 will process 10000 frames.
+  Thread 10 will process 10000 frames.
+  Thread 11 will process 10000 frames.
+  Thread 12 will process 10000 frames.
+  Thread 13 will process 10000 frames.
+  Thread 14 will process 10000 frames.
+  Thread 15 will process 10000 frames.
+.....................................................
+ACTION SETUP FOR PARM 'GAAC.topo' (1 actions):
+  0: [rmsd first @H* out rsmd_exp_ens.dat]
+	Target mask: [@H*](38431)
+	Reference mask: [@H*](38431)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+
+BEGIN PARALLEL TRAJECTORY PROCESSING:
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+TIME: Rank 0 throughput= 179.0508 frames / second.
+TIME: Rank 1 throughput= 186.4248 frames / second.
+TIME: Rank 2 throughput= 181.7028 frames / second.
+TIME: Rank 3 throughput= 191.6229 frames / second.
+TIME: Rank 4 throughput= 196.4355 frames / second.
+TIME: Rank 5 throughput= 201.0661 frames / second.
+TIME: Rank 6 throughput= 205.9208 frames / second.
+TIME: Rank 7 throughput= 213.0109 frames / second.
+TIME: Rank 8 throughput= 212.1355 frames / second.
+TIME: Rank 9 throughput= 204.1011 frames / second.
+TIME: Rank 10 throughput= 193.6600 frames / second.
+TIME: Rank 11 throughput= 189.1783 frames / second.
+TIME: Rank 12 throughput= 179.2894 frames / second.
+TIME: Rank 13 throughput= 180.8448 frames / second.
+TIME: Rank 14 throughput= 174.6748 frames / second.
+TIME: Rank 15 throughput= 175.1519 frames / second.
+TIME: Avg. throughput= 2794.7646 frames / second.
+
+ACTION OUTPUT:
+
+DATASETS (1 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 160000
+
+DATAFILES (1 total):
+  rsmd_exp_ens.dat (Standard Data File):  RMSD_00001
+
+RUN TIMING:
+TIME:		Init               : 0.0169 s (  0.03%)
+TIME:		Trajectory Process : 57.2499 s ( 99.55%)
+TIME:		Data Set Sync      : 0.0400 s (  0.07%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.1963 s (  0.34%)
+TIME:		Other              : 0.0035 s (  0.00%)
+TIME:	Run Total 57.5066 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 57.9396 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+ 
+TACC: Shutdown complete. Exiting.
+
+=============================== REMORA SUMMARY ===============================
+ Max Memory Used Per Node     : 1.76 GB
+ Total Elapsed Time           : 0d 0h 1m 6s 887ms
+------------------------------------------------------------------------------
+ Max IO Load / home1          :     284 IOPS     242 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / scratch        :     687 IOPS    3960 RD(MB/S)       0 WR(MB/S)
+ Max IO Load / work           :       1 IOPS       0 RD(MB/S)       0 WR(MB/S)
+==============================================================================
+ Sampling Period              : 1 seconds
+ Complete Report Data         : /scratch/03170/tg824689/cpptraj_exp/x2_scratch_2/16_2/remora_8081661
+==============================================================================
+

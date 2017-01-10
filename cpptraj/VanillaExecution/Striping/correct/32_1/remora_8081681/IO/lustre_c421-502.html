@@ -1,0 +1,176 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['line']}); 
+google.charts.setOnLoadCallback(drawRQChart); 
+google.charts.setOnLoadCallback(drawDataChart); 
+function drawRQChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RQ'); 
+data.addColumn('number','work-RQ'); 
+data.addColumn('number','scratch-RQ'); 
+data.addRows([
+[0,0,0,0,],
+[1,0,0,49,],
+[3,0,0,49,],
+[4,0,0,49,],
+[5,9,0,52,],
+[6,11,0,79,],
+[7,0,0,64,],
+[8,9,0,64,],
+[9,3,0,133,],
+[11,0,0,135,],
+[12,0,0,64,],
+[13,0,0,64,],
+[14,0,0,64,],
+[15,0,0,64,],
+[16,0,0,64,],
+[17,0,0,64,],
+[19,0,0,64,],
+[20,4,0,64,],
+[21,0,0,64,],
+[22,0,0,64,],
+[23,0,0,64,],
+[24,0,0,66,],
+[25,0,0,64,],
+[26,0,0,64,],
+[28,0,0,64,],
+[29,4,0,64,],
+[30,0,0,64,],
+[31,7,1,66,],
+[32,0,0,64,],
+[33,0,0,64,],
+[34,0,0,64,],
+[36,0,0,72,],
+[37,0,0,64,],
+[38,0,0,64,],
+[39,4,0,64,],
+[40,0,0,64,],
+[41,0,0,74,],
+[42,0,0,64,],
+[43,0,0,64,],
+[45,0,0,64,],
+[46,0,0,72,],
+[47,0,0,64,],
+[48,0,0,64,],
+[49,3,0,53,],
+[50,0,0,49,],
+[51,0,0,57,],
+[52,0,0,49,],
+[54,0,0,49,],
+[55,0,0,51,],
+[56,0,1,59,],
+[57,0,0,49,],
+[58,0,0,49,],
+[59,9,0,49,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Number of Operations'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('dataRQ_div'));  
+chart.draw(data, options);  
+}  
+function drawDataChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RD'); 
+data.addColumn('number','home1-WR'); 
+data.addColumn('number','work-RD'); 
+data.addColumn('number','work-WR'); 
+data.addColumn('number','scratch-RD'); 
+data.addColumn('number','scratch-WR'); 
+data.addRows([
+[0,0,0,0,0,0,0,],
+[1,0,0,0,0,3988,2126,],
+[3,0,0,0,0,3988,2125,],
+[4,0,0,0,0,3988,2124,],
+[5,3338,0,0,0,7940,3109,],
+[6,5190,0,0,0,23852,7087,],
+[7,0,0,0,0,23836,7086,],
+[8,0,0,0,0,23836,7086,],
+[9,0,0,0,0,113452236,7075,],
+[11,0,0,0,0,313681468,7082,],
+[12,0,0,0,0,205544720,7078,],
+[13,0,0,0,0,230710556,7082,],
+[14,0,0,0,0,293625104,7077,],
+[15,0,0,0,0,322985220,7077,],
+[16,0,0,0,0,272653596,7084,],
+[17,0,0,0,0,268459292,7081,],
+[19,0,0,0,0,251682076,7081,],
+[20,0,0,0,0,205544732,7082,],
+[21,0,0,0,0,239099152,7082,],
+[22,0,0,0,0,322985232,7076,],
+[23,0,0,0,0,213933328,7076,],
+[24,0,0,0,0,243293456,7077,],
+[25,0,0,0,0,201350416,7078,],
+[26,0,0,0,0,264264976,7078,],
+[28,0,0,0,0,234904860,7082,],
+[29,0,0,0,0,255876380,7080,],
+[30,0,0,0,0,264264988,7081,],
+[31,0,0,0,0,260070676,7076,],
+[32,0,0,0,0,272653604,7079,],
+[33,0,0,0,0,213933348,7082,],
+[34,0,0,0,0,247487780,7081,],
+[36,0,0,0,0,327179556,7084,],
+[37,0,0,0,0,306208028,7082,],
+[38,0,0,0,0,310402332,7080,],
+[39,0,0,0,0,465591568,7079,],
+[40,0,0,0,0,230710544,7076,],
+[41,0,0,0,0,23824,7083,],
+[42,0,0,0,0,23824,7084,],
+[43,0,0,0,0,23824,7085,],
+[45,0,0,0,0,23824,7084,],
+[46,0,0,0,0,23824,7085,],
+[47,0,0,0,0,23824,7086,],
+[48,0,0,0,0,23824,7086,],
+[49,0,0,0,0,3996,2125,],
+[50,0,0,0,0,3996,2128,],
+[51,0,0,0,0,3996,2128,],
+[52,0,0,0,0,3996,2129,],
+[54,0,0,0,0,3996,2127,],
+[55,0,0,0,0,3996,2126,],
+[56,0,0,0,0,3996,2124,],
+[57,0,0,0,0,3996,2129,],
+[58,0,0,0,0,3996,2126,],
+[59,3338,0,0,0,3996,2124,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Bytes Read/Write'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('data_div'));  
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'> 
+<tr> 
+<td><div id='dataRQ_div' style='border: 1px solid; color: LightGray'></div></td> 
+<td><div style='float:left; margin: 5px; background-color: blue;'></div></td> 
+<td><div id='data_div' style='border: 1px solid; color: LightGray'></div></td> 
+</tr> 
+</table> 
+</body>  
+</html>  

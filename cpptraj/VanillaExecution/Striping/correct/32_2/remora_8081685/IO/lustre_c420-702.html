@@ -1,0 +1,170 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['line']}); 
+google.charts.setOnLoadCallback(drawRQChart); 
+google.charts.setOnLoadCallback(drawDataChart); 
+function drawRQChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RQ'); 
+data.addColumn('number','work-RQ'); 
+data.addColumn('number','scratch-RQ'); 
+data.addRows([
+[0,0,0,0,],
+[1,2,0,49,],
+[2,0,0,49,],
+[4,0,0,49,],
+[5,0,0,49,],
+[6,0,0,49,],
+[7,0,0,49,],
+[8,0,0,49,],
+[9,0,0,49,],
+[10,0,0,49,],
+[11,12,0,61,],
+[12,8,0,76,],
+[14,0,0,66,],
+[15,0,0,64,],
+[16,0,0,156,],
+[17,0,0,64,],
+[18,0,0,64,],
+[19,0,0,64,],
+[20,0,0,64,],
+[21,4,0,64,],
+[23,0,0,64,],
+[24,0,0,64,],
+[25,0,0,64,],
+[26,0,0,64,],
+[27,0,0,64,],
+[28,0,0,64,],
+[29,5,0,64,],
+[30,0,0,64,],
+[32,4,0,64,],
+[33,0,0,64,],
+[42,15,1,82,],
+[43,0,0,64,],
+[44,0,0,72,],
+[45,0,0,64,],
+[47,0,0,64,],
+[48,0,0,64,],
+[49,0,0,74,],
+[50,0,0,64,],
+[51,4,0,64,],
+[52,0,0,64,],
+[53,0,0,64,],
+[54,0,0,72,],
+[55,1,0,52,],
+[57,0,0,49,],
+[58,0,0,49,],
+[59,0,1,59,],
+[60,0,0,49,],
+[61,2,0,49,],
+[62,0,0,49,],
+[63,0,0,49,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Number of Operations'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('dataRQ_div'));  
+chart.draw(data, options);  
+}  
+function drawDataChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RD'); 
+data.addColumn('number','home1-WR'); 
+data.addColumn('number','work-RD'); 
+data.addColumn('number','work-WR'); 
+data.addColumn('number','scratch-RD'); 
+data.addColumn('number','scratch-WR'); 
+data.addRows([
+[0,0,0,0,0,0,0,],
+[1,0,0,0,0,3980,2132,],
+[2,0,0,0,0,3980,2131,],
+[4,0,0,0,0,3980,2129,],
+[5,0,0,0,0,3980,2130,],
+[6,0,0,0,0,3980,2130,],
+[7,0,0,0,0,3984,2133,],
+[8,0,0,0,0,3984,2130,],
+[9,0,0,0,0,3984,2132,],
+[10,0,0,0,0,3984,2133,],
+[11,7320,0,0,0,15824,5087,],
+[12,1208,0,0,0,23764,7070,],
+[14,0,0,0,0,23764,7078,],
+[15,0,0,0,0,23764,7078,],
+[16,0,0,0,0,343223788,7072,],
+[17,0,0,0,0,205544648,7068,],
+[18,0,0,0,0,239099080,7067,],
+[19,0,0,0,0,213933256,7068,],
+[20,0,0,0,0,331373768,7067,],
+[21,0,0,0,0,306207956,7073,],
+[23,0,0,0,0,260070600,7069,],
+[24,0,0,0,0,197156040,7071,],
+[25,0,0,0,0,192961748,7072,],
+[26,0,0,0,0,306207932,7064,],
+[27,0,0,0,0,239099092,7069,],
+[28,0,0,0,0,318790844,7063,],
+[29,0,0,0,0,188767444,7072,],
+[30,0,0,0,0,276847816,7066,],
+[32,0,0,0,0,289430728,7067,],
+[33,0,0,0,0,260070600,7066,],
+[42,0,0,0,0,2625658068,7067,],
+[43,0,0,0,0,314596556,7067,],
+[44,0,0,0,0,243293392,7069,],
+[45,0,0,0,0,23748,7074,],
+[47,0,0,0,0,23748,7074,],
+[48,0,0,0,0,23748,7073,],
+[49,0,0,0,0,23748,7073,],
+[50,0,0,0,0,23748,7074,],
+[51,0,0,0,0,23748,7073,],
+[52,0,0,0,0,23748,7074,],
+[53,0,0,0,0,23748,7074,],
+[54,0,0,0,0,23748,7074,],
+[55,0,0,0,0,3984,2129,],
+[57,0,0,0,0,3984,2133,],
+[58,0,0,0,0,3984,2133,],
+[59,0,0,0,0,3984,2127,],
+[60,0,0,0,0,3984,2132,],
+[61,0,0,0,0,3984,2133,],
+[62,0,0,0,0,3984,2132,],
+[63,0,0,0,0,3984,2131,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Bytes Read/Write'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('data_div'));  
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'> 
+<tr> 
+<td><div id='dataRQ_div' style='border: 1px solid; color: LightGray'></div></td> 
+<td><div style='float:left; margin: 5px; background-color: blue;'></div></td> 
+<td><div id='data_div' style='border: 1px solid; color: LightGray'></div></td> 
+</tr> 
+</table> 
+</body>  
+</html>  

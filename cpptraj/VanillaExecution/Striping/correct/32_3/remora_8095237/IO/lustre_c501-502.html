@@ -1,0 +1,172 @@
+<html> 
+<head> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+<script type="text/javascript"> 
+google.charts.load('current', {'packages':['line']}); 
+google.charts.setOnLoadCallback(drawRQChart); 
+google.charts.setOnLoadCallback(drawDataChart); 
+function drawRQChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RQ'); 
+data.addColumn('number','work-RQ'); 
+data.addColumn('number','scratch-RQ'); 
+data.addRows([
+[0,0,0,0,],
+[1,2,0,49,],
+[3,0,0,49,],
+[4,18,0,68,],
+[5,2,0,69,],
+[6,0,0,64,],
+[7,0,0,64,],
+[8,0,0,133,],
+[9,0,0,64,],
+[10,0,0,64,],
+[12,4,0,64,],
+[13,0,0,64,],
+[14,0,0,64,],
+[15,0,0,64,],
+[16,0,0,64,],
+[17,0,0,64,],
+[18,0,0,64,],
+[19,0,0,64,],
+[21,0,0,64,],
+[22,4,0,64,],
+[23,0,0,64,],
+[24,0,0,64,],
+[25,0,0,64,],
+[26,0,0,64,],
+[27,0,0,64,],
+[28,0,0,64,],
+[30,5,0,66,],
+[31,0,0,64,],
+[32,4,0,64,],
+[33,0,0,64,],
+[34,5,0,70,],
+[35,0,0,64,],
+[36,0,0,64,],
+[37,0,0,64,],
+[38,0,0,64,],
+[40,0,0,74,],
+[41,0,0,64,],
+[42,4,0,64,],
+[43,0,1,64,],
+[44,0,0,72,],
+[45,1,0,52,],
+[46,0,0,49,],
+[47,0,0,49,],
+[48,0,0,49,],
+[50,0,0,59,],
+[51,0,0,49,],
+[52,2,0,49,],
+[53,0,0,49,],
+[54,0,0,57,],
+[55,0,0,49,],
+[56,0,0,49,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Number of Operations'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('dataRQ_div'));  
+chart.draw(data, options);  
+}  
+function drawDataChart() { 
+var data = new google.visualization.DataTable(); 
+data.addColumn('number','Execution Time (s)'); 
+data.addColumn('number','home1-RD'); 
+data.addColumn('number','home1-WR'); 
+data.addColumn('number','work-RD'); 
+data.addColumn('number','work-WR'); 
+data.addColumn('number','scratch-RD'); 
+data.addColumn('number','scratch-WR'); 
+data.addRows([
+[0,0,0,0,0,0,0,],
+[1,0,0,0,0,3988,2132,],
+[3,0,0,0,0,3988,2129,],
+[4,8528,0,0,0,15856,5093,],
+[5,0,0,0,0,23828,7086,],
+[6,0,0,0,0,23828,7088,],
+[7,0,0,0,0,23832,7089,],
+[8,0,0,0,0,351612446,7085,],
+[9,0,0,0,0,176184588,7083,],
+[10,0,0,0,0,117464332,7079,],
+[12,0,0,0,0,113270040,7086,],
+[13,0,0,0,0,163601688,7086,],
+[14,0,0,0,0,121658648,7084,],
+[15,0,0,0,0,184573196,7082,],
+[16,0,0,0,0,188767500,7082,],
+[17,0,0,0,0,155213080,7084,],
+[18,0,0,0,0,209739020,7080,],
+[19,0,0,0,0,201350424,7086,],
+[21,0,0,0,0,130047244,7084,],
+[22,0,0,0,0,134241560,7084,],
+[23,0,0,0,0,188767500,7083,],
+[24,0,0,0,0,142630168,7084,],
+[25,0,0,0,0,23832,7088,],
+[26,0,0,0,0,58744076,7080,],
+[27,0,0,0,0,167795980,7080,],
+[28,0,0,0,0,138435864,7082,],
+[30,0,0,0,0,239099160,7084,],
+[31,0,0,0,0,180378892,7082,],
+[32,0,0,0,0,125852952,7081,],
+[33,0,0,0,0,176184588,7079,],
+[34,0,0,0,0,121658648,7086,],
+[35,0,0,0,0,343956736,7079,],
+[36,0,0,0,0,708861184,7074,],
+[37,0,0,0,0,713055492,7076,],
+[38,0,0,0,0,675306760,7079,],
+[40,0,0,0,0,465591560,7078,],
+[41,0,0,0,0,406871304,7081,],
+[42,0,0,0,0,251468236,7082,],
+[43,0,0,0,0,23820,7087,],
+[44,0,0,0,0,23820,7086,],
+[45,0,0,0,0,3996,2132,],
+[46,0,0,0,0,3996,2133,],
+[47,0,0,0,0,3996,2132,],
+[48,0,0,0,0,3996,2131,],
+[50,0,0,0,0,3996,2133,],
+[51,0,0,0,0,3996,2131,],
+[52,0,0,0,0,3996,2132,],
+[53,0,0,0,0,3996,2133,],
+[54,0,0,0,0,3996,2131,],
+[55,0,0,0,0,3996,2133,],
+[56,0,0,0,0,3996,2132,],
+]); 
+var options = {  
+chart: { 
+title: 'Lustre Load', 
+subtitle: 'in Bytes Read/Write'  
+}, 
+width: 700,  
+height: 600,  
+axes: {  
+x: {  
+0: {side: 'top'}  
+}  
+},  
+};  
+var chart = new google.charts.Line(document.getElementById('data_div'));  
+chart.draw(data, options);  
+}  
+</script>  
+</head>  
+<body>  
+<table class='columns'> 
+<tr> 
+<td><div id='dataRQ_div' style='border: 1px solid; color: LightGray'></div></td> 
+<td><div style='float:left; margin: 5px; background-color: blue;'></div></td> 
+<td><div id='data_div' style='border: 1px solid; color: LightGray'></div></td> 
+</tr> 
+</table> 
+</body>  
+</html>  

@@ -1,0 +1,15 @@
+From ca {0x0002c90300fd5f30} portnum 1 lid 4096-4096 "c519-003 HCA-1"
+[1] -> switch port {0x0002c9030076cbf0}[35] lid 4147-4147 "SwitchX -  Mellanox Technologies"
+[36] -> ca port {0x0002c90300fd5ea1}[1] lid 4125-4125 "c519-004 HCA-1"
+To ca {0x0002c90300fd5ea0} portnum 1 lid 4125-4125 "c519-004 HCA-1"
+_____________
+From ca {0x0002c90300fd5f30} portnum 1 lid 4096-4096 "c519-003 HCA-1"
+[1] -> switch port {0x0002c9030076cbf0}[35] lid 4147-4147 "SwitchX -  Mellanox Technologies"
+[4] -> ca port {0x0002c90300fd6a61}[1] lid 4111-4111 "c519-101 HCA-1"
+To ca {0x0002c90300fd6a60} portnum 1 lid 4111-4111 "c519-101 HCA-1"
+_____________
+From ca {0x0002c90300fd5f30} portnum 1 lid 4096-4096 "c519-003 HCA-1"
+[1] -> switch port {0x0002c9030076cbf0}[35] lid 4147-4147 "SwitchX -  Mellanox Technologies"
+[6] -> ca port {0x0002c90300f8c3c1}[1] lid 4135-4135 "c519-102 HCA-1"
+To ca {0x0002c90300f8c3c0} portnum 1 lid 4135-4135 "c519-102 HCA-1"
+_____________

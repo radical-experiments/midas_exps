@@ -304,6 +304,26 @@ so that it can be distributed over different storage targets.
   \label{fig:cpptrajWorkVsScratchStriping100g}
 \end{figure}
 
+\underline{\textbf{[Update 1/10/2017]}}
+
+An experiment was executed where the stripe count changes in Scratch. According to TACC documentation the stripe
+count should be set to the number of nodes that are accessing the file. The experiment preserves the 1 MPI process
+per physical processor. Figure \ref{fig:cpptrajWorkVsScratchStriping100gC} shows the results of the experiment.
+The default number of stripes is 2 in Scratch. That means that the file is being stored as two components to two
+Storage Targets. This number of stripes is enough for execution up to two nodes. For the configuration between 8 and 32
+processes, 4 to 16 nodes were acquired. In those cases the number of stripes are equal to the number of nodes.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.45]{cpptraj/cpptrajExecWorkVsScratchStriping100gC.pdf}
+  \includegraphics[scale=.45]{cpptraj/cpptrajReadWorkVsScratchStriping100gC.pdf}
+  \caption{Execution time (L) and Speedup(R) of CPPTraj for a 100GB trajectory file. The figures compare 
+   the time to execution and read rate between Work, Scratch with default striping and Scratch with the
+   number of stripes equal to the number of nodes accessing the file. 1 MPI process per physical processor was used.
+   The input data is 100GB}
+  \label{fig:cpptrajWorkVsScratchStriping100gC}
+\end{figure}
+
 \section*{Hausdorff Distance}
 
 The data reported here are comparing the Hausdorff Distance calculation via a RADICAL-Pilot and a 
@@ -494,32 +514,33 @@ $$T=\alpha(N_I)+\beta N_T+\gamma Y+\delta\Big{(}N_O S_O + \frac{k(k+1)}{2}\Big{)
 
 $Y$ is the tme of the execution of the task.
 \subsubsection*{Task Execution Analysis}
+
 That is dependent to the number of trajectories being processed and the number of points in each 
 trajectory. Let $T_N$ be the number of trajectories per task and $T_S$ the size of each trajectory, 
 i.e. the number of points.Thus, the above execution time can be
 
-$$Y = \Big{O}((N_Tr N_F N_A)^2)$$
+$$Y = \Big{.O} ((N_Tr N_F N_A)^2)$$
 
 Let $dH$ be the time to calculate the Hausdorff distance between two trajectories. The following 
 algorithm describes it in pseudocode. The description will help the following analysis:
 
 \begin{algorithm}
 \begin{algorithmic}[1]
-\Procedure{HausdorffDistance}{$T_1,T_2$}\Comment{$T_1$ and $T_2$ are a set of 3D points}
-\For{\forall $t_1$ in $T_1$}
-\For{\forall$t_2$ in $T_2$}
-\State \texttt{Append in $D_1$ calculated d($t_1, t_2$)}
+\Procedure{HausdorffDistance}{$T_1$,$T_2$}\Comment{$T_1$ and $T_2$ are a set of 3D points}
+\For{$\forall t_1$ in $T_1$}
+\For{$\forall t_2$ in $T_2$}
+\State \texttt{Append in $D_1$ calculated d($t_1$,$t_2$)}
 \EndFor
-\State\texttt{$D_t_1$ append max($D_1$)}
+\State\texttt{$D_t1$ append max($D_1$)}
 \EndFor
-\State $N_1$ = min($D_t_1$)
-\For{\forall $t_2$ in $T_2$}
-\For{\forall$t_1$ in $T_1$}
-\State \texttt{Append in $D_2$ calculated d($t_2, t_1$)}
+\State $N_1$ = min($D_t1$)
+\For{$\forall t_2$ in $T_2$}
+\For{$\forall t_1$ in $T_1$}
+\State \texttt{Append in $D_2$ calculated d($t_2$,$t_1$)}
 \EndFor
-\State\texttt{$D_t_2$ append max($D_2$)}
+\State\texttt{$D_t2$ append max($D_2$)}
 \EndFor
-\State $N_2$ = min($D_t_2$)
+\State $N_2$ = min($D_t2$)
 \State \textbf{return} max($N_1$,$N_2$)
 \EndProcedure
 \end{algorithmic}
