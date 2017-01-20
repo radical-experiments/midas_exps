@@ -1,0 +1,6 @@
+Index,Cores ,Try, Total Time to Completion (minutes), File Size , Partition Size,  Numpy Import in each RDD, JsonName
+1    ,1024  , 1 ,               4                   , 132K      ,      4096     ,       yes                , app-20170116171113-0000
+2    ,1024  , 2 ,               7                   , 132K      ,      4096     ,       no                 , app-20170116165340-0000
+3    ,256   , 1 ,              22                   , 132K      ,      8192     ,       no                 , app-20170116161732-0000
+4    ,1024  , 3 ,               4                   , 132K      ,      4096     ,       yes                , app-20170115061115-0000
+
