@@ -665,14 +665,16 @@ to calculate the distances of 131072 atoms in one node on Comet, i.e. 24 cores a
 \begin{itemize}
 \item Scenario 1: Let's assume that we want to calculate the whole result concurrently in one node. 
 That means that the memory needs are equivalent to keeping a double floating point matrix of 
-131072*131072*8 bytes, which is 128GBs.  
+$131072 \times 131072 \times 8$ bytes, which is 128GBs.  
 
 \item Scenario 2: Let's assume that the data are partitioned in blocks of 4096 and each task calculates 
-a 4096*4096 matrix. The memory required at any given time, from cdist, would be 4096*4096*8*24 
+a $4096 \times 4096$ matrix. The memory required at any given time, from cdist, would be 
+$4096 \times 4096 \times 8 \times 24$ 
 bytes, which is around 3GBs.
 
 \item Scenario 3: Let's assume that the data are partitioned in blocks of 4096 and each task calculates
- a 4096*131072 matrix. The memory required at any given time, from cdist, would be 4096*132072*8*24
+ a $4096 \times 131072$ matrix. The memory required at any given time, from cdist, would be 
+ $4096 \times 132072 \times 8 \times 24$
   bytes, which is around 96GBs.
 \end{itemize}
 
@@ -681,11 +683,24 @@ the following result, Figure \ref{fig:lfrp_sparkScipy_comet131k}
 
 \begin{figure}[H]
 \centering
-  \includegraphics[scale=0.7]{leaflet-finder/lfrp_sparkScipy_comet131k.pdf}
+  \includegraphics[scale=0.6]{leaflet-finder/lfrp_sparkScipy_comet131k.pdf}
   \caption{Comparing the execution time for leaflet finder 131K data points. The comparison is 
   between RP-Vanilla and RP-Spark implementations. Both use cdist for calculating the distances}
   \label{fig:lfrp_sparkScipy_comet131k}
 \end{figure}
 
+One extra experiment, that is undergoing, tries to compare the time that the RADICAL-Pilot
+implementation is doing against the implementation with Dask that Andre did. Figure \ref{fig:compDaskRpComet1node}
+shows that Dask does outperform RADICAL-Pilot. The question that rises is how many tasks does Dask
+generate for the specific data points and how are these tasks scheduled. Each Task calculates a submatrix
+of the final adjancency matrix. The submatrices size is $4096 \times 4096$ elements.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=0.6]{leaflet-finder/compDaskRpComet1node.pdf}
+  \caption{Comparing the execution time for calculating the distance matrices with Dask and RADICAL-Pilot. 
+  One Comet node was used.}
+  \label{fig:compDaskRpComet1node}
+\end{figure}
 
 \end{document}
