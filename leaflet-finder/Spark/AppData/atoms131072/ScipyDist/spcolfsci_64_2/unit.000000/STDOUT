@@ -1,0 +1,4 @@
+64
+Total time to create the Adjacency Matrix: 233.837047 sec
+Time to calculate the Connected Components: 48.067829 sec 
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
