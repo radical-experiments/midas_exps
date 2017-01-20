@@ -633,4 +633,59 @@ where $W$ is the number of worker nodes.
 
 \gpnote{TODO: Solve the system}
 
+\section{Leaflet Finder}
+\underline{\textbf{[Update 1/20/2017]}}
+
+Despite the above I was able to run the 131K example with 64,256 and 1024 cores in total. A comparison
+between the execution time of the previous implementation and the use of cdist is shown in Figure
+\ref{fig:scipyAdjM_comet131k}. As it can be seen, the cdist function from Scipy is quite faster, but
+8 times more expensive in terms of memory needs, since it uses double precision floating numbers.
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=.8]{leaflet-finder/leafletfinder_rp_scipyAdjM_comet131k.pdf}
+  \caption{Comparing the execution time for calculating the adjancency matrix for the 131K leaflet finder
+  data points. The comparison is between a numpy custom implementation and the cdist function provided by
+  Scipy}
+  \label{fig:scipyAdjM_comet131k}
+\end{figure}
+
+This is the explanation about cdist usage. cdist calculates and returns the pair-wise Euclidean 
+distance of two 2-D vectors. It is doing so by creating a $n^2$, where n the first dimension of 
+the vectors, double floating point matrix. Each double floating point number is 8 bytes long. 
+Thus, there is a need of $8*n^2$ bytes to store the result.
+
+When a command line: $a = (cdist(b,b)<c)$ is executed cdist returns a double floating point number 
+and the logical operation in the parenthesis returns boolean. The garbage collector then removes 
+the result that was returned from cdist. The Boolean matrix requires $n^2$ bytes to be stored. 
+
+I will use the leaflet finder distance calculation as an example. Let's assume that we want 
+to calculate the distances of 131072 atoms in one node on Comet, i.e. 24 cores and 128GB of RAM. 
+\begin{itemize}
+\item Scenario 1: Let's assume that we want to calculate the whole result concurrently in one node. 
+That means that the memory needs are equivalent to keeping a double floating point matrix of 
+131072*131072*8 bytes, which is 128GBs.  
+
+\item Scenario 2: Let's assume that the data are partitioned in blocks of 4096 and each task calculates 
+a 4096*4096 matrix. The memory required at any given time, from cdist, would be 4096*4096*8*24 
+bytes, which is around 3GBs.
+
+\item Scenario 3: Let's assume that the data are partitioned in blocks of 4096 and each task calculates
+ a 4096*131072 matrix. The memory required at any given time, from cdist, would be 4096*132072*8*24
+  bytes, which is around 96GBs.
+\end{itemize}
+
+Comparing the RADICAL-Pilot implementation with the Spark implementation, with the same data set gave
+the following result, Figure \ref{fig:lfrp_sparkScipy_comet131k}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[scale=0.7]{leaflet-finder/lfrp_sparkScipy_comet131k.pdf}
+  \caption{Comparing the execution time for leaflet finder 131K data points. The comparison is 
+  between RP-Vanilla and RP-Spark implementations. Both use cdist for calculating the distances}
+  \label{fig:lfrp_sparkScipy_comet131k}
+\end{figure}
+
+
 \end{document}
