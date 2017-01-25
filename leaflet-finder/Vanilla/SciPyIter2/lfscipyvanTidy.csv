@@ -1,0 +1,13 @@
+Framework,Scenario,Blocksize,Cores,Nodes,Resource,Type,Time
+RP,131072,8192,24,1,Comet,time_to_completion,137.769671917
+RP,131072,8192,24,1,Comet,time_to_completion,147.372238874
+RP,131072,8192,24,1,Comet,time_to_completion,87.7322528362
+RP,145746,8192,24,1,Comet,time_to_completion,224.040800095
+RP,145746,8192,24,1,Comet,time_to_completion,239.430453062
+RP,145746,8192,24,1,Comet,time_to_completion,256.191606998
+RP,291492,8192,24,1,Comet,time_to_completion,1097.36572886
+RP,291492,8192,24,1,Comet,time_to_completion,593.836668015
+RP,291492,8192,24,1,Comet,time_to_completion,1071.99048901
+RP,839500,8192,24,1,Comet,time_to_completion,5250.91585207
+RP,839500,8192,24,1,Comet,time_to_completion,4407.65893698
+RP,839500,8192,24,1,Comet,time_to_completion,5179.22657013
