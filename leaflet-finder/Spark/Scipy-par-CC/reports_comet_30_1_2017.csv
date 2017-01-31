@@ -1,16 +1,16 @@
 Framework, Scenario , Blocksize ,  TaskCount ,  Cores ,  Nodes ,  Resource  ,  Type ,   Time
-Rp-Spark , 131072   , 8192      ,  256       ,  24    ,   1    ,    Comet   ,  TTC  ,   96.18
-Rp-Spark , 131072   , 8192      ,  256       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 131072   , 8192      ,  256       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 145746   , 8192      ,  324       ,  24    ,   1    ,    Comet   ,  TTC  ,    118
-Rp-Spark , 145746   , 8192      ,  324       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 145746   , 8192      ,  324       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 291492   , 8192      ,  1296      ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 291492   , 8192      ,  1296      ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 291492   , 8192      ,  1296      ,  24    ,   1    ,    Comet   ,  TTC  ,    --
-Rp-Spark , 839500   , 8192      ,  --        ,  24    ,   1    ,    Comet   ,  TTC  ,    3261
-Rp-Spark , 839500   , 8192      ,  --        ,  24    ,   1    ,    Comet   ,  TTC  ,    3323
-Rp-Spark , 839500   , 8192      ,  10609     ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 131072   , 8192      ,  135       ,  24    ,   1    ,    Comet   ,  TTC  ,   96.18
+Rp-Spark , 131072   , 8192      ,  135       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 131072   , 8192      ,  135       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 145746   , 8192      ,  168       ,  24    ,   1    ,    Comet   ,  TTC  ,    118
+Rp-Spark , 145746   , 8192      ,  168       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 145746   , 8192      ,  168       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 291492   , 8192      ,  663       ,  24    ,   1    ,    Comet   ,  TTC  ,    418
+Rp-Spark , 291492   , 8192      ,  663       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 291492   , 8192      ,  663       ,  24    ,   1    ,    Comet   ,  TTC  ,    --
+Rp-Spark , 839500   , 8192      ,  5353      ,  24    ,   1    ,    Comet   ,  TTC  ,    3261
+Rp-Spark , 839500   , 8192      ,  5353      ,  24    ,   1    ,    Comet   ,  TTC  ,    3323
+Rp-Spark , 839500   , 8192      ,  5353      ,  24    ,   1    ,    Comet   ,  TTC  ,    3675
 
 
 
