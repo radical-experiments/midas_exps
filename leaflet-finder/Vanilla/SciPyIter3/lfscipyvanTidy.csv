@@ -1,0 +1,13 @@
+Framework;Scenario;Blocksize;TaskCount;Cores;Nodes;Edges;Resource;Type;Time
+RP;131072;8192;256;24;1;1661770;Comet;time_to_completion;18.805603981
+RP;131072;8192;256;24;1;1661770;Comet;time_to_completion;28.2895331383
+RP;131072;8192;256;24;1;1661770;Comet;time_to_completion;30.885299921
+RP;145746;8192;324;24;1;1856070;Comet;time_to_completion;41.8492720127
+RP;145746;8192;324;24;1;1856070;Comet;time_to_completion;36.7222139835
+RP;145746;8192;324;24;1;1856070;Comet;time_to_completion;19.3122880459
+RP;291492;8192;1296;24;1;3594802;Comet;time_to_completion;340.151520967
+RP;291492;8192;1296;24;1;3594802;Comet;time_to_completion;513.248481989
+RP;291492;8192;1296;24;1;3594802;Comet;time_to_completion;497.866262913
+RP;839500;8192;10609;24;1;;Comet;time_to_completion;
+RP;839500;8192;10609;24;1;;Comet;time_to_completion;
+RP;839500;8192;10609;24;1;;Comet;time_to_completion;
