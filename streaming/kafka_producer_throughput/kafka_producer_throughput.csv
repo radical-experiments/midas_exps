@@ -1,0 +1,3 @@
+Nodes,Number_of_points,Number_of_partitions,ttc,system
+2,   10000   ,   1   , 82.3737089634, stampede
+2,   10000   ,   1   , 82.5845079422, stampede
