@@ -1,0 +1,20 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentStagingOutputComponent.0.child:,,,sync abs,1487610943.09:1487610943.05:1487610943.07:ntp
+0.0480,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,initialize,
+2.0527,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,initialized,
+76.9463,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,AgentStagingOutputPending,get,queue.agent_staging_output_queue.output
+76.9471,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,AgentStagingOutputPending,work start,
+76.9471,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,AgentStagingOutput,advance,
+76.9473,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,AgentStagingOutput,publish,
+4.4170,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,,script,start_script
+4.4198,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,,script,after_cd
+76.8570,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,,script,after_exec
+76.9481,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,PendingOutputStaging,advance,
+76.9482,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,PendingOutputStaging,publish,
+76.9482,agent_0.AgentStagingOutputComponent.0.child:MainThread,unit.000000,AgentStagingOutputPending,work done ,
+84.9482,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,closing,
+84.9484,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,not_yet_finalized,
+84.9484,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,finalize,
+84.9485,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,finalized,
+84.9485,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,stopped,
+84.9485,agent_0.AgentStagingOutputComponent.0.child:MainThread,,,QED,

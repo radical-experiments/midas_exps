@@ -1,0 +1,8 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.Heartbeat.0:,,,sync abs,1487617940.14:1487617940.06:1487617940.1:ntp
+0.0758,agent_0.Heartbeat.0:MainThread,,,flush,
+44.5040,agent_0.Heartbeat.0:MainThread,,,closing,
+44.5044,agent_0.Heartbeat.0:MainThread,,,finalize,
+44.5044,agent_0.Heartbeat.0:MainThread,,,finalized,
+44.5098,agent_0.Heartbeat.0:MainThread,,,stopped,
+44.5098,agent_0.Heartbeat.0:MainThread,,,QED,
