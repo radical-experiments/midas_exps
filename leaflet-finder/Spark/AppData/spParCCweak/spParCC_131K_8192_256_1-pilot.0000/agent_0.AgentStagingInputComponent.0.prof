@@ -1,0 +1,8 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentStagingInputComponent.0:,,,sync abs,1487615164.44:1487615164.4:1487615164.4:ntp
+0.0474,agent_0.AgentStagingInputComponent.0:MainThread,,,flush,
+44.3823,agent_0.AgentStagingInputComponent.0:MainThread,,,closing,
+44.3827,agent_0.AgentStagingInputComponent.0:MainThread,,,finalize,
+44.3828,agent_0.AgentStagingInputComponent.0:MainThread,,,finalized,
+44.3881,agent_0.AgentStagingInputComponent.0:MainThread,,,stopped,
+44.3881,agent_0.AgentStagingInputComponent.0:MainThread,,,QED,

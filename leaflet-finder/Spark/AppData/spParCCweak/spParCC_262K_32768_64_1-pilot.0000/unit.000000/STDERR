@@ -1,0 +1,326 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/02/21 09:33:44 INFO SparkContext: Running Spark version 1.5.2
+17/02/21 09:33:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/02/21 09:33:44 INFO SecurityManager: Changing view acls to: iparask
+17/02/21 09:33:44 INFO SecurityManager: Changing modify acls to: iparask
+17/02/21 09:33:44 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(iparask); users with modify permissions: Set(iparask)
+17/02/21 09:33:45 INFO Slf4jLogger: Slf4jLogger started
+17/02/21 09:33:45 INFO Remoting: Starting remoting
+17/02/21 09:33:45 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@198.202.113.139:35588]
+17/02/21 09:33:45 INFO Utils: Successfully started service 'sparkDriver' on port 35588.
+17/02/21 09:33:45 INFO SparkEnv: Registering MapOutputTracker
+17/02/21 09:33:45 INFO SparkEnv: Registering BlockManagerMaster
+17/02/21 09:33:45 INFO DiskBlockManager: Created local directory at /scratch/iparask/7745888/blockmgr-2ee2cd6a-9d13-4611-a70e-4e0e0556f922
+17/02/21 09:33:45 INFO MemoryStore: MemoryStore started with capacity 31.0 GB
+17/02/21 09:33:45 INFO HttpFileServer: HTTP File server directory is /scratch/iparask/7745888/spark-29584061-3c4f-426a-921e-4e923dfbbe35/httpd-c03ea101-3d05-431c-8a6a-4431dcce8003
+17/02/21 09:33:45 INFO HttpServer: Starting HTTP Server
+17/02/21 09:33:45 INFO Utils: Successfully started service 'HTTP file server' on port 32793.
+17/02/21 09:33:45 INFO SparkEnv: Registering OutputCommitCoordinator
+17/02/21 09:33:45 INFO Utils: Successfully started service 'SparkUI' on port 4045.
+17/02/21 09:33:45 INFO SparkUI: Started SparkUI at http://198.202.113.139:4045
+17/02/21 09:33:45 INFO Utils: Copying /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py to /scratch/iparask/7745888/spark-29584061-3c4f-426a-921e-4e923dfbbe35/userFiles-fb22d994-6036-4b79-bd49-9a062253eaf8/leaflet-finder-parallel-cc.py
+17/02/21 09:33:45 INFO SparkContext: Added file file:/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py at http://198.202.113.139:32793/files/leaflet-finder-parallel-cc.py with timestamp 1487698425801
+17/02/21 09:33:45 WARN MetricsSystem: Using default name DAGScheduler for source because spark.app.id is not set.
+17/02/21 09:33:45 INFO AppClient$ClientEndpoint: Connecting to master spark://comet-29-01.sdsc.edu:7077...
+17/02/21 09:33:45 INFO SparkDeploySchedulerBackend: Connected to Spark cluster with app ID app-20170221093345-0000
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor added: app-20170221093345-0000/0 on worker-20170221093327-198.202.113.154-33856 (198.202.113.154:33856) with 24 cores
+17/02/21 09:33:46 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170221093345-0000/0 on hostPort 198.202.113.154:33856 with 24 cores, 60.0 GB RAM
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor added: app-20170221093345-0000/1 on worker-20170221093327-198.202.113.152-45144 (198.202.113.152:45144) with 24 cores
+17/02/21 09:33:46 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170221093345-0000/1 on hostPort 198.202.113.152:45144 with 24 cores, 60.0 GB RAM
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor added: app-20170221093345-0000/2 on worker-20170221093327-198.202.113.161-39547 (198.202.113.161:39547) with 24 cores
+17/02/21 09:33:46 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170221093345-0000/2 on hostPort 198.202.113.161:39547 with 24 cores, 60.0 GB RAM
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/0 is now RUNNING
+17/02/21 09:33:46 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45003.
+17/02/21 09:33:46 INFO NettyBlockTransferService: Server created on 45003
+17/02/21 09:33:46 INFO BlockManagerMaster: Trying to register BlockManager
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/1 is now RUNNING
+17/02/21 09:33:46 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.113.139:45003 with 31.0 GB RAM, BlockManagerId(driver, 198.202.113.139, 45003)
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/2 is now RUNNING
+17/02/21 09:33:46 INFO BlockManagerMaster: Registered BlockManager
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/1 is now LOADING
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/2 is now LOADING
+17/02/21 09:33:46 INFO AppClient$ClientEndpoint: Executor updated: app-20170221093345-0000/0 is now LOADING
+17/02/21 09:33:46 INFO EventLoggingListener: Logging events to file:/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/./app-20170221093345-0000
+17/02/21 09:33:46 INFO SparkDeploySchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+17/02/21 09:33:46 INFO SparkContext: Starting job: reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79
+17/02/21 09:33:46 INFO DAGScheduler: Got job 0 (reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79) with 64 output partitions
+17/02/21 09:33:46 INFO DAGScheduler: Final stage: ResultStage 0(reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79)
+17/02/21 09:33:46 INFO DAGScheduler: Parents of final stage: List()
+17/02/21 09:33:46 INFO DAGScheduler: Missing parents: List()
+17/02/21 09:33:46 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79), which has no missing parents
+17/02/21 09:33:46 INFO MemoryStore: ensureFreeSpace(5464) called with curMem=0, maxMem=33339683635
+17/02/21 09:33:46 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 5.3 KB, free 31.0 GB)
+17/02/21 09:33:46 INFO MemoryStore: ensureFreeSpace(3578) called with curMem=5464, maxMem=33339683635
+17/02/21 09:33:46 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.5 KB, free 31.0 GB)
+17/02/21 09:33:46 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.113.139:45003 (size: 3.5 KB, free: 31.0 GB)
+17/02/21 09:33:46 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:861
+17/02/21 09:33:46 INFO DAGScheduler: Submitting 64 missing tasks from ResultStage 0 (PythonRDD[1] at reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79)
+17/02/21 09:33:46 INFO TaskSchedulerImpl: Adding task set 0.0 with 64 tasks
+17/02/21 09:33:47 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.113.152:42487/user/Executor#-1342968885]) with ID 1
+17/02/21 09:33:47 WARN TaskSetManager: Stage 0 contains a task of very large size (770 KB). The maximum recommended task size is 100 KB.
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 198.202.113.152, PROCESS_LOCAL, 788776 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, 198.202.113.152, PROCESS_LOCAL, 788777 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, 198.202.113.152, PROCESS_LOCAL, 788777 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, 198.202.113.152, PROCESS_LOCAL, 788778 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 11.0 in stage 0.0 (TID 11, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 12.0 in stage 0.0 (TID 12, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 13.0 in stage 0.0 (TID 13, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 14.0 in stage 0.0 (TID 14, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 15.0 in stage 0.0 (TID 15, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 16.0 in stage 0.0 (TID 16, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 17.0 in stage 0.0 (TID 17, 198.202.113.152, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 18.0 in stage 0.0 (TID 18, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 19.0 in stage 0.0 (TID 19, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 20.0 in stage 0.0 (TID 20, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 21.0 in stage 0.0 (TID 21, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 22.0 in stage 0.0 (TID 22, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 23.0 in stage 0.0 (TID 23, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.113.154:38448/user/Executor#-2026087286]) with ID 0
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 24.0 in stage 0.0 (TID 24, 198.202.113.154, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 25.0 in stage 0.0 (TID 25, 198.202.113.154, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 26.0 in stage 0.0 (TID 26, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 27.0 in stage 0.0 (TID 27, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 28.0 in stage 0.0 (TID 28, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 29.0 in stage 0.0 (TID 29, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 30.0 in stage 0.0 (TID 30, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 31.0 in stage 0.0 (TID 31, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 32.0 in stage 0.0 (TID 32, 198.202.113.154, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 33.0 in stage 0.0 (TID 33, 198.202.113.154, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 34.0 in stage 0.0 (TID 34, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 35.0 in stage 0.0 (TID 35, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 36.0 in stage 0.0 (TID 36, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 37.0 in stage 0.0 (TID 37, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 38.0 in stage 0.0 (TID 38, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 39.0 in stage 0.0 (TID 39, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 40.0 in stage 0.0 (TID 40, 198.202.113.154, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.113.152:39182 with 31.0 GB RAM, BlockManagerId(1, 198.202.113.152, 39182)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 41.0 in stage 0.0 (TID 41, 198.202.113.154, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 42.0 in stage 0.0 (TID 42, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 43.0 in stage 0.0 (TID 43, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 44.0 in stage 0.0 (TID 44, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 45.0 in stage 0.0 (TID 45, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 46.0 in stage 0.0 (TID 46, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 47.0 in stage 0.0 (TID 47, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.113.161:39151/user/Executor#628999995]) with ID 2
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 48.0 in stage 0.0 (TID 48, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 49.0 in stage 0.0 (TID 49, 198.202.113.161, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 50.0 in stage 0.0 (TID 50, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 51.0 in stage 0.0 (TID 51, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 52.0 in stage 0.0 (TID 52, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 53.0 in stage 0.0 (TID 53, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 54.0 in stage 0.0 (TID 54, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 55.0 in stage 0.0 (TID 55, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 56.0 in stage 0.0 (TID 56, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 57.0 in stage 0.0 (TID 57, 198.202.113.161, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 58.0 in stage 0.0 (TID 58, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 59.0 in stage 0.0 (TID 59, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 60.0 in stage 0.0 (TID 60, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 61.0 in stage 0.0 (TID 61, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 62.0 in stage 0.0 (TID 62, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO TaskSetManager: Starting task 63.0 in stage 0.0 (TID 63, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:47 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.113.154:41007 with 31.0 GB RAM, BlockManagerId(0, 198.202.113.154, 41007)
+17/02/21 09:33:48 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.113.161:34829 with 31.0 GB RAM, BlockManagerId(2, 198.202.113.161, 34829)
+17/02/21 09:33:48 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.113.152:39182 (size: 3.5 KB, free: 31.0 GB)
+17/02/21 09:33:48 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.113.154:41007 (size: 3.5 KB, free: 31.0 GB)
+17/02/21 09:33:48 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.113.161:34829 (size: 3.5 KB, free: 31.0 GB)
+17/02/21 09:33:55 WARN TaskSetManager: Lost task 5.0 in stage 0.0 (TID 5, 198.202.113.152): org.apache.spark.SparkException: Python worker exited unexpectedly (crashed)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:203)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:207)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:125)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:70)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:300)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:264)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:139)
+	... 11 more
+
+17/02/21 09:33:55 INFO TaskSetManager: Starting task 5.1 in stage 0.0 (TID 64, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:55 INFO TaskSetManager: Lost task 33.0 in stage 0.0 (TID 33) on executor 198.202.113.154: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 1]
+17/02/21 09:33:55 INFO TaskSetManager: Starting task 33.1 in stage 0.0 (TID 65, 198.202.113.154, PROCESS_LOCAL, 788780 bytes)
+17/02/21 09:33:55 WARN TaskSetManager: Lost task 3.0 in stage 0.0 (TID 3, 198.202.113.152): java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:139)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:207)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:125)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:70)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:300)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:264)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+17/02/21 09:33:55 INFO TaskSetManager: Starting task 3.1 in stage 0.0 (TID 66, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:56 INFO TaskSetManager: Lost task 24.0 in stage 0.0 (TID 24) on executor 198.202.113.154: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 2]
+17/02/21 09:33:56 INFO TaskSetManager: Starting task 24.1 in stage 0.0 (TID 67, 198.202.113.154, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:56 INFO TaskSetManager: Lost task 2.0 in stage 0.0 (TID 2) on executor 198.202.113.152: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 3]
+17/02/21 09:33:56 INFO TaskSetManager: Starting task 2.1 in stage 0.0 (TID 68, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:56 INFO TaskSetManager: Lost task 36.0 in stage 0.0 (TID 36) on executor 198.202.113.154: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 4]
+17/02/21 09:33:56 INFO TaskSetManager: Starting task 36.1 in stage 0.0 (TID 69, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:56 WARN TaskSetManager: Lost task 2.1 in stage 0.0 (TID 68, 198.202.113.161): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:207)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:125)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:70)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:300)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:264)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+17/02/21 09:33:56 INFO TaskSetManager: Starting task 2.2 in stage 0.0 (TID 70, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 9.0 in stage 0.0 (TID 9) on executor 198.202.113.152: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 5]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 9.1 in stage 0.0 (TID 71, 198.202.113.161, PROCESS_LOCAL, 788778 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 36.1 in stage 0.0 (TID 69) on executor 198.202.113.161: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 1]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 36.2 in stage 0.0 (TID 72, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 2.2 in stage 0.0 (TID 70) on executor 198.202.113.161: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 2]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 2.3 in stage 0.0 (TID 73, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 37.0 in stage 0.0 (TID 37) on executor 198.202.113.154: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 6]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 37.1 in stage 0.0 (TID 74, 198.202.113.154, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 9.1 in stage 0.0 (TID 71) on executor 198.202.113.161: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 3]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 9.2 in stage 0.0 (TID 75, 198.202.113.161, PROCESS_LOCAL, 788778 bytes)
+17/02/21 09:33:57 INFO TaskSetManager: Lost task 4.0 in stage 0.0 (TID 4) on executor 198.202.113.152: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 7]
+17/02/21 09:33:57 INFO TaskSetManager: Starting task 4.1 in stage 0.0 (TID 76, 198.202.113.161, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 47.0 in stage 0.0 (TID 47) on executor 198.202.113.154: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 8]
+17/02/21 09:33:58 INFO TaskSetManager: Starting task 47.1 in stage 0.0 (TID 77, 198.202.113.161, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 20.0 in stage 0.0 (TID 20) on executor 198.202.113.152: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 9]
+17/02/21 09:33:58 INFO TaskSetManager: Starting task 20.1 in stage 0.0 (TID 78, 198.202.113.152, PROCESS_LOCAL, 788782 bytes)
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 56.0 in stage 0.0 (TID 56) on executor 198.202.113.161: org.apache.spark.SparkException (Python worker exited unexpectedly (crashed)) [duplicate 10]
+17/02/21 09:33:58 INFO TaskSetManager: Starting task 56.1 in stage 0.0 (TID 79, 198.202.113.152, PROCESS_LOCAL, 788779 bytes)
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 2.3 in stage 0.0 (TID 73) on executor 198.202.113.161: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 4]
+17/02/21 09:33:58 ERROR TaskSetManager: Task 2 in stage 0.0 failed 4 times; aborting job
+17/02/21 09:33:58 INFO TaskSchedulerImpl: Cancelling stage 0
+17/02/21 09:33:58 INFO TaskSchedulerImpl: Stage 0 was cancelled
+17/02/21 09:33:58 INFO DAGScheduler: ResultStage 0 (reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79) failed in 11.603 s
+17/02/21 09:33:58 INFO DAGScheduler: Job 0 failed: reduce at /home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:79, took 11.724252 s
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 5.1 in stage 0.0 (TID 64) on executor 198.202.113.152: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 5]
+17/02/21 09:33:58 INFO TaskSetManager: Lost task 3.1 in stage 0.0 (TID 66) on executor 198.202.113.152: org.apache.spark.api.python.PythonException (Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_32768_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+) [duplicate 6]
+17/02/21 09:33:58 INFO SparkContext: Invoking stop() from shutdown hook
+17/02/21 09:33:58 WARN TaskSetManager: Lost task 9.2 in stage 0.0 (TID 75, 198.202.113.161): TaskKilled (killed intentionally)
+17/02/21 09:33:58 INFO SparkUI: Stopped Spark web UI at http://198.202.113.139:4045
+17/02/21 09:33:58 INFO DAGScheduler: Stopping DAGScheduler
+17/02/21 09:33:58 INFO SparkDeploySchedulerBackend: Shutting down all executors
+17/02/21 09:33:58 INFO SparkDeploySchedulerBackend: Asking each executor to shut down
+17/02/21 09:33:58 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/02/21 09:33:58 INFO MemoryStore: MemoryStore cleared
+17/02/21 09:33:58 INFO BlockManager: BlockManager stopped
+17/02/21 09:33:58 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/02/21 09:33:58 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/02/21 09:33:58 INFO SparkContext: Successfully stopped SparkContext
+17/02/21 09:33:58 INFO ShutdownHookManager: Shutdown hook called
+17/02/21 09:33:58 INFO ShutdownHookManager: Deleting directory /scratch/iparask/7745888/spark-29584061-3c4f-426a-921e-4e923dfbbe35
+17/02/21 09:33:58 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.

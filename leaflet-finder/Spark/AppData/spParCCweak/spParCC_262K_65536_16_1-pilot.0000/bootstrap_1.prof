@@ -1,0 +1,11 @@
+#time,name,uid,state,event,msg
+0.0019,bootstrap_1,pilot.0000,ACTIVE,bootstrap start,
+0.0346,bootstrap_1,pilot.0000,ACTIVE,virtenv_setup start,
+1.8641,bootstrap_1,pilot.0000,ACTIVE,rp_install start,
+8.5518,bootstrap_1,pilot.0000,ACTIVE,rp_install done,
+8.5634,bootstrap_1,pilot.0000,ACTIVE,virtenv_setup end,
+9.7851,bootstrap_1,pilot.0000,ACTIVE,agent start,
+9.7884,bootstrap_1,pilot.0000,ACTIVE,sync rel,agent start
+72.2411,bootstrap_1,pilot.0000,ACTIVE,cleanup start,
+72.2463,bootstrap_1,pilot.0000,ACTIVE,cleanup done,
+72.2560,bootstrap_1,pilot.0000,ACTIVE,QED,

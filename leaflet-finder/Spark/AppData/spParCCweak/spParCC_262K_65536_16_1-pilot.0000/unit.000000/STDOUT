@@ -1,0 +1,101 @@
+16
+Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 79, in <module>
+    connected_components = dist_Matrix.flatMap(find_partial_connected_components).reduce(merge_spanning_trees)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 799, in reduce
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 773, in collect
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/py4j-0.8.2.1-src.zip/py4j/java_gateway.py", line 538, in __call__
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/py4j-0.8.2.1-src.zip/py4j/protocol.py", line 300, in get_return_value
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 4 in stage 0.0 failed 4 times, most recent failure: Lost task 4.3 in stage 0.0 (TID 24, 198.202.116.169): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:207)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:125)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:70)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:300)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:264)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1283)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1271)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1270)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1270)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:697)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:697)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:697)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1496)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1458)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1447)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:567)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1824)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1837)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1850)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1921)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:909)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:147)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:108)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:310)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:908)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:405)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:231)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:379)
+	at py4j.Gateway.invoke(Gateway.java:259)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:133)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:207)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 111, in main
+    process()
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/worker.py", line 106, in process
+    serializer.dump_stream(func(split_index, iterator), outfile)
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/spark-1.5.2/python/lib/pyspark.zip/pyspark/rdd.py", line 794, in func
+  File "/home/iparask/radical.pilot.sandbox/spParCC_262K_65536_16_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py", line 20, in find_partial_connected_components
+    distances = (cdist(window[0],window[1])<cutoff)  # check indexes
+  File "/home/iparask/radical.pilot.sandbox/ve_comet/lib/python2.7/site-packages/scipy/spatial/distance.py", line 2037, in cdist
+    dm = np.zeros((mA, mB), dtype=np.double)
+MemoryError
+
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.<init>(PythonRDD.scala:207)
+	at org.apache.spark.api.python.PythonRunner.compute(PythonRDD.scala:125)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:70)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:300)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:264)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	... 1 more
+

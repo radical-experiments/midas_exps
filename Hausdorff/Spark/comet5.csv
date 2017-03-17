@@ -32,6 +32,6 @@ Index,Atom,Length,Window,Tasks,Run,DataInit,Exec,Write,TotalTime,SessionName,Jso
 30,AA,Long,8,256,1,0,188731,4,188735,spcopr_haus_256_8_aa_long_1,app-20161208184011-0000
 31,AA,Long,8,256,2,0,191742,5,191747,spcopr_haus_256_8_aa_long_2,app-20161208193519-0000
 32,AA,Long,8,256,3,0,188932,3,188935,spcopr_haus_256_8_aa_long_3,app-20161208203745-0000
-33,AA,Long,4,1024,1,1,190291,5,190297,spcopr_haus_1024_4_aa_long_1,app-20161208204319-0000
-34,AA,Long,4,1024,2,0,189436,5,189441,spcopr_haus_1024_4_aa_long_2,app-20161208205613-0000
-35,AA,Long,4,1024,3,1,189916,4,189921,spcopr_haus_1024_4_aa_long_3,app-20161208211700-0000
+33,AA,Long,4,1024,1,1,52519,3,52523,spcopr_haus_1024_4_aa_long_1,app-20161209231257-0000
+34,AA,Long,4,1024,2,1,52551,3,52555,spcopr_haus_1024_4_aa_long_2,app-20161209232206-0000
+35,AA,Long,4,1024,3,1,52734,5,52740,spcopr_haus_1024_4_aa_long_3,app-20161209233140-0000

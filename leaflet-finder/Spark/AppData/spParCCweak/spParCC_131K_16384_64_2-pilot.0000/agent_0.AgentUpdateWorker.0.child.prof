@@ -1,0 +1,37 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentUpdateWorker.0.child:,,,sync abs,1487610943.15:1487610943.1:1487610943.12:ntp
+0.0480,agent_0.AgentUpdateWorker.0.child:MainThread,,,initialize,
+1.4439,agent_0.AgentUpdateWorker.0.child:MainThread,,,initialized,
+4.3346,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to AgentStagingInput
+4.3356,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (AgentStagingInput)
+4.3373,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to AllocatingPending
+4.3374,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (AllocatingPending)
+4.3392,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to Allocating
+4.3393,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (Allocating)
+4.3421,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to ExecutingPending
+4.3422,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (ExecutingPending)
+4.3450,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to Executing
+4.3450,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (Executing)
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,pilot.0000,,unit update bulk pushed (5),
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (AgentStagingInput)
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (AllocatingPending)
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (Allocating)
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (ExecutingPending)
+5.4300,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (Executing)
+76.8731,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to AgentStagingOutputPending
+76.8732,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (AgentStagingOutputPending)
+76.9510,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,pilot.0000,,unit update bulk pushed (1),
+76.9510,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,update,unit update pushed (AgentStagingOutputPending)
+76.9538,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to AgentStagingOutput
+76.9539,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (AgentStagingOutput)
+76.9565,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,get,update unit state to PendingOutputStaging
+76.9566,agent_0.AgentUpdateWorker.0.child:agent_0.AgentUpdateWorker.0.child.subscriber,unit.000000,,bulk,bulked (PendingOutputStaging)
+78.0482,agent_0.AgentUpdateWorker.0.child:MainThread,pilot.0000,,unit update bulk pushed (2),
+78.0482,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (AgentStagingOutput)
+78.0482,agent_0.AgentUpdateWorker.0.child:MainThread,unit.000000,,update,unit update pushed (PendingOutputStaging)
+84.9091,agent_0.AgentUpdateWorker.0.child:MainThread,,,closing,
+84.9657,agent_0.AgentUpdateWorker.0.child:MainThread,,,not_yet_finalized,
+84.9657,agent_0.AgentUpdateWorker.0.child:MainThread,,,finalize,
+84.9658,agent_0.AgentUpdateWorker.0.child:MainThread,,,finalized,
+84.9658,agent_0.AgentUpdateWorker.0.child:MainThread,,,stopped,
+84.9658,agent_0.AgentUpdateWorker.0.child:MainThread,,,QED,

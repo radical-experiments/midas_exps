@@ -1,0 +1,213 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/02/20 09:08:56 INFO SparkContext: Running Spark version 1.5.2
+17/02/20 09:08:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/02/20 09:08:56 INFO SecurityManager: Changing view acls to: iparask
+17/02/20 09:08:56 INFO SecurityManager: Changing modify acls to: iparask
+17/02/20 09:08:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(iparask); users with modify permissions: Set(iparask)
+17/02/20 09:08:56 INFO Slf4jLogger: Slf4jLogger started
+17/02/20 09:08:56 INFO Remoting: Starting remoting
+17/02/20 09:08:56 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@198.202.117.159:43250]
+17/02/20 09:08:56 INFO Utils: Successfully started service 'sparkDriver' on port 43250.
+17/02/20 09:08:56 INFO SparkEnv: Registering MapOutputTracker
+17/02/20 09:08:56 INFO SparkEnv: Registering BlockManagerMaster
+17/02/20 09:08:56 INFO DiskBlockManager: Created local directory at /scratch/iparask/7737804/blockmgr-45acbfb3-59be-4b3e-92f1-864fab979018
+17/02/20 09:08:56 INFO MemoryStore: MemoryStore started with capacity 31.0 GB
+17/02/20 09:08:56 INFO HttpFileServer: HTTP File server directory is /scratch/iparask/7737804/spark-d4c84ead-447a-4477-9c96-421b026e441c/httpd-48e9ecba-e90d-4be2-bde3-62d290021397
+17/02/20 09:08:56 INFO HttpServer: Starting HTTP Server
+17/02/20 09:08:56 INFO Utils: Successfully started service 'HTTP file server' on port 45284.
+17/02/20 09:08:56 INFO SparkEnv: Registering OutputCommitCoordinator
+17/02/20 09:08:57 INFO Utils: Successfully started service 'SparkUI' on port 4045.
+17/02/20 09:08:57 INFO SparkUI: Started SparkUI at http://198.202.117.159:4045
+17/02/20 09:08:57 INFO Utils: Copying /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py to /scratch/iparask/7737804/spark-d4c84ead-447a-4477-9c96-421b026e441c/userFiles-e99878fb-3cdc-4dfa-af3d-b921f6933ef4/leaflet-finder-parallel-cc.py
+17/02/20 09:08:57 INFO SparkContext: Added file file:/home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py at http://198.202.117.159:45284/files/leaflet-finder-parallel-cc.py with timestamp 1487610537103
+17/02/20 09:08:57 WARN MetricsSystem: Using default name DAGScheduler for source because spark.app.id is not set.
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Connecting to master spark://comet-14-27.sdsc.edu:7077...
+17/02/20 09:08:57 INFO SparkDeploySchedulerBackend: Connected to Spark cluster with app ID app-20170220090857-0000
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor added: app-20170220090857-0000/0 on worker-20170220090847-198.202.117.167-36103 (198.202.117.167:36103) with 24 cores
+17/02/20 09:08:57 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170220090857-0000/0 on hostPort 198.202.117.167:36103 with 24 cores, 60.0 GB RAM
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor added: app-20170220090857-0000/1 on worker-20170220090846-198.202.117.168-43895 (198.202.117.168:43895) with 24 cores
+17/02/20 09:08:57 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170220090857-0000/1 on hostPort 198.202.117.168:43895 with 24 cores, 60.0 GB RAM
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor added: app-20170220090857-0000/2 on worker-20170220090846-198.202.117.165-34825 (198.202.117.165:34825) with 24 cores
+17/02/20 09:08:57 INFO SparkDeploySchedulerBackend: Granted executor ID app-20170220090857-0000/2 on hostPort 198.202.117.165:34825 with 24 cores, 60.0 GB RAM
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/0 is now RUNNING
+17/02/20 09:08:57 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41996.
+17/02/20 09:08:57 INFO NettyBlockTransferService: Server created on 41996
+17/02/20 09:08:57 INFO BlockManagerMaster: Trying to register BlockManager
+17/02/20 09:08:57 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.117.159:41996 with 31.0 GB RAM, BlockManagerId(driver, 198.202.117.159, 41996)
+17/02/20 09:08:57 INFO BlockManagerMaster: Registered BlockManager
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/1 is now RUNNING
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/2 is now RUNNING
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/1 is now LOADING
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/2 is now LOADING
+17/02/20 09:08:57 INFO AppClient$ClientEndpoint: Executor updated: app-20170220090857-0000/0 is now LOADING
+17/02/20 09:08:57 INFO EventLoggingListener: Logging events to file:/home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/./app-20170220090857-0000
+17/02/20 09:08:57 INFO SparkDeploySchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+17/02/20 09:08:57 INFO SparkContext: Starting job: reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78
+17/02/20 09:08:57 INFO DAGScheduler: Got job 0 (reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78) with 64 output partitions
+17/02/20 09:08:57 INFO DAGScheduler: Final stage: ResultStage 0(reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78)
+17/02/20 09:08:57 INFO DAGScheduler: Parents of final stage: List()
+17/02/20 09:08:57 INFO DAGScheduler: Missing parents: List()
+17/02/20 09:08:57 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78), which has no missing parents
+17/02/20 09:08:57 INFO MemoryStore: ensureFreeSpace(5464) called with curMem=0, maxMem=33339683635
+17/02/20 09:08:57 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 5.3 KB, free 31.0 GB)
+17/02/20 09:08:57 INFO MemoryStore: ensureFreeSpace(3576) called with curMem=5464, maxMem=33339683635
+17/02/20 09:08:57 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.5 KB, free 31.0 GB)
+17/02/20 09:08:57 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.117.159:41996 (size: 3.5 KB, free: 31.0 GB)
+17/02/20 09:08:57 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:861
+17/02/20 09:08:57 INFO DAGScheduler: Submitting 64 missing tasks from ResultStage 0 (PythonRDD[1] at reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78)
+17/02/20 09:08:57 INFO TaskSchedulerImpl: Adding task set 0.0 with 64 tasks
+17/02/20 09:08:59 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.117.165:35909/user/Executor#960020480]) with ID 2
+17/02/20 09:08:59 WARN TaskSetManager: Stage 0 contains a task of very large size (386 KB). The maximum recommended task size is 100 KB.
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 198.202.117.165, PROCESS_LOCAL, 395560 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, 198.202.117.165, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, 198.202.117.165, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, 198.202.117.165, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, 198.202.117.165, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, 198.202.117.165, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, 198.202.117.165, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, 198.202.117.165, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, 198.202.117.165, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 11.0 in stage 0.0 (TID 11, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 12.0 in stage 0.0 (TID 12, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 13.0 in stage 0.0 (TID 13, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 14.0 in stage 0.0 (TID 14, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 15.0 in stage 0.0 (TID 15, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 16.0 in stage 0.0 (TID 16, 198.202.117.165, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 17.0 in stage 0.0 (TID 17, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 18.0 in stage 0.0 (TID 18, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 19.0 in stage 0.0 (TID 19, 198.202.117.165, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 20.0 in stage 0.0 (TID 20, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 21.0 in stage 0.0 (TID 21, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 22.0 in stage 0.0 (TID 22, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 23.0 in stage 0.0 (TID 23, 198.202.117.165, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.117.168:39201/user/Executor#-562533224]) with ID 1
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 24.0 in stage 0.0 (TID 24, 198.202.117.168, PROCESS_LOCAL, 395561 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 25.0 in stage 0.0 (TID 25, 198.202.117.168, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 26.0 in stage 0.0 (TID 26, 198.202.117.168, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 27.0 in stage 0.0 (TID 27, 198.202.117.168, PROCESS_LOCAL, 395562 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 28.0 in stage 0.0 (TID 28, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 29.0 in stage 0.0 (TID 29, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 30.0 in stage 0.0 (TID 30, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 31.0 in stage 0.0 (TID 31, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 32.0 in stage 0.0 (TID 32, 198.202.117.168, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 33.0 in stage 0.0 (TID 33, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 34.0 in stage 0.0 (TID 34, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 35.0 in stage 0.0 (TID 35, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 36.0 in stage 0.0 (TID 36, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 37.0 in stage 0.0 (TID 37, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 38.0 in stage 0.0 (TID 38, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 39.0 in stage 0.0 (TID 39, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 40.0 in stage 0.0 (TID 40, 198.202.117.168, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 41.0 in stage 0.0 (TID 41, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 42.0 in stage 0.0 (TID 42, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 43.0 in stage 0.0 (TID 43, 198.202.117.168, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 44.0 in stage 0.0 (TID 44, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 45.0 in stage 0.0 (TID 45, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 46.0 in stage 0.0 (TID 46, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 47.0 in stage 0.0 (TID 47, 198.202.117.168, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.117.165:40658 with 31.0 GB RAM, BlockManagerId(2, 198.202.117.165, 40658)
+17/02/20 09:08:59 INFO SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@198.202.117.167:43998/user/Executor#1874157299]) with ID 0
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 48.0 in stage 0.0 (TID 48, 198.202.117.167, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 49.0 in stage 0.0 (TID 49, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 50.0 in stage 0.0 (TID 50, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 51.0 in stage 0.0 (TID 51, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 52.0 in stage 0.0 (TID 52, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 53.0 in stage 0.0 (TID 53, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 54.0 in stage 0.0 (TID 54, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 55.0 in stage 0.0 (TID 55, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 56.0 in stage 0.0 (TID 56, 198.202.117.167, PROCESS_LOCAL, 395563 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 57.0 in stage 0.0 (TID 57, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 58.0 in stage 0.0 (TID 58, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 59.0 in stage 0.0 (TID 59, 198.202.117.167, PROCESS_LOCAL, 395564 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 60.0 in stage 0.0 (TID 60, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 61.0 in stage 0.0 (TID 61, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 62.0 in stage 0.0 (TID 62, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO TaskSetManager: Starting task 63.0 in stage 0.0 (TID 63, 198.202.117.167, PROCESS_LOCAL, 395566 bytes)
+17/02/20 09:08:59 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.117.168:45320 with 31.0 GB RAM, BlockManagerId(1, 198.202.117.168, 45320)
+17/02/20 09:08:59 INFO BlockManagerMasterEndpoint: Registering block manager 198.202.117.167:42659 with 31.0 GB RAM, BlockManagerId(0, 198.202.117.167, 42659)
+17/02/20 09:08:59 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.117.165:40658 (size: 3.5 KB, free: 31.0 GB)
+17/02/20 09:08:59 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.117.167:42659 (size: 3.5 KB, free: 31.0 GB)
+17/02/20 09:08:59 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 198.202.117.168:45320 (size: 3.5 KB, free: 31.0 GB)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 56.0 in stage 0.0 (TID 56) in 60551 ms on 198.202.117.167 (1/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 59.0 in stage 0.0 (TID 59) in 60583 ms on 198.202.117.167 (2/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 60.0 in stage 0.0 (TID 60) in 60588 ms on 198.202.117.167 (3/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 51.0 in stage 0.0 (TID 51) in 60600 ms on 198.202.117.167 (4/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 48.0 in stage 0.0 (TID 48) in 60616 ms on 198.202.117.167 (5/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 58.0 in stage 0.0 (TID 58) in 60629 ms on 198.202.117.167 (6/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 57.0 in stage 0.0 (TID 57) in 60634 ms on 198.202.117.167 (7/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 49.0 in stage 0.0 (TID 49) in 60653 ms on 198.202.117.167 (8/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 53.0 in stage 0.0 (TID 53) in 60689 ms on 198.202.117.167 (9/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 52.0 in stage 0.0 (TID 52) in 60696 ms on 198.202.117.167 (10/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 61.0 in stage 0.0 (TID 61) in 60695 ms on 198.202.117.167 (11/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 50.0 in stage 0.0 (TID 50) in 60719 ms on 198.202.117.167 (12/64)
+17/02/20 09:09:59 INFO TaskSetManager: Finished task 55.0 in stage 0.0 (TID 55) in 60724 ms on 198.202.117.167 (13/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 62.0 in stage 0.0 (TID 62) in 60870 ms on 198.202.117.167 (14/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 61042 ms on 198.202.117.165 (15/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 61049 ms on 198.202.117.165 (16/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 19.0 in stage 0.0 (TID 19) in 61065 ms on 198.202.117.165 (17/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 15.0 in stage 0.0 (TID 15) in 61090 ms on 198.202.117.165 (18/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 10.0 in stage 0.0 (TID 10) in 61105 ms on 198.202.117.165 (19/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 61163 ms on 198.202.117.165 (20/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 13.0 in stage 0.0 (TID 13) in 61153 ms on 198.202.117.165 (21/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 61207 ms on 198.202.117.165 (22/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 61257 ms on 198.202.117.165 (23/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 17.0 in stage 0.0 (TID 17) in 61246 ms on 198.202.117.165 (24/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 20.0 in stage 0.0 (TID 20) in 61293 ms on 198.202.117.165 (25/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 12.0 in stage 0.0 (TID 12) in 61334 ms on 198.202.117.165 (26/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 61355 ms on 198.202.117.165 (27/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 61353 ms on 198.202.117.165 (28/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 16.0 in stage 0.0 (TID 16) in 61355 ms on 198.202.117.165 (29/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 14.0 in stage 0.0 (TID 14) in 61367 ms on 198.202.117.165 (30/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 21.0 in stage 0.0 (TID 21) in 61539 ms on 198.202.117.165 (31/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 23.0 in stage 0.0 (TID 23) in 61546 ms on 198.202.117.165 (32/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 61589 ms on 198.202.117.165 (33/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 11.0 in stage 0.0 (TID 11) in 61617 ms on 198.202.117.165 (34/64)
+17/02/20 09:10:00 INFO TaskSetManager: Finished task 22.0 in stage 0.0 (TID 22) in 61732 ms on 198.202.117.165 (35/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 34.0 in stage 0.0 (TID 34) in 61987 ms on 198.202.117.168 (36/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 30.0 in stage 0.0 (TID 30) in 62052 ms on 198.202.117.168 (37/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 46.0 in stage 0.0 (TID 46) in 62041 ms on 198.202.117.168 (38/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 32.0 in stage 0.0 (TID 32) in 62060 ms on 198.202.117.168 (39/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 31.0 in stage 0.0 (TID 31) in 62074 ms on 198.202.117.168 (40/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 38.0 in stage 0.0 (TID 38) in 62077 ms on 198.202.117.168 (41/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 40.0 in stage 0.0 (TID 40) in 62086 ms on 198.202.117.168 (42/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 28.0 in stage 0.0 (TID 28) in 62112 ms on 198.202.117.168 (43/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 25.0 in stage 0.0 (TID 25) in 62141 ms on 198.202.117.168 (44/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 42.0 in stage 0.0 (TID 42) in 62129 ms on 198.202.117.168 (45/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 39.0 in stage 0.0 (TID 39) in 62166 ms on 198.202.117.168 (46/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 37.0 in stage 0.0 (TID 37) in 62331 ms on 198.202.117.168 (47/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 43.0 in stage 0.0 (TID 43) in 62332 ms on 198.202.117.168 (48/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 24.0 in stage 0.0 (TID 24) in 62427 ms on 198.202.117.168 (49/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 33.0 in stage 0.0 (TID 33) in 62421 ms on 198.202.117.168 (50/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 41.0 in stage 0.0 (TID 41) in 62419 ms on 198.202.117.168 (51/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 47.0 in stage 0.0 (TID 47) in 62435 ms on 198.202.117.168 (52/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 26.0 in stage 0.0 (TID 26) in 62476 ms on 198.202.117.168 (53/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 29.0 in stage 0.0 (TID 29) in 62478 ms on 198.202.117.168 (54/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 44.0 in stage 0.0 (TID 44) in 62522 ms on 198.202.117.168 (55/64)
+17/02/20 09:10:01 INFO TaskSetManager: Finished task 35.0 in stage 0.0 (TID 35) in 62626 ms on 198.202.117.168 (56/64)
+17/02/20 09:10:03 INFO TaskSetManager: Finished task 54.0 in stage 0.0 (TID 54) in 64274 ms on 198.202.117.167 (57/64)
+17/02/20 09:10:03 INFO TaskSetManager: Finished task 63.0 in stage 0.0 (TID 63) in 64462 ms on 198.202.117.167 (58/64)
+17/02/20 09:10:04 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 65336 ms on 198.202.117.165 (59/64)
+17/02/20 09:10:04 INFO TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 65628 ms on 198.202.117.165 (60/64)
+17/02/20 09:10:05 INFO TaskSetManager: Finished task 18.0 in stage 0.0 (TID 18) in 65968 ms on 198.202.117.165 (61/64)
+17/02/20 09:10:05 INFO TaskSetManager: Finished task 27.0 in stage 0.0 (TID 27) in 66638 ms on 198.202.117.168 (62/64)
+17/02/20 09:10:05 INFO TaskSetManager: Finished task 45.0 in stage 0.0 (TID 45) in 66700 ms on 198.202.117.168 (63/64)
+17/02/20 09:10:06 INFO TaskSetManager: Finished task 36.0 in stage 0.0 (TID 36) in 66870 ms on 198.202.117.168 (64/64)
+17/02/20 09:10:06 INFO DAGScheduler: ResultStage 0 (reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78) finished in 68.049 s
+17/02/20 09:10:06 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/02/20 09:10:06 INFO DAGScheduler: Job 0 finished: reduce at /home/iparask/radical.pilot.sandbox/spParCC_131K_16384_64_1-pilot.0000/unit.000000/leaflet-finder-parallel-cc.py:78, took 68.177957 s
+17/02/20 09:10:06 INFO SparkContext: Invoking stop() from shutdown hook
+17/02/20 09:10:06 INFO SparkUI: Stopped Spark web UI at http://198.202.117.159:4045
+17/02/20 09:10:06 INFO DAGScheduler: Stopping DAGScheduler
+17/02/20 09:10:06 INFO SparkDeploySchedulerBackend: Shutting down all executors
+17/02/20 09:10:06 INFO SparkDeploySchedulerBackend: Asking each executor to shut down
+17/02/20 09:10:06 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/02/20 09:10:06 INFO MemoryStore: MemoryStore cleared
+17/02/20 09:10:06 INFO BlockManager: BlockManager stopped
+17/02/20 09:10:06 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/02/20 09:10:06 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/02/20 09:10:06 INFO SparkContext: Successfully stopped SparkContext
+17/02/20 09:10:06 INFO ShutdownHookManager: Shutdown hook called
+17/02/20 09:10:06 INFO ShutdownHookManager: Deleting directory /scratch/iparask/7737804/spark-d4c84ead-447a-4477-9c96-421b026e441c/pyspark-f0d65a75-b995-4231-bfc7-9fd74cb1b3f1
+17/02/20 09:10:06 INFO ShutdownHookManager: Deleting directory /scratch/iparask/7737804/spark-d4c84ead-447a-4477-9c96-421b026e441c

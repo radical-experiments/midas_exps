@@ -1,0 +1,19 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentStagingInputComponent.0.child:,,,sync abs,1487620089.82:1487620089.76:1487620089.79:ntp
+0.0546,agent_0.AgentStagingInputComponent.0.child:MainThread,,,initialize,
+2.0597,agent_0.AgentStagingInputComponent.0.child:MainThread,,,initialized,
+4.4240,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AgentStagingInputPending,get,queue.agent_staging_input_queue.output
+4.4248,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AgentStagingInputPending,work start,
+4.4248,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AgentStagingInput,advance,
+4.4249,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AgentStagingInput,publish,
+4.4254,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,,unit mkdir,
+4.4254,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AllocatingPending,advance,
+4.4256,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AllocatingPending,publish,
+4.4259,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AllocatingPending,put,queue.agent_scheduling_queue.input
+4.4259,agent_0.AgentStagingInputComponent.0.child:MainThread,unit.000000,AgentStagingInputPending,work done ,
+34.7256,agent_0.AgentStagingInputComponent.0.child:MainThread,,,closing,
+34.7259,agent_0.AgentStagingInputComponent.0.child:MainThread,,,not_yet_finalized,
+34.7260,agent_0.AgentStagingInputComponent.0.child:MainThread,,,finalize,
+34.7261,agent_0.AgentStagingInputComponent.0.child:MainThread,,,finalized,
+34.7261,agent_0.AgentStagingInputComponent.0.child:MainThread,,,stopped,
+34.7261,agent_0.AgentStagingInputComponent.0.child:MainThread,,,QED,

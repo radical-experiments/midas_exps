@@ -1,0 +1,23 @@
+#time,name,uid,state,event,msg
+0.0000,spParCC_262K_16384_256_3:,,,sync abs,1487701074.32:1487701074.32:1487701074.32:sys
+0.0001,spParCC_262K_16384_256_3:MainThread,spParCC_262K_16384_256_3,,start session,
+0.4514,spParCC_262K_16384_256_3:MainThread,spParCC_262K_16384_256_3,,configs parsed,
+2.7054,spParCC_262K_16384_256_3:MainThread,umgr.0000,,create umgr,
+3.1893,spParCC_262K_16384_256_3:MainThread,unit.000000,New,advance,New
+3.3195,spParCC_262K_16384_256_3:MainThread,unit.000000,PendingInputStaging,advance,PendingInputStaging
+3.7859,spParCC_262K_16384_256_3:InputFileTransferWorker-1,unit.000000,StagingInput,advance,StagingInput
+6.1351,spParCC_262K_16384_256_3:Thread-3,unit.000000,StagingInput,notification,
+7.4985,spParCC_262K_16384_256_3:InputFileTransferWorker-1,unit.000000,AgentStagingInputPending,advance,AgentStagingInputPending
+9.1620,spParCC_262K_16384_256_3:Thread-3,unit.000000,AgentStagingInputPending,notification,
+554.7726,spParCC_262K_16384_256_3:Thread-3,unit.000000,Executing,notification,
+630.5093,spParCC_262K_16384_256_3:Thread-3,unit.000000,PendingOutputStaging,notification,
+630.8137,spParCC_262K_16384_256_3:OutputFileTransferWorker-1,unit.000000,StagingOutput,advance,StagingOutput
+630.8393,spParCC_262K_16384_256_3:OutputFileTransferWorker-1,unit.000000,Done,advance,Done
+633.5392,spParCC_262K_16384_256_3:Thread-3,unit.000000,Done,notification,
+633.8083,spParCC_262K_16384_256_3:MainThread,spParCC_262K_16384_256_3,,close,
+646.1467,spParCC_262K_16384_256_3:MainThread,umgr.0000,,closed umgr,
+646.1475,spParCC_262K_16384_256_3:MainThread,spParCC_262K_16384_256_3,,closed,
+646.1475,spParCC_262K_16384_256_3:MainThread,,,QED,
+#time,name,uid,state,event,msg
+0.0000,spParCC_262K_16384_256_3:,,,sync abs,1487704891.83:1487704891.83:1487704891.83:sys
+0.0001,spParCC_262K_16384_256_3:MainThread,spParCC_262K_16384_256_3,,start session,

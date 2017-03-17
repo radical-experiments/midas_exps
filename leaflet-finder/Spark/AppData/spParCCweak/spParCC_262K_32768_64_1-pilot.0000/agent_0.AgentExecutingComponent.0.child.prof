@@ -1,0 +1,27 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentExecutingComponent.0.child:,,,sync abs,1487698410.83:1487698410.78:1487698410.77:ntp
+0.0471,agent_0.AgentExecutingComponent.0.child:MainThread,,,initialize,
+3.0560,agent_0.AgentExecutingComponent.0.child:Watcher,pilot.0000,,run,
+3.0712,agent_0.AgentExecutingComponent.0.child:MainThread,,,initialized,
+4.5387,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,ExecutingPending,get,queue.agent_executing_queue.output
+4.5393,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,ExecutingPending,work start,
+4.5393,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,Executing,advance,
+4.5395,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,Executing,publish,
+4.5396,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,,exec,unit launch
+4.5396,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,,spawn,unit spawn
+4.5426,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,,command,launch script constructed
+4.5443,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,,command,stdout and stderr files created
+4.5568,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,,spawn,spawning passed to popen
+4.5570,agent_0.AgentExecutingComponent.0.child:MainThread,unit.000000,ExecutingPending,work done ,
+4.5591,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,,passed,ExecWatcher picked up unit
+28.2070,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,,exec,execution complete
+28.2077,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,,final,execution failed
+28.2077,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,AgentStagingOutputPending,advance,
+28.2078,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,AgentStagingOutputPending,publish,
+28.2082,agent_0.AgentExecutingComponent.0.child:Watcher,unit.000000,AgentStagingOutputPending,put,queue.agent_staging_output_queue.input
+43.2402,agent_0.AgentExecutingComponent.0.child:MainThread,,,closing,
+44.2353,agent_0.AgentExecutingComponent.0.child:MainThread,,,not_yet_finalized,
+44.2354,agent_0.AgentExecutingComponent.0.child:MainThread,,,finalize,
+44.2355,agent_0.AgentExecutingComponent.0.child:MainThread,,,finalized,
+44.2355,agent_0.AgentExecutingComponent.0.child:MainThread,,,stopped,
+44.2355,agent_0.AgentExecutingComponent.0.child:MainThread,,,QED,

@@ -1,0 +1,15 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentWorker.0.child:,,,sync abs,1487698409.24:1487698409.19:1487698409.19:ntp
+0.0472,agent_0.AgentWorker.0.child:MainThread,,,initialize,
+4.8749,agent_0.AgentWorker.0.child:MainThread,pilot.0000,,Agent setup done,
+5.8775,agent_0.AgentWorker.0.child:MainThread,,,initialized,
+6.1086,agent_0.AgentWorker.0.child:MainThread,pilot.0000,,get,bulk size: 1
+6.1086,agent_0.AgentWorker.0.child:MainThread,unit.000000,,get,bulk size: 1
+6.1109,agent_0.AgentWorker.0.child:MainThread,unit.000000,AgentStagingInputPending,put,queue.agent_staging_input_queue.input
+43.7767,agent_0.AgentWorker.0.child:MainThread,,,closing,
+44.7784,agent_0.AgentWorker.0.child:MainThread,,,not_yet_finalized,
+44.7784,agent_0.AgentWorker.0.child:MainThread,,,finalize,
+44.7785,agent_0.AgentWorker.0.child:MainThread,pilot.0000,,stop,
+45.9077,agent_0.AgentWorker.0.child:MainThread,,,finalized,
+45.9077,agent_0.AgentWorker.0.child:MainThread,,,stopped,
+45.9077,agent_0.AgentWorker.0.child:MainThread,,,QED,

@@ -1,0 +1,20 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.Heartbeat.0.child:,,,sync abs,1487610943.2:1487610943.15:1487610943.18:ntp
+0.0484,agent_0.Heartbeat.0.child:MainThread,,,initialize,
+1.4414,agent_0.Heartbeat.0.child:MainThread,,,initialized,
+1.4416,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+11.4774,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+21.5716,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+31.6656,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+41.7596,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+51.8532,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+61.9493,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+72.0430,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+82.1369,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,heartbeat,Listen! Listen! Listen to the heartbeat!
+82.2139,agent_0.Heartbeat.0.child:MainThread,pilot.0000,,ingest_cmd,mongodb to HeartbeatMonitor (Cancel_Pilot : None)
+84.9203,agent_0.Heartbeat.0.child:MainThread,,,closing,
+84.9205,agent_0.Heartbeat.0.child:MainThread,,,not_yet_finalized,
+84.9205,agent_0.Heartbeat.0.child:MainThread,,,finalize,
+84.9206,agent_0.Heartbeat.0.child:MainThread,,,finalized,
+84.9206,agent_0.Heartbeat.0.child:MainThread,,,stopped,
+84.9206,agent_0.Heartbeat.0.child:MainThread,,,QED,

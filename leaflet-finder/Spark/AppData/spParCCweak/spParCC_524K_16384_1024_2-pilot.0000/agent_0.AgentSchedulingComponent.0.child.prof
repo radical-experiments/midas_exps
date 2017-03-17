@@ -1,0 +1,25 @@
+#time,name,uid,state,event,msg
+0.0000,agent_0.AgentSchedulingComponent.0.child:,,,sync abs,1487719621.34:1487719621.28:1487719621.31:ntp
+0.0544,agent_0.AgentSchedulingComponent.0.child:MainThread,,,initialize,
+3.0638,agent_0.AgentSchedulingComponent.0.child:MainThread,,,initialized,
+4.4897,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,AllocatingPending,get,queue.agent_scheduling_queue.output
+4.4905,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,AllocatingPending,work start,
+4.4905,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,Allocating,advance,
+4.4906,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,Allocating,publish,
+4.4907,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,,schedule,try
+4.4950,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,,schedule,allocated
+4.4953,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,,schedule,allocation succeeded
+4.4953,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,ExecutingPending,advance,
+4.4957,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,ExecutingPending,publish,
+4.4960,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,ExecutingPending,put,queue.agent_executing_queue.input
+4.4960,agent_0.AgentSchedulingComponent.0.child:MainThread,unit.000000,AllocatingPending,work done ,
+90.9684,agent_0.AgentSchedulingComponent.0.child:agent_0.AgentSchedulingComponent.0.child.subscriber,unit.000000,,unschedule,
+90.9751,agent_0.AgentSchedulingComponent.0.child:agent_0.AgentSchedulingComponent.0.child.subscriber,unit.000000,,unschedule,released
+90.9871,agent_0.AgentSchedulingComponent.0.child:agent_0.AgentSchedulingComponent.0.child.subscriber,pilot.0000,,reschedule,
+90.9876,agent_0.AgentSchedulingComponent.0.child:agent_0.AgentSchedulingComponent.0.child.subscriber,,,reschedule done,
+103.5391,agent_0.AgentSchedulingComponent.0.child:MainThread,,,closing,
+104.0016,agent_0.AgentSchedulingComponent.0.child:MainThread,,,not_yet_finalized,
+104.0016,agent_0.AgentSchedulingComponent.0.child:MainThread,,,finalize,
+104.0017,agent_0.AgentSchedulingComponent.0.child:MainThread,,,finalized,
+104.0017,agent_0.AgentSchedulingComponent.0.child:MainThread,,,stopped,
+104.0017,agent_0.AgentSchedulingComponent.0.child:MainThread,,,QED,

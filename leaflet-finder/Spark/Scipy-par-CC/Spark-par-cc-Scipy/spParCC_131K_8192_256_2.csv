@@ -1,0 +1,13 @@
+Scheduling : -543.630927086
+StagingInput : -542.983946085
+AgentStagingInputPending : -542.983946085
+AgentStagingInput : 5.8456659317
+AllocatingPending : 5.8462638855
+Allocating : 5.84976792336
+ExecutingPending : 5.8517768383
+Executing : 5.85526585579
+AgentStagingOutputPending : 31.9118130207
+AgentStagingOutput : 31.9159488678
+PendingOutputStaging : 31.9169869423
+StagingOutput : 33.0604958534
+Done : 33.0877718925
