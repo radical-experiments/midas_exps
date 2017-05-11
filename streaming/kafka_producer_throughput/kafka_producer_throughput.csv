@@ -64,3 +64,10 @@ Nodes,Number_of_points,Number_of_partitions,ttc,system
 2,   10000   ,   6   , 11.3490178585, stampede
 2,   10000   ,   1   , 6.23248696327, stampede
 2,   10000   ,   1   , 6.20995306969, stampede
+2,   10000   ,   3   , 6.08165502548, stampede
+2,   100000   ,   3   , 6.17979598045, stampede
+2,   1000000   ,   3   , 6.41516304016, stampede
+2,   10000000   ,   3   , 9.68892097473, stampede
+2,   10000000   ,   1   , 9.84044885635, stampede
+2,   1000   ,   2   , 6.05827021599, stampede
+2,   1000   ,   3   , 12.1004588604, stampede
