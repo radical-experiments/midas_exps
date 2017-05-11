@@ -76,3 +76,7 @@ Nodes,Number_of_points,Number_of_partitions,ttc,system
 1,   1000   ,   1   , 5.99790287018, stampede
 1,   10000   ,   1   , 6.04464292526, stampede
 1,   10000   ,   1   , 6.72008800507, stampede
+1,   10000   ,   1   , 5.96751618385, stampede
+1,   100000   ,   1   , 6.32095694542, stampede
+1,   1000000   ,   1   , 6.1663210392, stampede
+1,   10000000   ,   1   , 7.9948079586, stampede
