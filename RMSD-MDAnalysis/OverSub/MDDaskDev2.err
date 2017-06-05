@@ -1,0 +1,13 @@
+/home1/03170/tg824689/miniconda2/envs/daskTut/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:9: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home1/03170/tg824689/miniconda2/envs/daskTut/lib/python2.7/site-packages/MDAnalysis/coordinates/XDR.py:126: UserWarning: Reload offsets from trajectory
+ ctime or size or n_atoms did not match
+  warnings.warn("Reload offsets from trajectory\n "
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c559-702.stampede.tacc.utexas.edu:8786'>
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c559-702.stampede.tacc.utexas.edu:8786'>
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/home1/03170/tg824689/miniconda2/envs/daskTut/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/home1/03170/tg824689/miniconda2/envs/daskTut/lib/python2.7/threading.py", line 754, in run
+  File "/home1/03170/tg824689/.local/lib/python2.7/site-packages/tornado/ioloop.py", line 903, in start
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute '_current'
