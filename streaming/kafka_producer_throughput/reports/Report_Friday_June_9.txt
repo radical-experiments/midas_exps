@@ -1,0 +1,143 @@
+Light Source Applications:
+——————————————
+
+Algorithms:
+
+IMAGING techniques use the light-source beam to obtain pictures with fine spatial resolution of the samples under study and are used in diverse research areas such as cell biology, lithography, infrared microscopy, radiology, and x-ray tomography (interesting)
+SCATTERING or diffraction techniques make use of the patterns of light produced when x-rays are deflected by the closely spaced lattice of atoms in solids and are commonly used to determine the structures of crystals and large molecules such as proteins.
+SPECTROSCOPY techniques are used to study the energies of particles that are emitted or absorbed by samples that are exposed to the light-source beam and are commonly used to determine the characteristics of chemical bonding and electron motion.
+
+
+
+
+
+Diffraction Pattern —> Recostruction —> Synthetic Phase-contrast Image
+
+
+-------
+Phd Thesis using image reconstruction:
+
+ftp://www.cs.toronto.edu/na/reports/Nargol.Rezvani.PhD.Thesis.pdf
+
+
+
+--------------
+
+Analytical Recostruction:
+filtered backprojection (FBP), which uses a 1D filter on the projection data before backprojecting (2D or 3D) the data onto the image space. The popularity of FBP-type of method is mainly because of its computational efficiency and numerical stability.
+
+
+
+Iterative Recostruction (IR) :
+"Iterative reconstruction refers to iterative algorithms used to reconstruct 2D and 3D images in certain imaging techniques.”
+
+Different from analytical reconstruction methods, IR reconstructs images by iteratively optimizing an objective function, which typically consists of a data fidelity term and an edge-preserving regularization term [6]. The optimization process in IR involves iterations of forward projection and backprojection between image space and projection space. With the advances in computing technology, IR has become a very popular choice in routine CT practice because it has many advantages compared with conventional FBP techniques. Important physical factors including focal spot and detector geometry, photon statistics, X-ray beam spectrum, and scattering can be more accurately incorporated into IR, yielding lower image noise and higher spatial resolution compared with FBP. In addition, IR can reduce image artifacts such as beam hardening, windmill, and metal artifacts.
+
+Reference:
+http://www.imagewisely.org/imaging-modalities/computed-tomography/medical-physicists/articles/image-reconstruction-techniques
+
+-----------------------------
+From Wikipedia:
+"Here, iterative reconstruction techniques are usually a better, but computationally more expensive alternative to the common filtered back projection (FBP) method, which directly calculates the image in a single reconstruction step.[1] In recent research works, scientists have shown that extremely fast computations and massive parallelism is possible for iterative reconstruction, which makes iterative reconstruction practical for commercialization.”
+
+
+Reference:
+https://en.wikipedia.org/wiki/Iterative_reconstruction
+
+
+——
+TomPy:
+TomoPy is an open-source Python package for tomographic data processing and image reconstruction.
+
+Reference:
+http://tomopy.readthedocs.io/en/latest/
+
+
+They created gridRec application:
+
+
+Dowd BA, Campbell GH, Marr RB, Nagarkar VV, Tipnis SV, Axe L, and Siddons DP. Developments in synchrotron x-ray computed microtomography at the national synchrotron light source. In Proc. SPIE, volume 3772, 224–236. 1999.
+
+
+https://www.osapublishing.org/DirectPDFAccess/735AF094-0E31-DEFC-8E4FFB3D3F97780B_97926/oe-14-18-8103.pdf?da=1&id=97926&seq=0&mobile=no
+——
+
+
+
+
+
+
+
+
+
+
+
+
+Related Work about Streaming Systems:
+
+
+Data Streaming Systems: 
+Kinesis, Event Hub,  Kafka, Beam
+
+Streaming Processing Engines: Storm, Heron, Flink, Spark, Samza, Millwhell
+
+
+
+
+
+Notes (WIP):
+
+
+Kafka:
+KafkaThe throughput of a single topic-partition is limited by the computing resources of a single broker node – the bottleneck is usually either its NIC bandwidth or the sequential write throughput of the broker’s disks. Higher throughput can be achieved by creating more partitions and assigning them to different broker nodes. As there is no coordination between partitions, Kafka scales linearly.
+On the consumer side, the work of consuming a topic can be shared between a group of consumer clients (illustrated in Figure 1). One consumer client can read several topic-partitions, but any one topic-partition must be read sequentially by a consumer process – it is not possible to consume only a subset of messages in a partition. Thus, the maximum number of processes in a consumer group equals the number of partitions of the topic being consumed.
+Kafka has a higher throughput than Amazon Kinesis.
+Since Kafka doesn’t cache messages in process at all, it has very little overhead in garbage collecting its memory, making efficient implementation in a VM-based language feasible.
+
+Every time a producer publishes a message to a partition, the broker simply appends the message to the last segment file. For better performance, we flush the segment files to disk only after a configurable number of messages have been published or a certain amount of time has elapsed. A message is only exposed to the consumers after it is flushed. 
+
+
+Apache Samza
+
+Kafka and Samza are two separate projects with a symbiotic relationship. Kafka provides a message broker service, and Samza provides a framework for processing messages
+A Samza job uses the Kafka client library to consume input streams from the Kafka message broker, and to produce output streams back to Kafka. Although either system can be used without the other, they work best together.
+
+
+Amazon Kinesis:
+
+Kinesis works with Storm, heron
+You can implement sliding window
+
+
+
+
+Reference:
+
+http://d0.awsstatic.com/whitepapers/using-amazon-kinesis-and-apache-storm-to-build-sliding-window-analysis-of-clickstream-data.pdf
+
+
+Storm ( Twitter) has:
+
+Scalability issues (because of 3rd bullet)
+Debugging is Tough (topology is bundled to the operating systems which makes debugging tough)
+Requires dedicated cluster resources (requires specialized hardware allocation)
+Pulls data from Kafka too
+Storm has Spouts and Bolts. Spout are sources of  incoming data and Bolt is an abstraction  to represent computation on the stream 
+Spoutss and Bolts are grouped into tasks, and these tasks are grouped into executor, and multiple executors into a worker. Each worker runs as a JVM process
+It is rough to reason the behavior and performance of a Task ( each task has different size) 
+In case of an error, they restart the topology. Task are randomly grouped and as a result it is tough to track down the root cause of the problem. 
+Logs from multiple task are written to a single file (hard to identify the problem)
+Unhanded exception of a task takes down the whole worker process
+For resource allocation storm issumes that every worker is homogenous (inefficient utilization of allocated resources)
+Lack of backPressure ( if the receiver is unable to handle incoming data/tuples, then the sender simply drops tuples. If acknowledging is disabled, it’s hard to get visibility about the drops
+Long garbage collection cycles kills latency 
+
+
+
+Twitter Heron:  (debug-ability, scalability, manageability)
+
+Better debug ability (More clear mapping from the logical units of the computation to each physical process. )
+More efficient than Storm
+A Heron topology is equivalent to a logical query plan in a database system. Such a logical plan is translated into a physical plan before actual execution
+Topology : programmer specifies number of tasks for reach spout and bolt (the degree of parallelism)
+Back pressure : adjust the rate at which data flows through the topology. Thet has been done using tcp windowing mechanism
