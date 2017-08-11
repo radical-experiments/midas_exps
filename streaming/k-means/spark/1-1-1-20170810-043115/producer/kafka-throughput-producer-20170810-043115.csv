@@ -1,0 +1,6 @@
+Number_Clusters,Number_Points_per_Cluster,Number_Dim,Number_Points_per_Message,Interval,Number_Partitions, Time
+Produce_batch,Num_Messages,Number_APoints/Msg,KB_Transfered,KB/sec
+100,100,3,8000,0,48,0.44568
+100,1000,3,8000,0,48,1.13237
+100,10000,3,8000,0,48,11.94684
+100,100000,3,8000,0,48,124.05785
