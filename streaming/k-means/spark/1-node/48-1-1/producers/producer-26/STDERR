@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "data_producer.py", line 67, in <module>
+    points_np=np.concatenate(points)
+MemoryError
