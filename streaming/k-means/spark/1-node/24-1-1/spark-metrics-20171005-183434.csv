@@ -1,0 +1,5 @@
+BatchTime, SubmissionTime, SchedulingDelay, TotalDelay, NumberRecords, Scenario
+1507246500000 ms, 2017-10-05T18:35:01, 5, 2136, 0,1_Producer_Count
+1507246560000 ms, 2017-10-05T18:37:25, 1, 1398540, 25321,1_Producer_Count
+1507246620000 ms, 2017-10-05T18:40:26, 1217964, 2060994, 43496,1_Producer_Count
+1507246680000 ms, 2017-10-05T18:49:47, 1499939, 2794195, 110338,1_Producer_Count
