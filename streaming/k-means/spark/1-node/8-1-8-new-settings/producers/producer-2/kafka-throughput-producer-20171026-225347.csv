@@ -1,0 +1,6 @@
+Number_Clusters,Number_Points_per_Cluster,Number_Dim,Number_Points_per_Message,Interval,Number_Partitions, Time
+100,100,3,5000,120,384,0.08289
+100,1000,3,5000,120,384,0.75370
+100,10000,3,5000,120,384,6.00126
+100,100000,3,5000,120,384,57.41617
+100,1000000,3,5000,120,384,598.73667
