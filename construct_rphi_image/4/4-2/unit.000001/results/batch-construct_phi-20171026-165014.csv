@@ -1,0 +1,10 @@
+Image_Dimensions,Image_size(MB),TTC
+400,1,0.482892,wrangler
+600,2,1.110844,wrangler
+800,4,2.073387,wrangler
+1050,8,3.632756,wrangler
+1450,16,7.078973,wrangler
+2050,32,16.749140,wrangler
+2900,64,33.713226,wrangler
+4100,128,66.596829,wrangler
+5800,256,133.204557,wrangler

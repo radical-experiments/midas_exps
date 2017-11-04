@@ -1,0 +1,2 @@
+construct_rphi_image.py:49: RuntimeWarning: invalid value encountered in divide
+  reconstructed_image /= reconstructed_image_mask
