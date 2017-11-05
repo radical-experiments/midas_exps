@@ -1,0 +1,42 @@
+Points Array Shape: (100000, 3), Number Batches: 12.0
+Produce Batch: 0 - 8000, Num Messages: 0, Number Points per Message: 8000, KBytes Transfered: 0.0, KBytes/sec: 0.0
+Produce Batch: 8000 - 16000, Num Messages: 1, Number Points per Message: 8000, KBytes Transfered: 503.0, KBytes/sec: 4606.4785095
+Produce Batch: 16000 - 24000, Num Messages: 2, Number Points per Message: 8000, KBytes Transfered: 1001.0, KBytes/sec: 6503.67326251
+Produce Batch: 24000 - 32000, Num Messages: 3, Number Points per Message: 8000, KBytes Transfered: 1497.0, KBytes/sec: 6124.92911951
+Produce Batch: 32000 - 40000, Num Messages: 4, Number Points per Message: 8000, KBytes Transfered: 1996.0, KBytes/sec: 6600.7868625
+Produce Batch: 40000 - 48000, Num Messages: 5, Number Points per Message: 8000, KBytes Transfered: 2497.0, KBytes/sec: 6926.2967246
+Produce Batch: 48000 - 56000, Num Messages: 6, Number Points per Message: 8000, KBytes Transfered: 2998.0, KBytes/sec: 7021.61756951
+Produce Batch: 56000 - 64000, Num Messages: 7, Number Points per Message: 8000, KBytes Transfered: 3488.0, KBytes/sec: 7184.99734892
+Produce Batch: 64000 - 72000, Num Messages: 8, Number Points per Message: 8000, KBytes Transfered: 3981.0, KBytes/sec: 7319.56213936
+Produce Batch: 72000 - 80000, Num Messages: 9, Number Points per Message: 8000, KBytes Transfered: 4482.0, KBytes/sec: 7434.50049929
+Produce Batch: 80000 - 88000, Num Messages: 10, Number Points per Message: 8000, KBytes Transfered: 4980.0, KBytes/sec: 7818.5713489
+Produce Batch: 88000 - 96000, Num Messages: 11, Number Points per Message: 8000, KBytes Transfered: 5475.0, KBytes/sec: 8168.34757518
+Number: 0, Time to produce 100000 points: 0.7
+Points Array Shape: (100000, 3), Number Batches: 12.0
+Produce Batch: 0 - 8000, Num Messages: 12, Number Points per Message: 8000, KBytes Transfered: 5967.0, KBytes/sec: 8193.18535668
+Produce Batch: 8000 - 16000, Num Messages: 13, Number Points per Message: 8000, KBytes Transfered: 6464.0, KBytes/sec: 7891.85802447
+Produce Batch: 16000 - 24000, Num Messages: 14, Number Points per Message: 8000, KBytes Transfered: 6965.0, KBytes/sec: 8174.52579579
+Produce Batch: 24000 - 32000, Num Messages: 15, Number Points per Message: 8000, KBytes Transfered: 7464.0, KBytes/sec: 8354.28201916
+Produce Batch: 32000 - 40000, Num Messages: 16, Number Points per Message: 8000, KBytes Transfered: 7957.0, KBytes/sec: 8367.52776103
+Produce Batch: 40000 - 48000, Num Messages: 17, Number Points per Message: 8000, KBytes Transfered: 8454.0, KBytes/sec: 8525.13315704
+Produce Batch: 48000 - 56000, Num Messages: 18, Number Points per Message: 8000, KBytes Transfered: 8951.0, KBytes/sec: 8602.98189106
+Produce Batch: 56000 - 64000, Num Messages: 19, Number Points per Message: 8000, KBytes Transfered: 9440.0, KBytes/sec: 8721.89142835
+Produce Batch: 64000 - 72000, Num Messages: 20, Number Points per Message: 8000, KBytes Transfered: 9938.0, KBytes/sec: 8724.72134952
+Produce Batch: 72000 - 80000, Num Messages: 21, Number Points per Message: 8000, KBytes Transfered: 10431.0, KBytes/sec: 8806.31310219
+Produce Batch: 80000 - 88000, Num Messages: 22, Number Points per Message: 8000, KBytes Transfered: 10916.0, KBytes/sec: 8792.95673929
+Produce Batch: 88000 - 96000, Num Messages: 23, Number Points per Message: 8000, KBytes Transfered: 11407.0, KBytes/sec: 8573.62298078
+Number: 1, Time to produce 100000 points: 0.7
+Points Array Shape: (100000, 3), Number Batches: 12.0
+Produce Batch: 0 - 8000, Num Messages: 24, Number Points per Message: 8000, KBytes Transfered: 11901.0, KBytes/sec: 8280.00434333
+Produce Batch: 8000 - 16000, Num Messages: 25, Number Points per Message: 8000, KBytes Transfered: 12401.0, KBytes/sec: 8443.77408145
+Produce Batch: 16000 - 24000, Num Messages: 26, Number Points per Message: 8000, KBytes Transfered: 12894.0, KBytes/sec: 8587.21140572
+Produce Batch: 24000 - 32000, Num Messages: 27, Number Points per Message: 8000, KBytes Transfered: 13388.0, KBytes/sec: 8682.08423672
+Produce Batch: 32000 - 40000, Num Messages: 28, Number Points per Message: 8000, KBytes Transfered: 13883.0, KBytes/sec: 8804.17681436
+Produce Batch: 40000 - 48000, Num Messages: 29, Number Points per Message: 8000, KBytes Transfered: 14378.0, KBytes/sec: 8879.58912623
+Produce Batch: 48000 - 56000, Num Messages: 30, Number Points per Message: 8000, KBytes Transfered: 14875.0, KBytes/sec: 8649.7640007
+Produce Batch: 56000 - 64000, Num Messages: 31, Number Points per Message: 8000, KBytes Transfered: 15377.0, KBytes/sec: 8648.22342668
+Produce Batch: 64000 - 72000, Num Messages: 32, Number Points per Message: 8000, KBytes Transfered: 15872.0, KBytes/sec: 8645.03974859
+Produce Batch: 72000 - 80000, Num Messages: 33, Number Points per Message: 8000, KBytes Transfered: 16370.0, KBytes/sec: 8643.18327476
+Produce Batch: 80000 - 88000, Num Messages: 34, Number Points per Message: 8000, KBytes Transfered: 16873.0, KBytes/sec: 8643.72836237
+Produce Batch: 88000 - 96000, Num Messages: 35, Number Points per Message: 8000, KBytes Transfered: 17373.0, KBytes/sec: 8506.9522262
+Number: 2, Time to produce 100000 points: 0.7
