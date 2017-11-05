@@ -1,3 +1,4 @@
+Operation,Number_points,Dimensions,Number_Centroids,Total_Number_Consumers,Execution_time
 kmeans-kafka,   8000, 3, 10, 1, 0.03151
 kmeans-parsing, 8000, 3, 10, 1, 0.11746
 kmeans-model-get,   8000, 3, 10, 1, 0.00256
