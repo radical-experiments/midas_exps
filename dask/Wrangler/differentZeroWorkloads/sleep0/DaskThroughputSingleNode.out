@@ -1,0 +1,8 @@
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c251-102.wrangler.tacc.utexas.edu:8786'>
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c251-102.wrangler.tacc.utexas.edu:8786'>
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/data/03170/tg824689/miniconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/data/03170/tg824689/miniconda2/lib/python2.7/threading.py", line 754, in run
+  File "/data/03170/tg824689/miniconda2/lib/python2.7/site-packages/tornado/ioloop.py", line 904, in start
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute '_current'

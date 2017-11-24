@@ -1,0 +1,3 @@
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c251-101.wrangler.tacc.utexas.edu:8786'>
+distributed.comm.tcp - WARNING - Closing dangling stream in <TCP 'tcp://c251-101.wrangler.tacc.utexas.edu:8786'>
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
