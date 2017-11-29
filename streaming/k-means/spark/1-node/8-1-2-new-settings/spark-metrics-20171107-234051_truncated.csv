@@ -1,0 +1,12 @@
+BatchTime, SubmissionTime, SchedulingDelay, TotalDelay, NumberRecords, Scenario
+1510119780000 ms,2017-11-07T23:43:21,0,76484,12855,1_node_with_8_Producers_2_spark_nodes
+1510119840000 ms,2017-11-07T23:44:48,0,100914,13111,1_node_with_8_Producers_2_spark_nodes
+1510119900000 ms,2017-11-07T23:46:01,28737,142067,15013,1_node_with_8_Producers_2_spark_nodes
+1510119960000 ms,2017-11-07T23:46:46,96346,207897,15151,1_node_with_8_Producers_2_spark_nodes
+1510120020000 ms,2017-11-07T23:47:46,147642,238602,14820,1_node_with_8_Producers_2_spark_nodes
+1510120080000 ms,2017-11-07T23:48:49,176469,299428,15188,1_node_with_8_Producers_2_spark_nodes
+1510120140000 ms,2017-11-07T23:49:42,245672,337194,15307,1_node_with_8_Producers_2_spark_nodes
+1510120200000 ms,2017-11-07T23:50:40,279186,363177,15261,1_node_with_8_Producers_2_spark_nodes
+1510120260000 ms,2017-11-07T23:52:09,274343,349130,14253,1_node_with_8_Producers_2_spark_nodes
+1510120320000 ms,2017-11-07T23:53:15,283588,371104,16859,1_node_with_8_Producers_2_spark_nodes
+1510120380000 ms,2017-11-07T23:54:11,314546,395661,15564,1_node_with_8_Producers_2_spark_nodes
