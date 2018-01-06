@@ -1,0 +1,49 @@
+Action,framework,nodes,time
+startup,spark,1,22.8
+startup,spark,1,24.9
+startup,spark,1,21.9
+startup,spark,2,20.9
+startup,spark,2,21.9
+startup,spark,2,26.9
+startup,spark,4,21.8
+startup,spark,4,22.9
+startup,spark,4,21.8
+startup,spark,8,23
+startup,spark,8,21.8
+startup,spark,8,22.8
+startup,spark,16,22.9
+startup,spark,16,21.9
+startup,spark,16,33.8
+startup,spark,16,29.9
+startup,spark,16,32.8
+startup,kafka,1,21.3 
+startup,kafka,1,21.1
+startup,kafka,1, 21.3
+startup,kafka,2,24.4 
+startup,kafka,2, 24.5
+startup,kafka,2, 24.5
+startup,kafka,4, 27.6
+startup,kafka,4, 27.5
+startup,kafka,4, 27.6
+startup,kafka,8, 30.7
+startup,kafka,8, 30.7
+startup,kafka,8, 33.7
+startup,kafka,16, 46.3
+startup,kafka,16, 46.4
+startup,kafka,16, 55.7
+startup,kafka,16, 49.5
+startup,dask,1,4.8
+startup,dask,1,4.67
+startup,dask,1,7.2
+startup,dask,2,4.79
+startup,dask,2,4.8
+startup,dask,2,4.89
+startup,dask,4,4.79
+startup,dask,4,4.75
+startup,dask,4,4.82
+startup,dask,8,5.08
+startup,dask,8,5.05
+startup,dask,8,5.02
+startup,dask,16,4.67
+startup,dask,16,4.84
+startup,dask,16,4.89
