@@ -1,4 +1,4 @@
-Partitions,Message_size_in_Points,DimensionsTotal_Messages,Throughput_Rate,Producers
+Partitions,Message_size_in_Points,Dimensions,Total_Messages,Throughput_Rate,Producers
 12, 5000, 3, 2, 12.474119, 2
 12, 5000, 3, 2, 25.531356, 2
 12, 5000, 3, 2, 20.405075, 2
