@@ -32,18 +32,22 @@ startup,kafka,16, 46.3
 startup,kafka,16, 46.4
 startup,kafka,16, 55.7
 startup,kafka,16, 49.5
-startup,dask,1,4.8
-startup,dask,1,4.67
-startup,dask,1,7.2
-startup,dask,2,4.79
-startup,dask,2,4.8
-startup,dask,2,4.89
-startup,dask,4,4.79
-startup,dask,4,4.75
-startup,dask,4,4.82
-startup,dask,8,5.08
-startup,dask,8,5.05
-startup,dask,8,5.02
-startup,dask,16,4.67
-startup,dask,16,4.84
-startup,dask,16,4.89
+startup,dask,1,13.8
+startup,dask,1,13.8
+startup,dask,1,15.2
+startup,dask,2,30
+startup,dask,2,39.2
+startup,dask,2,20.7
+startup,dask,4,34.2
+startup,dask,4,16.9
+startup,dask,4,17.8
+startup,dask,8,33.9
+startup,dask,8,26.2
+startup,dask,8,39.5
+startup,dask,8,14.4
+startup,dask,16,29.7
+startup,dask,16,35.7
+startup,dask,16,23.8,
+
+
+
