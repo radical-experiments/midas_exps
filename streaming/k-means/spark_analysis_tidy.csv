@@ -1,3 +1,15 @@
-Duration_ms,Scheduler_Delay,Task Deserialization_Time,GC Time,Result_Serialization_Time,Getting_Result_Time,Peak_Execution_Memory(B),Shuffle Write Size/Records,Shuffle_Read Blocked_Time,Shuffle_Read Blocked_Time,Shuffle_Read Blocked_Time,Metric,Stage,Consumers
+Duration_ms,Scheduler_Delay,Task_Deserialization_Time,GC_Time,Result_Serialization_Time,Getting_Result_Time,Peak_Execution_Memory(B),Shuffle Write Size/Records,Shuffle_Read Blocked_Time,Shuffle_Read Blocked_Time,Shuffle_Read Blocked_Time,Metric,Stage,Consumers
 30000,1,13,200,0,0,0.0,3.3 KB / 10,0,0,0,Median,Preprocess_Nearest_Point,8
 6,28,0,0,0,0,0.0,0,0,0,0,Median,Update,8
+56000,5,10,300,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,1
+4,6,12,0,0,0,0,0,0,0,0,Median,Update,1
+46000,6,8,200,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,2
+3,8,23,0,0,0,0,0,0,0,0,Median,Update,2
+39000,10,10,200,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,4
+4,13,12,0,0,0,0,0,0,0,0,Median,Update,4
+32000,19,36,300,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,8
+9,29,18,0,0,0,0,0,0,0,0,Median,Update,8
+
+
+
+
