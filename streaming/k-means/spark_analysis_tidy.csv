@@ -5,6 +5,11 @@ Duration_ms,Scheduler_Delay,Task_Deserialization_Time,GC_Time,Result_Serializati
 4,6,12,0,0,0,0,0,0,0,0,Median,Update,1
 46000,6,8,200,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,2
 3,8,23,0,0,0,0,0,0,0,0,Median,Update,2
+39000,10,10,200,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,4
+4,13,12,0,0,0,0,0,0,0,0,Median,Update,4
+32000,19,36,300,0,0,0,3.3 KB/10,0,0,0,Median,Preprocess_Nearest_Point,8
+9,29,18,0,0,0,0,0,0,0,0,Median,Update,8
+
 
 
 
