@@ -1,0 +1,19 @@
+Metric,Min(ms),25th percentile ,Median(ms),75th percentile,Max,Task,Consumers
+Duration,100,23 s,30000,35 s,51 s,Preprocess_Nearest_Point,8
+Scheduler Delay,1,12 ms,16,20 ms,32 ms,Preprocess_Nearest_Point,8
+Task Deserialization Time,1,9 ms,13,15 ms,21 ms,Preprocess_Nearest_Point,8
+GC Time,0,0.1 s,200,0.2 s,0.3 s,Preprocess_Nearest_Point,8
+Result Serialization Time,0,0 ms,0,0 ms,1 ms,Preprocess_Nearest_Point,8
+Getting Result Time,0,0 ms,0,0 ms,0 ms,Preprocess_Nearest_Point,8
+Peak Execution Memory(B),0.0,0.0,0.0,0.0 B,0.0 B,Preprocess_Nearest_Point,8
+Shuffle Write Size / Records,0.0 B / 0,3.3 KB / 10,3.3 KB / 10,3.3 KB / 10,3.3 KB / 10,Preprocess_Nearest_Point,8
+Duration,0 ms,3 ms,6,10 ms,64 ms,Update,8
+Scheduler Delay,10 ms,23 ms,28,32 ms,38 ms,Update,8
+Task Deserialization Time,1 ms,9 ms,13,17 ms,34 ms,Update,8
+GC Time,0 ms,0 ms,0,0 ms,13 ms,Update,8
+Result Serialization Time,0 ms,0 ms,0,0 ms,1 ms,Update,8
+Getting Result Time,0 ms,0 ms,0,0 ms,0 ms,Update,8
+Peak Execution Memory(B),0.0 B,0.0 B,0.0,0.0 B,0.0 B,Update,8
+Shuffle Read Blocked Time,0 ms,0 ms,0,0 ms,1 ms,Update,8
+Shuffle Read Size / Records(B),0.0 B / 0,0.0 B / 0,0.0,0.0 B / 0,125.7 KB / 383,Update,8
+Shuffle Remote Reads,0.0 B,0.0 B,0.0,0.0 B,108.6 KB,Update,8
