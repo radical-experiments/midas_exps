@@ -113,6 +113,15 @@ def straggler_freq(df,nodes=[1,2,3],cores=24,mult=3,center='mean'):
     values = list()
     probs = list()
     impacts = list()
+    
+    def median_sigma(values):
+        med = np.median(values)
+        temp = 0
+        for value in values.tolist():
+            temp += (value - med)**2
+        var = float(temp)/float(len(values))
+        return np.sqrt(var)
+    
     for node in nodes:
         tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
         runs = len(tempDF)/(node*cores)
@@ -128,7 +137,7 @@ def straggler_freq(df,nodes=[1,2,3],cores=24,mult=3,center='mean'):
                     impact.append(((temp.max()-temp.mean())/temp.mean()).values[0])
                     freqs.append(freq)
             elif center == 'median':
-                freq = ((temp>(temp.median()+mult*temp.std()))==True).sum().values[0]/float(node*cores)
+                freq = ((temp>(temp.median()+mult*median_sigma(temp['Duration'].values)))==True).sum().values[0]/float(node*cores)
                 if freq > 0:
                     exist += 1 if freq != 0 else 0
                     impact.append(((temp.max()-temp.median())/temp.median()).values[0])
@@ -149,7 +158,7 @@ def straggler_freq(df,nodes=[1,2,3],cores=24,mult=3,center='mean'):
         
     return values,probs,impacts
 
-def slowest_impact(df,nodes=[1,2,3],cores=24,center='mean'):
+def slowest_impact(df,nodes=[1,2,3],cores=24,center='mean',div=1000000.0):
     
     impacts = list()
     for node in nodes:
@@ -162,11 +171,32 @@ def slowest_impact(df,nodes=[1,2,3],cores=24,center='mean'):
                 impact.append(((temp.max()-temp.mean())/temp.mean()).values[0])
             elif center == 'median':
                 impact.append(((temp.max()-temp.median())/temp.median()).values[0])
+            elif center == 'min':
+                impact.append(((temp.max()-temp.min())/temp.min()).values[0])
+            elif center == 'meanabs':
+                impact.append(((temp.max()-temp.mean())).values[0]/div)
         
         impacts.append(impact)
         
     return impacts
 
+def task_centers(df,nodes=[1,2,3],cores=24,measure='mean'):
+    
+    centers = list()
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        center = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            if measure == 'mean':
+                center.append(temp.mean())
+            elif measure == 'median':
+                center.append(temp.median())
+        
+        centers.append(center)
+        
+    return centers
 
 def straggler_samples(df,norm=None):
     
