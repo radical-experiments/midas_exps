@@ -175,6 +175,8 @@ def slowest_impact(df,nodes=[1,2,3],cores=24,center='mean',div=1000000.0):
                 impact.append(((temp.max()-temp.min())/temp.min()).values[0])
             elif center == 'meanabs':
                 impact.append(((temp.max()-temp.mean())).values[0]/div)
+            elif center == 'medianabs':
+                impact.append(((temp.max()-temp.median())).values[0]/div)
         
         impacts.append(impact)
         
@@ -230,3 +232,18 @@ def task_hist(df,node,bins,div=1.0,col='Duration'):
     median = (tasks/div)[col].median()
     std  = (tasks/div)[col].std()
     return hist,edges,mean,std,maximum,median
+
+def task_coeff(df,nodes=[1,2,3],cores=24):
+    
+    coeffs = list()
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        coeff = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            coeff.append(temp.std()/temp.mean())
+            
+        coeffs.append(coeff)
+        
+    return coeffs
