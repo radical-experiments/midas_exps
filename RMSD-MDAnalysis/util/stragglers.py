@@ -3,6 +3,42 @@ import numpy as np
 from DaskProfileReader import *
 from bokeh.models import CheckboxGroup, CustomJS
 
+def mahzad_profs(folders, barrier=False):
+    df = pd.DataFrame(columns=['Cores','Run','Metric','Array'])
+    for folder in folders:
+        datafile = open(folder+'/data2.txt')
+        lines = datafile.readlines()
+        datafile.close()
+        tot_line = lines[0]
+        times = tot_line.split('[')[1].split(']')[0]
+        times2 = np.array([float(x) for x in times.split(', ')])
+        df.loc[len(df)]=[int(tot_line.split(' ')[0]),int(tot_line.split(' ')[1]),'Total',times2]
+        if barrier:
+            waittime = lines[3]
+            times = waittime.split('[')[1].split(']')[0]
+            times2 = np.array([float(x) for x in times.split(', ')])
+            df.loc[len(df)]=[int(waittime.split(' ')[0]),int(waittime.split(' ')[1]),'Wait',times2]
+            commline = lines[4]
+            times = commline.split('[')[1].split(']')[0]
+            times2 = np.array([float(x) for x in times.split(', ')])
+            df.loc[len(df)]=[int(commline.split(' ')[0]),int(commline.split(' ')[1]),'Communication',times2]
+            comptime = lines[5]
+            times = comptime.split('[')[1].split(']')[0]
+            times2 = np.array([float(x) for x in times.split(', ')])
+            df.loc[len(df)]=[int(comptime.split(' ')[0]),int(comptime.split(' ')[1]),'Computation',times2]
+        else:
+            commline = lines[3]
+            times = commline.split('[')[1].split(']')[0]
+            times2 = np.array([float(x) for x in times.split(', ')])
+            df.loc[len(df)]=[int(commline.split(' ')[0]),int(commline.split(' ')[1]),'Communication',times2]
+            comptime = lines[4]
+            times = comptime.split('[')[1].split(']')[0]
+            times2 = np.array([float(x) for x in times.split(', ')])
+            df.loc[len(df)]=[int(comptime.split(' ')[0]),int(comptime.split(' ')[1]),'Computation',times2]
+    
+    return df
+
+
 def straggler_test_reader(path,data):
 
     rmsd = pd.DataFrame(columns=['Block','Try','Task','Time'])
@@ -49,4 +85,165 @@ def straggler_test_reader(path,data):
 
     return rmsd
     
-   
+    
+def mpicpp_total_time_finder(folders):
+    tot_times = pd.DataFrame(columns=['Processes','MaxTime'])
+    for folder in folders:
+        timings = pd.DataFrame.from_csv(folder+'/timings.csv')
+        timings['TotalTime'] = timings.sum(axis=1)
+        tot_times.loc[len(tot_times)] = [int(folder.split('/')[2].split('_')[1].split('p')[0]),timings['TotalTime'].max()/1000000]
+    
+    return tot_times
+
+def mpi4py_total_time_finder(folders):
+    tot_times = pd.DataFrame(columns=['Processes','Array','MaxTime'])
+    for folder in folders:
+        timingsFile = open(folder+'/data2.txt')
+        tot_time_line = timingsFile.readline()
+        tot_time_array = tot_time_line[tot_time_line.find('[')+1:tot_time_line.find(']')-1]
+        tot_time_np = np.array(map(float,tot_time_array.split(',')))
+        tot_times.loc[len(tot_times)] = [int(tot_time_line.split(' ')[0]),tot_time_np,tot_time_np.max()]
+        timingsFile.close()
+    
+    return tot_times
+
+
+def straggler_freq(df,nodes=[1,2,3],cores=24,mult=3,center='mean'):
+    
+    values = list()
+    probs = list()
+    impacts = list()
+    
+    def median_sigma(values):
+        med = np.median(values)
+        temp = 0
+        for value in values.tolist():
+            temp += (value - med)**2
+        var = float(temp)/float(len(values))
+        return np.sqrt(var)
+    
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        exist = 0
+        freqs = list()
+        impact = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            if center == 'mean':
+                freq  = ((temp>(temp.mean()+mult*temp.std()))==True).sum().values[0]/float(node*cores)
+                if freq > 0:
+                    exist += 1 if freq != 0 else 0
+                    impact.append(((temp.max()-temp.mean())/temp.mean()).values[0])
+                    freqs.append(freq)
+            elif center == 'median':
+                freq = ((temp>(temp.median()+mult*median_sigma(temp['Duration'].values)))==True).sum().values[0]/float(node*cores)
+                if freq > 0:
+                    exist += 1 if freq != 0 else 0
+                    impact.append(((temp.max()-temp.median())/temp.median()).values[0])
+                    freqs.append(freq)
+            elif center == 'fifty':
+                freq = ((temp>(1.5*temp.median()))==True).sum().values[0]/float(node*cores)
+                if freq > 0:
+                    exist += 1 if freq != 0 else 0
+                    impact.append(((temp.max()-temp.median())/temp.median()).values[0])
+                    freqs.append(freq)
+
+
+        impacts.append(impact)
+        values.append(freqs)
+        prob = float(exist)/float(runs)
+        probs.append(prob)
+        
+        
+    return values,probs,impacts
+
+def slowest_impact(df,nodes=[1,2,3],cores=24,center='mean',div=1000000.0):
+    
+    impacts = list()
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        impact = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            if center == 'mean':
+                impact.append(((temp.max()-temp.mean())/temp.mean()).values[0])
+            elif center == 'median':
+                impact.append(((temp.max()-temp.median())/temp.median()).values[0])
+            elif center == 'min':
+                impact.append(((temp.max()-temp.min())/temp.min()).values[0])
+            elif center == 'meanabs':
+                impact.append(((temp.max()-temp.mean())).values[0]/div)
+            elif center == 'medianabs':
+                impact.append(((temp.max()-temp.median())).values[0]/div)
+        
+        impacts.append(impact)
+        
+    return impacts
+
+def task_centers(df,nodes=[1,2,3],cores=24,measure='mean'):
+    
+    centers = list()
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        center = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            if measure == 'mean':
+                center.append(temp.mean())
+            elif measure == 'median':
+                center.append(temp.median())
+        
+        centers.append(center)
+        
+    return centers
+
+def straggler_samples(df,norm=None):
+    
+    
+    node1 = df[df['Nodes']==1].drop(['Nodes'],axis=1)
+    node2 = df[df['Nodes']==2].drop(['Nodes'],axis=1)
+    node3 = df[df['Nodes']==3].drop(['Nodes'],axis=1)
+     
+    if norm=='mean':
+        values = [node1/node1.mean(),
+                  node2/node2.mean(),
+                  node3/node3.mean()]
+    elif norm=='median':
+        values = [node1/node1.median(),
+                  node2/node2.median(),
+                  node3/node3.median()]
+    else:
+        values = [node1,
+                  node2,
+                  node3]
+        
+    return values
+
+def task_hist(df,node,bins,div=1.0,col='Duration'):
+    tasks = df[df['Nodes']==node].drop(['Nodes'],axis=1)
+    
+    hist,edges = np.histogram((tasks/div)[col].values,bins=bins)
+    maximum = (tasks/div)[col].max()
+    hist = hist/float(len(tasks[col].values))
+    mean = (tasks/div)[col].mean()
+    median = (tasks/div)[col].median()
+    std  = (tasks/div)[col].std()
+    return hist,edges,mean,std,maximum,median
+
+def task_coeff(df,nodes=[1,2,3],cores=24):
+    
+    coeffs = list()
+    for node in nodes:
+        tempDF = df[df['Nodes']==node].drop(['Nodes'],axis=1).reset_index(drop='index')
+        runs = len(tempDF)/(node*cores)
+        coeff = list()
+        for run in range(runs):
+            temp = tempDF[run*cores:(run+1)*cores].reset_index(drop='index')
+            coeff.append(temp.std()/temp.mean())
+            
+        coeffs.append(coeff)
+        
+    return coeffs
