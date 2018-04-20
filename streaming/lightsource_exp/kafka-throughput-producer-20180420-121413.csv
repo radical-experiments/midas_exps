@@ -1,0 +1,3 @@
+Application,Number_Clusters,Number_Points_per_Cluster,Number_Dim,Number_Points_per_Message,Number_Messages,Interval,Number_Partitions,Number_Processes,Number_Nodes,Number_Cores_Per_Node, Number_Brokers, Time,Points_per_sec,Records_per_sec,Dask_Config
+light,-1,-1,-1,-1,320,0,48,8,1,48,1,12.84217,24.91791,24.91791,dask-distributed
+light,-1,-1,-1,-1,320,0,48,8,1,48,1,22.57030,14.17793,14.17793,dask-distributed
