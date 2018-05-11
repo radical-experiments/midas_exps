@@ -1,0 +1,18 @@
+Executable, Images, Nodes, System, Total_Time_to_Completion,Throughput
+PeakFinder,1,1,wrangler,4.043619871139526,0.0
+PeakFinder,100,1,wrangler,45.47576379776001,2.0
+PeakFinder,200,1,wrangler,88.72552728652954,2.0
+PeakFinder,400,0,wrangler,60.10044622421265,6.0
+PeakFinder,600,0,wrangler,81.80751466751099,7.0
+PeakFinder,400,1,wrangler,180.78335237503052,2.0
+PeakFinder,600,1,wrangler,271.2689034938812,2.0
+PeakFinder,1200,1,wrangler,533.1995010375977,2.0
+PeakFinder,2400,1,wrangler,1085.4742152690887,2.0
+PeakFinder,4800,1,wrangler,4725.093989610672,1.0
+PeakFinder,400,2,wrangler,344.0790054798126,1.0
+PeakFinder,400,4,wrangler,355.82322096824646,1.0
+PeakFinder,2400,2,wrangler,2095.064348220825,1.0
+PeakFinder,4800,2,wrangler,2486.9532158374786,1.0
+PeakFinder,4800,4,wrangler,4003.159162044525,1.0
+PeakFinder,9600,4,wrangler,1584.6377182006836,6.0
+PeakFinder,17000,4,wrangler,5077.703328847885,3.0
