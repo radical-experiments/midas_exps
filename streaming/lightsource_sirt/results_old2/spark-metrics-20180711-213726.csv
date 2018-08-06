@@ -1,0 +1,5 @@
+BatchTime, SubmissionTime, SchedulingDelay, ProcessingDelay, TotalDelay, NumberRecords, Scenario
+1531363080000 ms, 2018-07-11T21:38:00, 4, 2331, 2335, 0,light-gridrec-1-1-1-4
+1531363140000 ms, 2018-07-11T21:39:00, 1, 169, 170, 0,light-gridrec-1-1-1-4
+1531363200000 ms, 2018-07-11T21:40:00, 0, 163, 163, 0,light-gridrec-1-1-1-4
+1531363260000 ms, 2018-07-11T21:41:00, 1, 163, 164, 0,light-gridrec-1-1-1-4

@@ -1,0 +1,11 @@
+Application,Number_Clusters,Number_Points_per_Cluster,Number_Dim,Number_Points_per_Message,Number_Messages,Interval,Number_Partitions,Number_Processes,Number_Nodes,Number_Cores_Per_Node, Number_Brokers, Time,Points_per_sec,Records_per_sec,Dask_Config
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.72848,4.18959,4.18959,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.47641,4.38243,4.38243,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.47453,4.38394,4.38394,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.57627,4.30395,4.30395,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.52552,4.34348,4.34348,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.52653,4.34269,4.34269,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.57598,4.30418,4.30418,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.62606,4.26586,4.26586,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.47607,4.38271,4.38271,dask-distributed
+light-sirt,-1,-1,-1,-1,24,0,48,8,1,48,1,5.57638,4.30387,4.30387,dask-distributed

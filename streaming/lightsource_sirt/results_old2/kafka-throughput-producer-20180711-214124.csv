@@ -1,0 +1,6 @@
+Application,Number_Clusters,Number_Points_per_Cluster,Number_Dim,Number_Points_per_Message,Number_Messages,Interval,Number_Partitions,Number_Processes,Number_Nodes,Number_Cores_Per_Node, Number_Brokers, Time,Points_per_sec,Records_per_sec,Dask_Config
+light-gridrec,-1,-1,-1,-1,8,0,48,8,1,48,1,20.65283,0.38736,0.38736,dask-distributed
+light-gridrec,-1,-1,-1,-1,8,0,48,8,1,48,1,20.40038,0.39215,0.39215,dask-distributed
+light-gridrec,-1,-1,-1,-1,8,0,48,8,1,48,1,15.49144,0.51641,0.51641,dask-distributed
+light-gridrec,-1,-1,-1,-1,8,0,48,8,1,48,1,5.32418,1.50258,1.50258,dask-distributed
+light-gridrec,-1,-1,-1,-1,8,0,48,8,1,48,1,10.33310,0.77421,0.77421,dask-distributed

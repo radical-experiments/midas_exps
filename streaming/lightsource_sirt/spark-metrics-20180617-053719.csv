@@ -1,0 +1,5 @@
+BatchTime, SubmissionTime, SchedulingDelay, ProcessingDelay, TotalDelay, NumberRecords, Scenario
+1529231880000 ms, 2018-06-17T05:38:00, 4, 62941, 62945, 24,light-sirt-4-4-8-100
+1529231940000 ms, 2018-06-17T05:39:00, 2999, 119116, 122115, 48,light-sirt-4-4-8-100
+1529232000000 ms, 2018-06-17T05:40:00, 62119, 63121, 125240, 24,light-sirt-4-4-8-100
+1529232060000 ms, 2018-06-17T05:41:00, 65240, 61172, 126412, 24,light-sirt-4-4-8-100
