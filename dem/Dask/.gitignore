@@ -1,0 +1,4 @@
+data_dem_dask
+*.txt
+*.csv
+*.sh
