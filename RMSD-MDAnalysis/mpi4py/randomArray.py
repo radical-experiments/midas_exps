@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 from __future__ import print_function, division
+import mpi4py
+from mpi4py import MPI
 import sys
+sys.path.append("/home/06079/tg853783/lib")
 import numpy as np
 import MDAnalysis as mda
 from MDAnalysis.analysis.align import rotation_matrix
@@ -9,9 +12,6 @@ import time
 from shutil import copyfile
 import glob, os
 from MDAnalysis import Writer
-import mpi4py
-from mpi4py import MPI
-
 #---------------------------------------
 #MPI.Init
 

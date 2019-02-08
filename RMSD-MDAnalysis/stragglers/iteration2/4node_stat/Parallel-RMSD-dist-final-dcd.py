@@ -3,12 +3,14 @@ from __future__ import print_function, division
 import sys
 import numpy as np
 from dask.delayed import delayed
+sys.path.append("/home/06079/tg853783/lib")
 from MDAnalysis.core.qcprot import CalcRMSDRotationalMatrix
 import time
 from shutil import copyfile
 import glob, os
 from dask.distributed import Client
 from distributed.diagnostics.plugin import SchedulerPlugin
+
 
 def submitCustomProfiler(profname,dask_scheduler):
     prof = MyProfiler(profname)
@@ -82,11 +84,10 @@ def com_parallel_dask_distributed(n_frames, n_blocks):
 
 
 if __name__ == '__main__':
-    Scheduler_IP = sys.argv[1]
     #SLURM_JOBID = sys.argv[2]
-    print (Scheduler_IP)
     #print (Client(Scheduler_IP))
-    c = Client(Scheduler_IP)
+    c = Client(processes=False, threads_per_worker=4,
+                n_workers=1, memory_limit='2GB')
     FramesBase = 4187
 
     with open('data3.txt', mode='w') as file:
@@ -100,7 +101,8 @@ if __name__ == '__main__':
                     total = com_parallel_dask_distributed(FramesBase*k, i)
                     total = delayed (total)
                     start = time.time()
-                    output = total.compute(get=c.get)
+                    output = total.compute(scheduler=c.get)
+                    total.visualize(filename='transpose.svg')
                     tot_time = time.time()-start
                     c.run_on_scheduler(removeCustomProfiler)
                     file.write("DCD{} {} {} {} {} {} {} {}\n".format(k, i, j, output [1], output [2], output [3], output [4], tot_time))
