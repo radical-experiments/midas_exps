@@ -1,0 +1,2311 @@
+TACC: Starting up job 138311
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+WARNING: Error in initializing MVAPICH2 ptmalloc library.Continuing without InfiniBand registration cache support.
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+/home/06079/tg853783/venv/mdanalysis/lib/python2.7/site-packages/MDAnalysis/core/qcprot.py:10: DeprecationWarning: qcprot has moved to MDAnalysis.lib.qcprot and will be removed from here in release 1.0
+  DeprecationWarning)
+Hello, World! I am process 3 of 384 with 19629 and 26172.
+
+block_rmsd Hello, World! I am process 7 of 384 with 45801 and 52344.
+
+19629block_rmsd  26172 1
+45801 52344 1
+Hello, World! I am process 43 of 384 with 281349 and 287892.
+
+Hello, World! I am process 47 of 384 with 307521 and 314064.
+block_rmsd
+ block_rmsd 281349 287892 3075211 
+314064 1
+Hello, World! I am process 79 of 384 with 516897 and 523440.
+
+block_rmsd 516897 523440Hello, World! I am process 75 of 384 with 490725 and 497268.
+ 1
+
+block_rmsd 490725 497268 1
+Hello, World! I am process 45 of 384 with 294435 and 300978.
+
+block_rmsdHello, World! I am process 5 of 384 with 32715 and 39258.
+ 
+block_rmsd 294435 Hello, World! I am process 41 of 384 with 268263 and 274806.
+30097832715
+  139258 
+block_rmsd1 
+268263 274806 1
+Hello, World! I am process 1 of 384 with 6543 and 13086.
+
+block_rmsd 6543 13086 1
+Hello, World! I am process 73 of 384 with 477639 and 484182.
+
+block_rmsd 477639 484182 1
+Hello, World! I am process 167 of 384 with 1092681 and 1099224.
+Hello, World! I am process 171 of 384 with 1118853 and 1125396.
+
+block_rmsd 1118853 Hello, World! I am process 163 of 384 with 1066509 and 1073052.
+1125396 1
+
+block_rmsd 1066509 1073052 1
+
+Hello, World! I am process 335 of 384 with 2191905 and 2198448.
+
+Hello, World! I am process 235 of 384 with 1537605 and 1544148.
+Hello, World! I am process 239 of 384 with 1563777 and 1570320.
+
+block_rmsd 1563777 1570320 1
+
+Hello, World! I am process 207 of 384 with 1354401 and 1360944.
+
+block_rmsd Hello, World! I am process 303 of 384 with 1982529 and 1989072.
+
+Hello, World! I am process 295 of 384 with 1930185 and 1936728.
+block_rmsd 
+block_rmsdHello, World! I am process 331 of 384 with 2165733 and 2172276.
+ 1982529 Hello, World! I am process 291 of 384 with 1904013 and 1910556.
+
+1989072 
+1block_rmsd
+1930185  block_rmsd1936728  1
+2165733 21722761904013  11910556
+ 1
+Hello, World! I am process 231 of 384 with 1511433 and 1517976.
+
+1354401 1360944 1
+block_rmsd 1511433Hello, World! I am process 271 of 384 with 1773153 and 1779696.
+Hello, World! I am process 263 of 384 with 1720809 and 1727352.
+
+block_rmsdHello, World! I am process 259 of 384 with 1694637 and 1701180.
+ 
+Hello, World! I am process 267 of 384 with 1746981 and 1753524.
+
+block_rmsd 1720809block_rmsd  1727352 16946371 
+1701180 1
+1746981 1753524 1
+block_rmsd  1517976 1
+Hello, World! I am process 227 of 384 with 1485261 and 1491804.
+Hello, World! I am process 195 of 384 with 1275885 and 1282428.
+
+
+block_rmsdblock_rmsd  block_rmsdHello, World! I am process 299 of 384 with 1956357 and 1962900.
+
+block_rmsd 1956357 1962900 1Hello, World! I am process 143 of 384 with 935649 and 942192.
+Hello, World! I am process 139 of 384 with 909477 and 916020.
+Hello, World! I am process 103 of 384 with 673929 and 680472.
+
+
+block_rmsd block_rmsd 
+block_rmsd 
+Hello, World! I am process 327 of 384 with 2139561 and 2146104.
+
+block_rmsd 1092681 12758851485261  12824281491804  11
+
+Hello, World! I am process 359 of 384 with 2348937 and 2355480.
+Hello, World! I am process 367 of 384 with 2401281 and 2407824.
+Hello, World! I am process 363 of 384 with 2375109 and 2381652.
+
+
+block_rmsd block_rmsd 24012812375109  24078242381652 Hello, World! I am process 355 of 384 with 2322765 and 2329308.
+ 1
+1
+
+block_rmsd 2322765 2329308 1
+1773153Hello, World! I am process 15 of 384 with 98145 and 104688.
+Hello, World! I am process 11 of 384 with 71973 and 78516.
+
+
+block_rmsd block_rmsd 9814571973Hello, World! I am process 39 of 384 with 255177 and 261720.
+  10468878516
+  11
+
+block_rmsd 255177 Hello, World! I am process 35 of 384 with 229005 and 235548.
+261720 
+Hello, World! I am process 6 of 384 with 39258 and 45801.
+1Hello, World! I am process 46 of 384 with 300978 and 307521.
+Hello, World! I am process 44 of 384 with 287892 and 294435.
+
+
+
+Hello, World! I am process 4 of 384 with 26172 and 32715.
+
+block_rmsdblock_rmsd
+ block_rmsd  block_rmsd 39258block_rmsd300978 229005  2617245801 307521   327152355481 1 
+1
+1
+
+Hello, World! I am process 42 of 384 with 274806 and 281349.
+
+block_rmsd 274806 281349 1
+Hello, World! I am process 0 of 384 with 0 and 6543.
+
+block_rmsd 0 6543 1
+2139561Hello, World! I am process 323 of 384 with 2113389 and 2119932.
+ 2146104 
+1
+block_rmsdHello, World! I am process 203 of 384 with 1328229 and 1334772.
+
+block_rmsd Hello, World! I am process 165 of 384 with 1079595 and 1086138.
+1099224 1
+
+block_rmsd   2113389 2119932 1
+23489371779696 Hello, World! I am process 199 of 384 with 1302057 and 1308600.
+1328229 
+1334772 1
+block_rmsd Hello, World! I am process 233 of 384 with 1524519 and 1531062.
+
+1302057 block_rmsd1308600  1
+Hello, World! I am process 169 of 384 with 1105767 and 1112310.
+
+Hello, World! I am process 173 of 384 with 1131939 and 1138482.
+
+block_rmsd block_rmsd Hello, World! I am process 175 of 384 with 1145025 and 1151568.
+  909477 673929916020  6804721 
+1
+Hello, World! I am process 107 of 384 with 700101 and 706644.
+
+block_rmsd 700101 706644 1
+Hello, World! I am process 135 of 384 with 883305 and 889848.
+Hello, World! I am process 111 of 384 with 726273 and 732816.
+
+
+block_rmsdblock_rmsd  726273883305  732816889848  11
+
+
+Hello, World! I am process 99 of 384 with 647757 and 654300.
+Hello, World! I am process 131 of 384 with 857133 and 863676.
+
+
+block_rmsdblock_rmsd  11524519 1531062 1
+block_rmsd2191905Hello, World! I am process 13 of 384 with 85059 and 91602.
+1079595
+ Hello, World! I am process 161 of 384 with 1053423 and 1059966.
+11319391086138block_rmsd
+   11138482
+ block_rmsd1 
+1145025 1151568 11053423
+ 1059966 1
+Hello, World! I am process 365 of 384 with 2388195 and 2394738.
+2355480 1
+Hello, World! I am process 357 of 384 with 2335851 and 2342394.
+
+block_rmsd Hello, World! I am process 197 of 384 with 1288971 and 1295514.
+
+block_rmsd 1288971 1295514 1
+Hello, World! I am process 269 of 384 with 1760067 and 1766610.
+Hello, World! I am process 261 of 384 with 1707723 and 1714266.
+
+
+block_rmsd block_rmsd 1760067 17666101707723  11714266
+ 1
+
+Hello, World! I am process 9 of 384 with 58887 and 65430.
+
+block_rmsd 58887 Hello, World! I am process 37 of 384 with 242091 and 248634.
+65430 
+1
+block_rmsd 242091 248634 1
+1105767 Hello, World! I am process 301 of 384 with 1969443 and 1975986.
+Hello, World! I am process 293 of 384 with 1917099 and 1923642.
+Hello, World! I am process 333 of 384 with 2178819 and 2185362.
+
+
+
+block_rmsdblock_rmsdHello, World! I am process 289 of 384 with 1890927 and 1897470.
+  block_rmsd 
+Hello, World! I am process 297 of 384 with 1943271 and 1949814.
+1917099
+block_rmsd19694432178819    block_rmsd19236421975986   218536211890927 1
+  Hello, World! I am process 229 of 384 with 1498347 and 1504890.
+
+block_rmsd Hello, World! I am process 193 of 384 with 1262799 and 1269342.
+
+1498347 block_rmsd1504890  1
+1262799 1269342 1
+Hello, World! I am process 257 of 384 with 1681551 and 1688094.
+Hello, World! I am process 265 of 384 with 1733895 and 1740438.
+
+
+Hello, World! I am process 33 of 384 with 215919 and 222462.
+
+
+block_rmsd Hello, World! I am process 361 of 384 with 2362023 and 2368566.
+
+2335851 block_rmsd2342394  1
+2362023 2368566 1Hello, World! I am process 353 of 384 with 2309679 and 2316222.
+
+
+block_rmsd Hello, World! I am process 237 of 384 with 1550691 and 1557234.
+
+block_rmsd Hello, World! I am process 225 of 384 with 1472175 and 1478718.
+1550691 
+1557234block_rmsd 215919 222462 1
+Hello, World! I am process 101 of 384 with 660843 and 667386.
+
+857133 block_rmsd 863676647757  1654300
+ 1
+660843 667386 1
+block_rmsdHello, World! I am process 141 of 384 with 922563 and 929106.
+
+block_rmsd Hello, World! I am process 97 of 384 with 634671 and 641214.
+
+922563 block_rmsd929106  1
+634671Hello, World! I am process 105 of 384 with 687015 and 693558.
+ 641214 
+1
+block_rmsd 687015 693558 1
+2309679 2316222 1
+
+ 1
+1897470
+1943271 1 Hello, World! I am process 329 of 384 with 2152647 and 2159190.
+
+1949814Hello, World! I am process 325 of 384 with 2126475 and 2133018.
+ 
+1
+
+block_rmsd block_rmsd 2152647 2159190 12126475
+ 2133018 1
+2198448 1
+block_rmsd 1472175 1478718 1
+block_rmsdblock_rmsd 1733895 1740438 1
+block_rmsd1112310   11537605Hello, World! I am process 205 of 384 with 1341315 and 1347858.
+Hello, World! I am process 201 of 384 with 1315143 and 1321686.
+1
+ Hello, World! I am process 137 of 384 with 896391 and 902934.
+Hello, World! I am process 109 of 384 with 713187 and 719730.
+
+935649 942192block_rmsd  1Hello, World! I am process 129 of 384 with 844047 and 850590.
+
+
+713187block_rmsd  719730 1
+844047 850590 1
+Hello, World! I am process 133 of 384 with 870219 and 876762.
+
+block_rmsd 
+ 
+
+block_rmsdblock_rmsd  block_rmsd 
+13151431341315  13478581321686  11
+
+85059870219 876762 1
+
+block_rmsd2388195  Hello, World! I am process 321 of 384 with 2100303 and 2106846.
+ 1681551 15441482394738896391
+ 1688094287892 294435 1
+   91602 902934block_rmsd1
+1
+1   
+1
+Hello, World! I am process 174 of 384 with 1138482 and 1145025.
+12100303Hello, World! I am process 170 of 384 with 1112310 and 1118853.
+
+block_rmsd 1112310 1118853 1
+
+Hello, World! I am process 362 of 384 with 2368566 and 2375109.
+
+ 
+2106846Hello, World! I am process 234 of 384 with 1531062 and 1537605.
+block_rmsdHello, World! I am process 67 of 384 with 438381 and 444924.
+Hello, World! I am process 71 of 384 with 464553 and 471096.
+
+block_rmsd 464553 471096 1
+
+block_rmsdHello, World! I am process 78 of 384 with 510354 and 516897.
+
+block_rmsd Hello, World! I am process 76 of 384 with 497268 and 503811.
+510354
+ Hello, World! I am process 69 of 384 with 451467 and 458010.
+516897 1block_rmsd
+
+ block_rmsd 497268 503811 1
+451467 458010 1
+ Hello, World! I am process 65 of 384 with 425295 and 431838.
+438381 444924 1
+Hello, World! I am process 74 of 384 with 484182 and 490725.
+
+block_rmsd 484182 490725 1
+
+Hello, World! I am process 77 of 384 with 503811 and 510354.
+Hello, World! I am process 72 of 384 with 471096 and 477639.
+
+
+block_rmsdblock_rmsd  471096 503811477639  5103541
+ 1
+block_rmsd block_rmsd
+ Hello, World! I am process 364 of 384 with 2381652 and 2388195.
+ Hello, World! I am process 14 of 384 with 91602 and 98145.
+Hello, World! I am process 10 of 384 with 65430 and 71973.
+
+block_rmsd Hello, World! I am process 172 of 384 with 1125396 and 1131939.
+
+ Hello, World! I am process 32 of 384 with 209376 and 215919.
+
+Hello, World! I am process 8 of 384 with 52344 and 58887.
+65430Hello, World! I am process 38 of 384 with 248634 and 255177.
+
+block_rmsd Hello, World! I am process 34 of 384 with 222462 and 229005.
+425295 431838 1
+block_rmsd 1125396 1131939 1
+Hello, World! I am process 164 of 384 with 1073052 and 1079595.
+
+block_rmsd 2381652 2388195 1
+1Hello, World! I am process 232 of 384 with 1517976 and 1524519.
+block_rmsd 
+71973 
+block_rmsd  1
+block_rmsdblock_rmsd  20937652344  21591958887  11
+
+248634222462  255177229005  1
+Hello, World! I am process 168 of 384 with 1099224 and 1105767.
+
+block_rmsd1531062 1537605 1
+Hello, World! I am process 270 of 384 with 1766610 and 1773153.
+Hello, World! I am process 334 of 384 with 2185362 and 2191905.
+
+block_rmsdHello, World! I am process 298 of 384 with 1949814 and 1956357.
+ 
+
+1
+Hello, World! I am process 2 of 384 with 13086 and 19629.
+
+block_rmsd 2368566Hello, World! I am process 100 of 384 with 654300 and 660843.
+
+ block_rmsd 1073052 1079595 10992241 
+1105767 1
+Hello, World! I am process 162 of 384 with 1059966 and 1066509.
+
+
+block_rmsd2185362  2191905 1Hello, World! I am process 332 of 384 with 2172276 and 2178819.
+
+
+1949814 Hello, World! I am process 292 of 384 with 1910556 and 1917099.
+1956357block_rmsd 
+13086 19629Hello, World! I am process 12 of 384 with 78516 and 85059.
+ 1
+
+block_rmsd 78516 85059 1
+ 2375109Hello, World! I am process 360 of 384 with 2355480 and 2362023.
+
+Hello, World! I am process 268 of 384 with 1753524 and 1760067.
+block_rmsd 1766610 Hello, World! I am process 206 of 384 with 1347858 and 1354401.
+block_rmsd block_rmsd 1059966 1066509 1
+1 
+block_rmsd 2172276 2178819 19105561 
+1917099 1
+Hello, World! I am process 142 of 384 with 929106 and 935649.
+Hello, World! I am process 106 of 384 with 693558 and 700101.
+
+
+block_rmsd block_rmsd 929106 935649693558  7001011 
+1
+
+
+Hello, World! I am process 294 of 384 with 1923642 and 1930185.
+Hello, World! I am process 166 of 384 with 1086138 and 1092681.
+1138482 1145025 11773153 1
+block_rmsd 2355480 2362023 11517976 1524519 1
+block_rmsd
+Hello, World! I am process 296 of 384 with 1936728 and 1943271.
+
+block_rmsd block_rmsd 1923642 1930185 11936728
+ 1943271 1
+
+Hello, World! I am process 98 of 384 with 641214 and 647757.
+
+block_rmsd 641214 647757 1
+Hello, World! I am process 102 of 384 with 667386 and 673929.
+
+block_rmsd 667386 673929 1
+
+block_rmsd block_rmsdHello, World! I am process 228 of 384 with 1491804 and 1498347.
+
+Hello, World! I am process 290 of 384 with 1897470 and 1904013.
+
+Hello, World! I am process 330 of 384 with 2159190 and 2165733.
+
+block_rmsd 
+Hello, World! I am process 356 of 384 with 2329308 and 2335851.
+
+block_rmsd 2329308 2335851 Hello, World! I am process 352 of 384 with 2303136 and 2309679.
+1
+
+block_rmsd Hello, World! I am process 198 of 384 with 1295514 and 1302057.
+
+1491804 1498347Hello, World! I am process 226 of 384 with 1478718 and 1485261.
+ block_rmsd1 
+Hello, World! I am process 36 of 384 with 235548 and 242091.
+
+block_rmsd 
+ Hello, World! I am process 262 of 384 with 1714266 and 1720809.
+
+block_rmsd
+block_rmsd 1295514 1302057 1
+1478718 1485261 1
+235548 242091 1
+block_rmsd 1897470 19040132159190  12165733
+ 1Hello, World! I am process 300 of 384 with 1962900 and 1969443.
+
+Hello, World! I am process 288 of 384 with 1884384 and 1890927.
+
+
+block_rmsdblock_rmsdHello, World! I am process 160 of 384 with 1046880 and 1053423.
+
+block_rmsd 1086138 1092681 1
+
+block_rmsd 2303136 2309679 1
+Hello, World! I am process 354 of 384 with 2316222 and 2322765.
+
+block_rmsd Hello, World! I am process 104 of 384 with 680472 and 687015.
+
+Hello, World! I am process 108 of 384 with 706644 and 713187.
+
+block_rmsd block_rmsd 680472 687015 1706644Hello, World! I am process 134 of 384 with 876762 and 883305.
+
+ 713187
+ 1
+block_rmsd  Hello, World! I am process 196 of 384 with 1282428 and 1288971.
+
+ 1714266 1720809 91602block_rmsd  18843841962900  18909271969443Hello, World! I am process 328 of 384 with 2146104 and 2152647.
+  11
+
+
+Hello, World! I am process 326 of 384 with 2133018 and 2139561.
+block_rmsd 
+2316222 2322765 1
+ Hello, World! I am process 358 of 384 with 2342394 and 2348937.
+
+block_rmsd Hello, World! I am process 224 of 384 with 1465632 and 1472175.
+
+1282428 1288971block_rmsd  1
+1465632block_rmsd2146104  2152647 1
+2133018 2139561 1
+ 1Hello, World! I am process 266 of 384 with 1740438 and 1746981.
+
+
+block_rmsd 1740438 1746981 1
+Hello, World! I am process 260 of 384 with 1701180 and 1707723.
+Hello, World! I am process 264 of 384 with 1727352 and 1733895.
+
+
+Hello, World! I am process 256 of 384 with 1675008 and 1681551.
+block_rmsd 
+block_rmsd   1472175Hello, World! I am process 202 of 384 with 1321686 and 1328229.
+ Hello, World! I am process 204 of 384 with 1334772 and 1341315.
+1
+
+
+Hello, World! I am process 230 of 384 with 1504890 and 1511433.
+block_rmsd
+ block_rmsd block_rmsd 1321686Hello, World! I am process 194 of 384 with 1269342 and 1275885.
+ 13347721328229
+  1504890block_rmsd 2342394 2348937 1
+876762 883305 1
+Hello, World! I am process 140 of 384 with 916020 and 922563.
+Hello, World! I am process 136 of 384 with 889848 and 896391.
+
+
+block_rmsdblock_rmsd  916020889848  922563896391Hello, World! I am process 138 of 384 with 902934 and 909477.
+  1
+1
+
+block_rmsd 902934 909477 1
+
+981451
+1046880 1341315 1block_rmsd1511433 
+  1
+1
+1269342 1275885 1
+Hello, World! I am process 96 of 384 with 628128 and 634671.
+block_rmsd block_rmsd 1701180 17273521707723 1675008 17338951  
+16815511 
+1
+1753524Hello, World! I am process 258 of 384 with 1688094 and 1694637.
+
+1053423  block_rmsd 1688094 1694637 1
+ 654300 660843 1
+
+Hello, World! I am process 130 of 384 with 850590 and 857133.
+11347858Hello, World! I am process 192 of 384 with 1256256 and 1262799.
+
+1
+block_rmsd 1256256 1262799 1
+1760067
+block_rmsd 850590 857133 1
+
+  Hello, World! I am process 200 of 384 with 1308600 and 1315143.
+1
+block_rmsdHello, World! I am process 324 of 384 with 2119932 and 2126475.
+Hello, World! I am process 302 of 384 with 1975986 and 1982529.
+
+block_rmsd
+block_rmsd 1308600 1315143 1
+1354401 Hello, World! I am process 322 of 384 with 2106846 and 2113389.
+
+1975986 1982529 1block_rmsd
+ Hello, World! I am process 320 of 384 with 2093760 and 2100303.
+
+block_rmsd2106846  2113389 1
+2093760 2100303 1
+Hello, World! I am process 128 of 384 with 837504 and 844047.
+
+block_rmsd 837504 844047 1
+ 
+1
+block_rmsdHello, World! I am process 132 of 384 with 863676 and 870219.
+
+block_rmsd 863676 870219 1
+  628128 6346712119932  2126475 Hello, World! I am process 70 of 384 with 458010 and 464553.
+Hello, World! I am process 68 of 384 with 444924 and 451467.
+
+block_rmsd 444924 451467 1
+Hello, World! I am process 64 of 384 with 418752 and 425295.
+Hello, World! I am process 66 of 384 with 431838 and 438381.
+
+
+block_rmsdblock_rmsd  431838458010  438381464553  11
+
+
+block_rmsd 418752 425295 1
+1
+1
+Hello, World! I am process 40 of 384 with 261720 and 268263.
+
+block_rmsd 261720 268263 1
+Hello, World! I am process 238 of 384 with 1557234 and 1563777.
+
+block_rmsd Hello, World! I am process 366 of 384 with 2394738 and 2401281.
+1557234 
+1563777block_rmsd  Hello, World! I am process 110 of 384 with 719730 and 726273.
+
+block_rmsd12394738 719730 726273 1
+
+ 2401281 1
+Hello, World! I am process 61 of 384 with 399123 and 405666.
+
+Hello, World! I am process 29 of 384 with 189747 and 196290.
+Hello, World! I am process 157 of 384 with 1027251 and 1033794.
+block_rmsd
+
+ block_rmsd Hello, World! I am process 93 of 384 with 608499 and 615042.
+
+block_rmsd 608499 615042 1
+block_rmsd1027251399123  Hello, World! I am process 253 of 384 with 1655379 and 1661922.
+Hello, World! I am process 285 of 384 with 1864755 and 1871298.
+
+ 1033794Hello, World! I am process 349 of 384 with 2283507 and 2290050.
+ Hello, World! I am process 189 of 384 with 1236627 and 1243170.
+
+block_rmsd 1864755 1871298 1
+
+405666 189747
+ 1block_rmsd block_rmsd 1655379
+block_rmsd 1236627 1243170 1
+1
+ 1962901661922Hello, World! I am process 221 of 384 with 1446003 and 1452546.
+Hello, World! I am process 317 of 384 with 2074131 and 2080674.
+ Hello, World! I am process 381 of 384 with 2492883 and 2499426.
+2283507 2290050 1
+
+
+1 
+block_rmsd
+block_rmsd  12074131
+ block_rmsd 1446003 2080674Hello, World! I am process 125 of 384 with 817875 and 824418.
+
+block_rmsd 81787514525462492883    824418 2499426111 
+
+
+1
+Hello, World! I am process 19 of 384 with 124317 and 130860.
+
+Hello, World! I am process 83 of 384 with 543069 and 549612.
+Hello, World! I am process 179 of 384 with 1171197 and 1177740.
+Hello, World! I am process 275 of 384 with 1799325 and 1805868.
+
+block_rmsdHello, World! I am process 147 of 384 with 961821 and 968364.
+
+block_rmsd 961821 968364 1
+
+block_rmsd 
+block_rmsdHello, World! I am process 51 of 384 with 333693 and 340236.
+
+Hello, World! I am process 307 of 384 with 2008701 and 2015244.
+block_rmsd 
+124317 block_rmsd 333693 340236 1
+Hello, World! I am process 211 of 384 with 1380573 and 1387116.
+
+Hello, World! I am process 243 of 384 with 1589949 and 1596492.
+
+block_rmsd 1589949 1596492 1
+  543069block_rmsd130860 block_rmsd 1171197 1177740 2008701 1799325 1805868Hello, World! I am process 273 of 384 with 1786239 and 1792782.
+
+Hello, World! I am process 371 of 384 with 2427453 and 2433996.
+
+block_rmsdHello, World! I am process 81 of 384 with 529983 and 536526.
+549612 1
+ 1380573block_rmsd 1786239 1792782 1
+ 
+ Hello, World! I am process 339 of 384 with 2218077 and 2224620.
+  Hello, World! I am process 17 of 384 with 111231 and 117774.
+1
+
+block_rmsd 2218077 2224620 1
+20152441Hello, World! I am process 177 of 384 with 1158111 and 1164654.
+1
+
+Hello, World! I am process 145 of 384 with 948735 and 955278.
+
+Hello, World! I am process 369 of 384 with 2414367 and 2420910.
+2427453 2433996 
+ 
+Hello, World! I am process 115 of 384 with 752445 and 758988.
+
+block_rmsd 752445 1Hello, World! I am process 305 of 384 with 1995615 and 2002158.
+
+1
+
+block_rmsd 948735 955278 1
+block_rmsd758988 block_rmsdblock_rmsd Hello, World! I am process 27 of 384 with 176661 and 183204.
+
+block_rmsd block_rmsd 1995615 2002158 1
+1158111
+Hello, World! I am process 241 of 384 with 1576863 and 1583406.
+ 176661 183204 
+ 1
+2414367 Hello, World! I am process 337 of 384 with 2204991 and 2211534.
+
+block_rmsd 2204991 2211534 11387116 1Hello, World! I am process 209 of 384 with 1367487 and 1374030.
+
+block_rmsd 1367487 1374030 1
+
+block_rmsdHello, World! I am process 49 of 384 with 320607 and 327150.
+
+block_rmsd 320607 327150 1
+ 529983 536526 block_rmsdHello, World! I am process 283 of 384 with 1851669 and 1858212.
+
+
+ Hello, World! I am process 155 of 384 with 1014165 and 1020708.
+1164654 1
+
+1112311
+Hello, World! I am process 59 of 384 with 386037 and 392580.
+
+block_rmsd 386037 392580 1
+block_rmsd 1851669 1858212 1
+block_rmsd24209101   1576863 
+Hello, World! I am process 113 of 384 with 739359 and 745902.
+
+1177741
+block_rmsd 1014165   Hello, World! I am process 251 of 384 with 1642293 and 1648836.
+1583406 1
+1739359Hello, World! I am process 187 of 384 with 1223541 and 1230084.
+
+block_rmsd  1223541 1230084 1
+Hello, World! I am process 347 of 384 with 2270421 and 2276964.
+
+
+1020708
+block_rmsd745902   Hello, World! I am process 219 of 384 with 1432917 and 1439460.
+Hello, World! I am process 315 of 384 with 2061045 and 2067588.
+
+16422931
+1
+ block_rmsdHello, World! I am process 123 of 384 with 804789 and 811332.
+
+block_rmsd 804789 811332 1
+block_rmsd
+  1648836Hello, World! I am process 91 of 384 with 595413 and 601956.
+
+1432917 1block_rmsd2061045   
+14394602067588 595413 1 1
+601956
+ 1
+Hello, World! I am process 20 of 384 with 130860 and 137403.
+Hello, World! I am process 28 of 384 with 183204 and 189747.
+
+block_rmsd 183204 189747 1
+Hello, World! I am process 188 of 384 with 1230084 and 1236627.
+
+Hello, World! I am process 148 of 384 with 968364 and 974907.
+
+block_rmsd Hello, World! I am process 92 of 384 with 601956 and 608499.
+968364 974907 1
+
+
+block_rmsdHello, World! I am process 220 of 384 with 1439460 and 1446003.
+
+ Hello, World! I am process 308 of 384 with 2015244 and 2021787.
+Hello, World! I am process 316 of 384 with 2067588 and 2074131.
+
+block_rmsd Hello, World! I am process 244 of 384 with 1596492 and 1603035.
+Hello, World! I am process 284 of 384 with 1858212 and 1864755.
+
+block_rmsd 2067588 2074131 1
+block_rmsd130860block_rmsd 1858212 1864755 1
+
+ block_rmsdblock_rmsdHello, World! I am process 212 of 384 with 1387116 and 1393659.
+
+block_rmsd 1387116 1393659 1
+
+Hello, World! I am process 276 of 384 with 1805868 and 1812411.
+
+Hello, World! I am process 52 of 384 with 340236 and 346779.
+
+Hello, World! I am process 60 of 384 with 392580 and 399123.
+Hello, World! I am process 84 of 384 with 549612 and 556155.
+block_rmsd 
+
+block_rmsdblock_rmsd340236   346779 1
+549612392580  556155399123  11
+
+ block_rmsd 1805868 1812411 1
+  6019561439460137403block_rmsd2015244    1608499 1446003
+ 2021787 1596492  11230084Hello, World! I am process 156 of 384 with 1020708 and 1027251.
+
+block_rmsd 1020708 1027251 1
+ 1236627 11603035
+1
+
+1
+ 1
+Hello, World! I am process 124 of 384 with 811332 and 817875.
+
+Hello, World! I am process 116 of 384 with 758988 and 765531.
+
+block_rmsd 758988 765531 1
+block_rmsd 811332 817875 1
+Hello, World! I am process 82 of 384 with 536526 and 543069.
+
+block_rmsdHello, World! I am process 274 of 384 with 1792782 and 1799325.
+ Hello, World! I am process 89 of 384 with 582327 and 588870.
+
+
+block_rmsd Hello, World! I am process 25 of 384 with 163575 and 170118.
+Hello, World! I am process 30 of 384 with 196290 and 202833.
+
+block_rmsdHello, World! I am process 281 of 384 with 1838583 and 1845126.
+582327 588870 1
+block_rmsd Hello, World! I am process 18 of 384 with 117774 and 124317.
+
+196290 202833 1block_rmsd
+ 117774 124317 1
+Hello, World! I am process 178 of 384 with 1164654 and 1171197.
+Hello, World! I am process 57 of 384 with 372951 and 379494.
+536526 543069 1
+
+block_rmsd 1838583 1845126 1
+Hello, World! I am process 146 of 384 with 955278 and 961821.
+Hello, World! I am process 158 of 384 with 1033794 and 1040337.
+
+
+block_rmsdblock_rmsd  Hello, World! I am process 286 of 384 with 1871298 and 1877841.
+ Hello, World! I am process 254 of 384 with 1661922 and 1668465.
+Hello, World! I am process 278 of 384 with 1818954 and 1825497.
+
+
+1792782 1799325block_rmsdblock_rmsd   
+Hello, World! I am process 306 of 384 with 2002158 and 2008701.
+
+Hello, World! I am process 62 of 384 with 405666 and 412209.
+
+block_rmsd1
+Hello, World! I am process 242 of 384 with 1583406 and 1589949.
+
+16619221818954  16684651825497  block_rmsd11 
+
+1583406 1589949 1
+Hello, World! I am process 318 of 384 with 2080674 and 2087217.
+
+block_rmsd 2080674 2087217 1
+Hello, World! I am process 190 of 384 with 1243170 and 1249713.
+Hello, World! I am process 153 of 384 with 1001079 and 1007622.
+1033794955278
+  
+9618211040337Hello, World! I am process 185 of 384 with 1210455 and 1216998.
+ block_rmsd 1
+block_rmsd
+ 1 
+block_rmsd 10010791243170  10076221249713  121045511
+ 
+1216998 1
+Hello, World! I am process 150 of 384 with 981450 and 987993.
+
+block_rmsd 405666 412209 1
+Hello, World! I am process 50 of 384 with 327150 and 333693.
+
+Hello, World! I am process 54 of 384 with 353322 and 359865.
+
+block_rmsd block_rmsd Hello, World! I am process 249 of 384 with 1629207 and 1635750.
+
+block_rmsd 1629207 1635750 1
+Hello, World! I am process 313 of 384 with 2047959 and 2054502.
+
+block_rmsd 2047959 2054502 1
+Hello, World! I am process 22 of 384 with 143946 and 150489.
+
+block_rmsd 981450 987993 1Hello, World! I am process 182 of 384 with 1190826 and 1197369.
+
+
+block_rmsd Hello, World! I am process 183 of 384 with 1197369 and 1203912.
+
+block_rmsd1190826  1197369 1
+1197369Hello, World! I am process 152 of 384 with 994536 and 1001079.
+ 1203912 
+1
+
+Hello, World! I am process 94 of 384 with 615042 and 621585.
+ Hello, World! I am process 86 of 384 with 562698 and 569241.
+
+
+327150 333693 3533221block_rmsdblock_rmsd 
+  359865 1
+615042562698  621585569241  11
+
+block_rmsd 143946 150489 1
+
+Hello, World! I am process 310 of 384 with 2028330 and 2034873.
+
+block_rmsd 994536 1001079 1
+
+block_rmsdblock_rmsdblock_rmsd 2028330 2034873 1
+Hello, World! I am process 56 of 384 with 366408 and 372951.
+ 163575Hello, World! I am process 24 of 384 with 157032 and 163575.
+Hello, World! I am process 246 of 384 with 1609578 and 1616121.
+block_rmsd 1871298 block_rmsd
+block_rmsd 372951 379494 1
+
+157032 163575 1
+1877841 1
+Hello, World! I am process 248 of 384 with 1622664 and 1629207.
+
+block_rmsd 1622664 1629207 1
+  block_rmsdHello, World! I am process 217 of 384 with 1419831 and 1426374.
+Hello, World! I am process 222 of 384 with 1452546 and 1459089.
+
+block_rmsd Hello, World! I am process 210 of 384 with 1374030 and 1380573.
+1419831 
+1426374 1
+block_rmsd 1374030 1380573 1
+
+block_rmsdHello, World! I am process 214 of 384 with 1400202 and 1406745.
+
+block_rmsd 1400202 1406745 1
+Hello, World! I am process 280 of 384 with 1832040 and 1838583.
+
+block_rmsd  Hello, World! I am process 88 of 384 with 575784 and 582327.
+
+2002158 1452546170118Hello, World! I am process 311 of 384 with 2034873 and 2041416.
+Hello, World! I am process 312 of 384 with 2041416 and 2047959.
+
+
+block_rmsd block_rmsd 2034873block_rmsd 575784 582327 1
+1609578 1616121 1
+Hello, World! I am process 247 of 384 with 1616121 and 1622664.
+
+  20414162041416  20479591 
+1
+ Hello, World! I am process 216 of 384 with 1413288 and 1419831.
+
+block_rmsd 1413288 1419831 1
+11459089block_rmsd 1616121 1622664 1
+Hello, World! I am process 279 of 384 with 1825497 and 1832040.
+
+Hello, World! I am process 55 of 384 with 359865 and 366408.
+366408 372951  block_rmsd 1825497 1832040 1
+20087011
+Hello, World! I am process 87 of 384 with 569241 and 575784.
+
+block_rmsd 
+
+block_rmsd 1164654Hello, World! I am process 184 of 384 with 1203912 and 1210455.
+ 1171197 1
+
+Hello, World! I am process 151 of 384 with 987993 and 994536.
+
+block_rmsd 987993 994536 1
+block_rmsd 569241 575784 1
+
+ 1block_rmsd 
+ 1
+1832040 1203912 12104551838583Hello, World! I am process 121 of 384 with 791703 and 798246.
+Hello, World! I am process 114 of 384 with 745902 and 752445.
+
+block_rmsd 745902 752445 1
+Hello, World! I am process 126 of 384 with 824418 and 830961.
+
+block_rmsd 824418 830961 1
+Hello, World! I am process 118 of 384 with 772074 and 778617.
+
+block_rmsd 791703 798246 1
+
+Hello, World! I am process 120 of 384 with 785160 and 791703.
+Hello, World! I am process 119 of 384 with 778617 and 785160.
+block_rmsd
+ block_rmsd 772074 778617778617  1
+785160 1
+
+block_rmsd 785160  11 791703 
+
+1Hello, World! I am process 215 of 384 with 1406745 and 1413288.
+
+block_rmsd
+  359865 366408 1
+1406745 1413288Hello, World! I am process 53 of 384 with 346779 and 353322.
+
+ 1block_rmsd 346779 353322 1
+Hello, World! I am process 309 of 384 with 2021787 and 2028330.
+Hello, World! I am process 245 of 384 with 1603035 and 1609578.
+
+Hello, World! I am process 85 of 384 with 556155 and 562698.
+Hello, World! I am process 181 of 384 with 1184283 and 1190826.
+
+Hello, World! I am process 149 of 384 with 974907 and 981450.
+
+Hello, World! I am process 21 of 384 with 137403 and 143946.
+Hello, World! I am process 277 of 384 with 1812411 and 1818954.
+
+block_rmsd 1812411 1818954 1
+
+
+
+block_rmsdblock_rmsd 974907 981450 1
+block_rmsdblock_rmsd  block_rmsdHello, World! I am process 117 of 384 with 765531 and 772074.
+
+block_rmsd  2021787765531 
+Hello, World! I am process 213 of 384 with 1393659 and 1400202.
+
+block_rmsd 1393659 1400202 1
+ 1603035 2028330block_rmsd 5561551184283 137403  1190826  56269816095781  1143946
+1
+ 1
+1 772074 1
+
+
+Hello, World! I am process 23 of 384 with 150489 and 157032.
+
+block_rmsd 150489 157032 1
+Hello, World! I am process 180 of 384 with 1177740 and 1184283.
+
+block_rmsd 1177740 1184283 1
+Hello, World! I am process 31 of 384 with 202833 and 209376.
+
+block_rmsd 202833 209376 1
+Hello, World! I am process 191 of 384 with 1249713 and 1256256.
+Hello, World! I am process 287 of 384 with 1877841 and 1884384.
+Hello, World! I am process 159 of 384 with 1040337 and 1046880.
+
+block_rmsd 1040337 1046880 Hello, World! I am process 255 of 384 with 1668465 and 1675008.
+
+block_rmsd 1668465 1675008 1
+Hello, World! I am process 319 of 384 with 2087217 and 2093760.
+1
+
+Hello, World! I am process 127 of 384 with 830961 and 837504.
+
+
+
+block_rmsdblock_rmsd Hello, World! I am process 63 of 384 with 412209 and 418752.
+Hello, World! I am process 95 of 384 with 621585 and 628128.
+
+
+block_rmsdblock_rmsd  412209621585  418752628128  11
+
+block_rmsd  1249713block_rmsd 1877841 8309612087217  18843841256256 8375042093760   1 11
+1
+
+
+Hello, World! I am process 236 of 384 with 1544148 and 1550691.
+
+block_rmsd 1544148 1550691 1
+block_rmsd Hello, World! I am process 379 of 384 with 2479797 and 2486340.
+2270421 2276964 1
+
+block_rmsd 2479797 2486340 1
+Hello, World! I am process 380 of 384 with 2486340 and 2492883.
+
+block_rmsd 2486340 2492883Hello, World! I am process 340 of 384 with 2224620 and 2231163.
+
+block_rmsd 2224620 2231163 1
+ Hello, World! I am process 372 of 384 with 2433996 and 2440539.
+
+block_rmsd 2433996 2440539 1
+1
+Hello, World! I am process 370 of 384 with 2420910 and 2427453.
+Hello, World! I am process 350 of 384 with 2290050 and 2296593.
+Hello, World! I am process 374 of 384 with 2447082 and 2453625.
+
+
+block_rmsdblock_rmsd  Hello, World! I am process 345 of 384 with 2257335 and 2263878.
+
+22900502447082Hello, World! I am process 377 of 384 with 2466711 and 2473254.
+  22965932453625  
+block_rmsd11 
+
+block_rmsd 2257335 2263878 Hello, World! I am process 382 of 384 with 2499426 and 2505969.
+24667111
+
+ Hello, World! I am process 338 of 384 with 2211534 and 2218077.
+2473254 1
+
+block_rmsd block_rmsd 2499426 2505969 1
+2211534 2218077 1
+
+Hello, World! I am process 375 of 384 with 2453625 and 2460168.
+
+block_rmsd Hello, World! I am process 342 of 384 with 2237706 and 2244249.
+
+2453625 2460168 1block_rmsd
+ 2237706 2244249 1
+Hello, World! I am process 344 of 384 with 2250792 and 2257335.
+block_rmsd 2420910 2427453 1
+
+block_rmsd 2250792Hello, World! I am process 376 of 384 with 2460168 and 2466711.
+
+block_rmsd 2460168 2466711 1
+ 2257335Hello, World! I am process 343 of 384 with 2244249 and 2250792.
+
+block_rmsd 2244249 2250792 1
+ 1
+Hello, World! I am process 373 of 384 with 2440539 and 2447082.
+
+block_rmsd 2440539Hello, World! I am process 341 of 384 with 2231163 and 2237706.
+ 2447082 1
+
+block_rmsd 2231163 2237706 1
+Hello, World! I am process 351 of 384 with 2296593 and 2303136.
+Hello, World! I am process 383 of 384 with 2505969 and 2512512.
+
+block_rmsd 2296593 2303136 1
+
+block_rmsd 2505969 2512512 1
+Hello, World! I am process 16 of 384 with 104688 and 111231.
+
+Hello, World! I am process 304 of 384 with 1989072 and 1995615.
+Hello, World! I am process 80 of 384 with 523440 and 529983.
+Hello, World! I am process 208 of 384 with 1360944 and 1367487.
+
+
+
+block_rmsdHello, World! I am process 240 of 384 with 1570320 and 1576863.
+Hello, World! I am process 272 of 384 with 1779696 and 1786239.
+
+block_rmsdblock_rmsdblock_rmsdHello, World! I am process 48 of 384 with 314064 and 320607.
+block_rmsd   1779696 1786239 1
+
+  523440 529983 1
+1046881989072block_rmsd
+Hello, World! I am process 336 of 384 with 2198448 and 2204991.
+ Hello, World! I am process 144 of 384 with 942192 and 948735.
+Hello, World! I am process 176 of 384 with 1151568 and 1158111.
+
+block_rmsd 1151568 1158111 1
+
+block_rmsd   block_rmsd
+9421921112311995615block_rmsd 1570320    314064 157686394873511 2198448
+
+ 1 320607 
+1 22049911360944 1367487 1
+
+ Hello, World! I am process 112 of 384 with 732816 and 739359.
+
+block_rmsd 732816 739359 1
+11
+
+Hello, World! I am process 348 of 384 with 2276964 and 2283507.
+
+block_rmsd 2276964 2283507 1
+Hello, World! I am process 223 of 384 with 1459089 and 1465632.
+
+block_rmsd 1459089 1465632 1
+Hello, World! I am process 252 of 384 with 1648836 and 1655379.
+
+block_rmsd 1648836 1655379 1
+Hello, World! I am process 26 of 384 with 170118 and 176661.
+
+Hello, World! I am process 90 of 384 with 588870 and 595413.
+Hello, World! I am process 186 of 384 with 1216998 and 1223541.
+Hello, World! I am process 154 of 384 with 1007622 and 1014165.
+Hello, World! I am process 282 of 384 with 1845126 and 1851669.
+block_rmsdHello, World! I am process 58 of 384 with 379494 and 386037.
+
+
+block_rmsd 1007622 1014165 1
+ Hello, World! I am process 250 of 384 with 1635750 and 1642293.
+
+block_rmsd 1635750 1642293 1
+
+block_rmsd 379494 386037 1
+
+Hello, World! I am process 314 of 384 with 2054502 and 2061045.
+
+block_rmsd170118
+block_rmsd Hello, World! I am process 378 of 384 with 2473254 and 2479797.
+block_rmsd   block_rmsdHello, World! I am process 346 of 384 with 2263878 and 2270421.
+
+block_rmsd 2263878 2270421 1
+Hello, World! I am process 218 of 384 with 1426374 and 1432917.
+
+block_rmsd 176661 
+1845126 1426374block_rmsd2054502  1 Hello, World! I am process 122 of 384 with 798246 and 804789.
+
+block_rmsd 798246 18516691432917 
+804789 2061045111216998 1223541 1
+ 
+
+5888701  1
+
+ 595413 1
+2473254 2479797 1
+Hello, World! I am process 368 of 384 with 2407824 and 2414367.
+
+block_rmsd 2407824 2414367 1
+[0.7067639827728271, 0.38220787048339844, 0.5911788940429688, 0.3978250026702881, 0.5919539928436279, 0.382763147354126, 0.40032505989074707, 0.4007999897003174, 0.593998908996582, 0.40074992179870605, 0.4004340171813965, 0.39118385314941406, 0.4392068386077881, 0.43842601776123047, 0.4381120204925537, 0.3895418643951416, 0.5819649696350098, 0.3965749740600586, 0.5148990154266357, 0.5170259475708008, 0.5167489051818848, 0.39374589920043945, 0.4072439670562744, 0.4063417911529541, 0.5438079833984375, 0.5420331954956055, 0.523590087890625, 0.41060519218444824, 0.5439209938049316, 0.3863179683685303, 0.4323439598083496, 0.4290649890899658, 0.6520020961761475, 0.4008018970489502, 0.40045809745788574, 0.39131903648376465, 0.4402279853820801, 0.43947792053222656, 0.43915581703186035, 0.38747406005859375, 0.44126200675964355, 0.3910989761352539, 0.40958189964294434, 0.4100911617279053, 0.4107370376586914, 0.39727306365966797, 0.4025440216064453, 0.4030017852783203, 0.6304500102996826, 0.3951609134674072, 0.4010438919067383, 0.4030601978302002, 0.42382121086120605, 0.42188501358032227, 0.422680139541626, 0.3866250514984131, 0.6359078884124756, 0.3943510055541992, 0.6164669990539551, 0.6365861892700195, 0.6361560821533203, 0.43158984184265137, 0.4309878349304199, 0.4277069568634033, 0.657987117767334, 0.3886749744415283, 0.388106107711792, 0.38196611404418945, 0.4009668827056885, 0.4007580280303955, 0.4006340503692627, 0.40129899978637695, 0.46196985244750977, 0.3942558765411377, 0.39905714988708496, 0.3997159004211426, 0.46159982681274414, 0.4614980220794678, 0.4612269401550293, 0.3861269950866699, 0.47204089164733887, 0.4046750068664551, 0.40290307998657227, 0.3877220153808594, 0.47860097885131836, 0.4280579090118408, 0.47739696502685547, 0.4770169258117676, 0.47835803031921387, 0.38811397552490234, 0.3823709487915039, 0.4023599624633789, 0.4021928310394287, 0.40230417251586914, 0.4010000228881836, 0.3977839946746826, 0.5062510967254639, 0.3879580497741699, 0.38915181159973145, 0.38974905014038086, 0.3898601531982422, 0.38993000984191895, 0.38941097259521484, 0.3830070495605469, 0.4606959819793701, 0.4600679874420166, 0.459744930267334, 0.4005310535430908, 0.4603300094604492, 0.43665099143981934, 0.4576549530029297, 0.460399866104126, 0.4898378849029541, 0.39728617668151855, 0.39560604095458984, 0.38832592964172363, 0.3999149799346924, 0.38744401931762695, 0.3987300395965576, 0.398529052734375, 0.49680089950561523, 0.3895258903503418, 0.4773519039154053, 0.49719715118408203, 0.49695897102355957, 0.3914339542388916, 0.38871192932128906, 0.38060712814331055, 0.6714777946472168, 0.4120149612426758, 0.4114410877227783, 0.4006309509277344, 0.47946882247924805, 0.4371049404144287, 0.4790329933166504, 0.4797978401184082, 0.4805288314819336, 0.38786816596984863, 0.3873739242553711, 0.38741111755371094, 0.3986079692840576, 0.39394402503967285, 0.398237943649292, 0.39882683753967285, 0.507972002029419, 0.39612793922424316, 0.3943650722503662, 0.3949909210205078, 0.4400930404663086, 0.38953113555908203, 0.4383549690246582, 0.43798398971557617, 0.5141780376434326, 0.3893249034881592, 0.39319396018981934, 0.4132959842681885, 0.5144050121307373, 0.5160431861877441, 0.5132980346679688, 0.39176297187805176, 0.5239250659942627, 0.3872520923614502, 0.38680291175842285, 0.38278889656066895, 0.3994600772857666, 0.398867130279541, 0.3989601135253906, 0.39966917037963867, 0.4787437915802002, 0.3968789577484131, 0.39656710624694824, 0.39417505264282227, 0.47797679901123047, 0.38953304290771484, 0.4770200252532959, 0.47748684883117676, 0.5034580230712891, 0.39876818656921387, 0.3970050811767578, 0.3959019184112549, 0.5068159103393555, 0.5082519054412842, 0.5090651512145996, 0.39478611946105957, 0.5101208686828613, 0.3876159191131592, 0.3833279609680176, 0.4032628536224365, 0.40399599075317383, 0.4006161689758301, 0.40286707878112793, 0.39960384368896484, 0.5279099941253662, 0.4005129337310791, 0.3999600410461426, 0.3944520950317383, 0.4595069885253906, 0.38948798179626465, 0.4585280418395996, 0.45917701721191406, 0.4604330062866211, 0.40717101097106934, 0.40669894218444824, 0.3947157859802246, 0.428743839263916, 0.4286642074584961, 0.4283919334411621, 0.3888528347015381, 0.45562291145324707, 0.39169907569885254, 0.38996005058288574, 0.3793680667877197, 0.46326208114624023, 0.46122002601623535, 0.4620821475982666, 0.38948798179626465, 0.46306800842285156, 0.4007091522216797, 0.3875579833984375, 0.40749311447143555, 0.46258115768432617, 0.38982295989990234, 0.4607059955596924, 0.4574458599090576, 0.5115020275115967, 0.40744614601135254, 0.4069938659667969, 0.39458489418029785, 0.4293091297149658, 0.4294610023498535, 0.4289379119873047, 0.3887479305267334, 0.47036099433898926, 0.39184093475341797, 0.391538143157959, 0.37941598892211914, 0.457855224609375, 0.4700031280517578, 0.46743297576904297, 0.38912296295166016, 0.4962489604949951, 0.40337705612182617, 0.450394868850708, 0.4523630142211914, 0.45146608352661133, 0.387876033782959, 0.39049720764160156, 0.39027881622314453, 0.5022449493408203, 0.39796900749206543, 0.3824131488800049, 0.4023568630218506, 0.5023891925811768, 0.5038919448852539, 0.5012080669403076, 0.4012179374694824, 0.6940500736236572, 0.38545894622802734, 0.38689398765563965, 0.3876228332519531, 0.4002258777618408, 0.4003770351409912, 0.39988207817077637, 0.39631104469299316, 0.48861193656921387, 0.4037668704986572, 0.4867091178894043, 0.4874110221862793, 0.4878060817718506, 0.39000797271728516, 0.39057493209838867, 0.3911409378051758, 0.514523983001709, 0.3997979164123535, 0.39919304847717285, 0.401170015335083, 0.5217671394348145, 0.5197360515594482, 0.5206220149993896, 0.4011828899383545, 0.5215988159179688, 0.385699987411499, 0.3764500617980957, 0.39655590057373047, 0.40160489082336426, 0.4032609462738037, 0.4004950523376465, 0.39238500595092773, 0.5301430225372314, 0.3874189853668213, 0.39773011207580566, 0.3983619213104248, 0.3988020420074463, 0.3892059326171875, 0.3887319564819336, 0.3805868625640869, 0.43179798126220703, 0.39284181594848633, 0.39246511459350586, 0.38637590408325195, 0.43105316162109375, 0.43096494674682617, 0.43062496185302734, 0.3979301452636719, 0.4195671081542969, 0.39870691299438477, 0.3969569206237793, 0.3889169692993164, 0.4048299789428711, 0.39663195610046387, 0.403627872467041, 0.40336108207702637, 0.4060978889465332, 0.3879210948944092, 0.38664889335632324, 0.4065680503845215, 0.40628910064697266, 0.38948702812194824, 0.38681912422180176, 0.3809521198272705, 0.5861821174621582, 0.3930549621582031, 0.5006051063537598, 0.5013840198516846, 0.5010960102081299, 0.43164491653442383, 0.4311339855194092, 0.39788818359375, 0.5121021270751953, 0.38929009437561035, 0.3888430595397949, 0.3886528015136719, 0.5114400386810303, 0.3986399173736572, 0.5104308128356934, 0.5110650062561035, 0.5573668479919434, 0.39647388458251953, 0.39471006393432617, 0.38846492767333984, 0.39578700065612793, 0.3924729824066162, 0.3933439254760742, 0.38607192039489746, 0.5621180534362793, 0.4396679401397705, 0.42120814323425293, 0.40558481216430664, 0.5516018867492676, 0.5638649463653564, 0.5611460208892822, 0.3973860740661621, 0.5751268863677979, 0.3886899948120117, 0.3882730007171631, 0.38516998291015625, 0.4006989002227783, 0.40069007873535156, 0.40019917488098145, 0.3958249092102051, 0.40143704414367676, 0.39647889137268066, 0.3962221145629883, 0.38891005516052246, 0.3965761661529541, 0.3945770263671875, 0.39197516441345215, 0.38897705078125, 0.4761049747467041, 0.4837210178375244, 0.4818909168243408, 0.3918881416320801, 0.4830639362335205, 0.43144989013671875, 0.4322640895843506, 0.3974931240081787, 0.48281311988830566, 0.3885681629180908, 0.3811159133911133, 0.401033878326416, 0.4007589817047119, 0.4010660648345947, 0.3986971378326416, 0.3954911231994629] [0.0005390644073486328, 0.0005688667297363281, 0.0010478496551513672, 0.0005538463592529297, 0.0005328655242919922, 0.0005369186401367188, 0.0005369186401367188, 0.000579833984375, 0.001033782958984375, 0.0010309219360351562, 0.0010199546813964844, 0.0010068416595458984, 0.0011379718780517578, 0.0011839866638183594, 0.0012161731719970703, 0.0010190010070800781, 0.0011401176452636719, 0.001119852066040039, 0.0010440349578857422, 0.0011539459228515625, 0.0011150836944580078, 0.0011358261108398438, 0.0010609626770019531, 0.002452850341796875, 0.0010459423065185547, 0.0011761188507080078, 0.0011439323425292969, 0.001032114028930664, 0.001055002212524414, 0.001116037368774414, 0.0010418891906738281, 0.0010499954223632812, 0.001035928726196289, 0.0011129379272460938, 0.001024007797241211, 0.001013040542602539, 0.001210927963256836, 0.0010380744934082031, 0.001016855239868164, 0.0010180473327636719, 0.0024619102478027344, 0.0005331039428710938, 0.0005650520324707031, 0.0006000995635986328, 0.000576019287109375, 0.0005390644073486328, 0.0005328655242919922, 0.0005979537963867188, 0.0012059211730957031, 0.0010268688201904297, 0.0010650157928466797, 0.0010371208190917969, 0.0010650157928466797, 0.00104522705078125, 0.0010249614715576172, 0.0012030601501464844, 0.00102996826171875, 0.001188039779663086, 0.0010609626770019531, 0.0009992122650146484, 0.0011289119720458984, 0.0009999275207519531, 0.0010538101196289062, 0.001065969467163086, 0.0010290145874023438, 0.001043081283569336, 0.0009660720825195312, 0.0010631084442138672, 0.0009598731994628906, 0.000946044921875, 0.0010340213775634766, 0.000990152359008789, 0.0005319118499755859, 0.0005428791046142578, 0.0005280971527099609, 0.0005359649658203125, 0.0005338191986083984, 0.0010399818420410156, 0.0005319118499755859, 0.0005548000335693359, 0.0011179447174072266, 0.0010259151458740234, 0.0009601116180419922, 0.001055002212524414, 0.0011239051818847656, 0.0011088848114013672, 0.0010731220245361328, 0.0010838508605957031, 0.0010440349578857422, 0.0010230541229248047, 0.001155853271484375, 0.0012569427490234375, 0.0011210441589355469, 0.0010080337524414062, 0.0010571479797363281, 0.0010578632354736328, 0.0011551380157470703, 0.0009489059448242188, 0.0009448528289794922, 0.001055002212524414, 0.0012331008911132812, 0.0009469985961914062, 0.0009629726409912109, 0.0009889602661132812, 0.001035928726196289, 0.0010259151458740234, 0.0010380744934082031, 0.0010330677032470703, 0.0011570453643798828, 0.0010499954223632812, 0.001071929931640625, 0.0010559558868408203, 0.001155853271484375, 0.001154184341430664, 0.0011050701141357422, 0.0011348724365234375, 0.0010750293731689453, 0.0011341571807861328, 0.0011639595031738281, 0.0010712146759033203, 0.0011749267578125, 0.0011570453643798828, 0.0011348724365234375, 0.0010809898376464844, 0.001210927963256836, 0.0011169910430908203, 0.001096963882446289, 0.0011320114135742188, 0.0010428428649902344, 0.0010209083557128906, 0.001013040542602539, 0.0010311603546142578, 0.0011568069458007812, 0.0010349750518798828, 0.0009169578552246094, 0.0010399818420410156, 0.0009629726409912109, 0.0010790824890136719, 0.0009748935699462891, 0.0009710788726806641, 0.0010981559753417969, 0.0009620189666748047, 0.0009541511535644531, 0.0011608600616455078, 0.0011451244354248047, 0.001035928726196289, 0.0010581016540527344, 0.0010268688201904297, 0.0010371208190917969, 0.001051187515258789, 0.0010480880737304688, 0.001051187515258789, 0.0009469985961914062, 0.0010781288146972656, 0.001058816909790039, 0.0010540485382080078, 0.0012428760528564453, 0.0010302066802978516, 0.001071929931640625, 0.0010998249053955078, 0.0010330677032470703, 0.000946044921875, 0.0009329319000244141, 0.0009360313415527344, 0.0009829998016357422, 0.0009870529174804688, 0.0009961128234863281, 0.0010581016540527344, 0.0009539127349853516, 0.0010409355163574219, 0.0009551048278808594, 0.0009360313415527344, 0.0009839534759521484, 0.0009479522705078125, 0.001007080078125, 0.00119781494140625, 0.0010449886322021484, 0.0010402202606201172, 0.001194000244140625, 0.0010900497436523438, 0.001155853271484375, 0.0011169910430908203, 0.0010330677032470703, 0.0009350776672363281, 0.0011320114135742188, 0.001046895980834961, 0.0011439323425292969, 0.0010068416595458984, 0.0011210441589355469, 0.0010390281677246094, 0.0010459423065185547, 0.0011470317840576172, 0.0009918212890625, 0.0009279251098632812, 0.0009500980377197266, 0.0009829998016357422, 0.0009398460388183594, 0.0009360313415527344, 0.0009379386901855469, 0.0010499954223632812, 0.0010509490966796875, 0.0010349750518798828, 0.0010230541229248047, 0.0010399818420410156, 0.0011439323425292969, 0.0010230541229248047, 0.0010838508605957031, 0.0010349750518798828, 0.0011110305786132812, 0.001035928726196289, 0.0010650157928466797, 0.001107931137084961, 0.001087188720703125, 0.0010628700256347656, 0.001110076904296875, 0.0012660026550292969, 0.0010590553283691406, 0.0010890960693359375, 0.001138925552368164, 0.0011119842529296875, 0.0011301040649414062, 0.0011508464813232422, 0.0011410713195800781, 0.009250879287719727, 0.0010390281677246094, 0.0010330677032470703, 0.0010259151458740234, 0.0010519027709960938, 0.001129150390625, 0.0010378360748291016, 0.0010998249053955078, 0.0010480880737304688, 0.0010139942169189453, 0.000949859619140625, 0.0010280609130859375, 0.0011708736419677734, 0.001074075698852539, 0.0010731220245361328, 0.0010128021240234375, 0.0009748935699462891, 0.0011610984802246094, 0.0011129379272460938, 0.0010528564453125, 0.0010709762573242188, 0.0011620521545410156, 0.001132965087890625, 0.0011432170867919922, 0.0010499954223632812, 0.0009658336639404297, 0.0010459423065185547, 0.0010631084442138672, 0.001049041748046875, 0.014182090759277344, 0.0010139942169189453, 0.0010290145874023438, 0.0010480880737304688, 0.0009350776672363281, 0.0010330677032470703, 0.0010058879852294922, 0.0009448528289794922, 0.0009520053863525391, 0.0009381771087646484, 0.0009500980377197266, 0.000949859619140625, 0.0009419918060302734, 0.0009679794311523438, 0.0009431838989257812, 0.0009679794311523438, 0.001001119613647461, 0.0009729862213134766, 0.0009918212890625, 0.0010428428649902344, 0.0010519027709960938, 0.0009438991546630859, 0.0009920597076416016, 0.0010509490966796875, 0.0011670589447021484, 0.0010480880737304688, 0.0010290145874023438, 0.0009529590606689453, 0.0011780261993408203, 0.0010471343994140625, 0.0011761188507080078, 0.001024007797241211, 0.0010769367218017578, 0.0010418891906738281, 0.001168966293334961, 0.0011680126190185547, 0.0009400844573974609, 0.0009291172027587891, 0.0009551048278808594, 0.0009410381317138672, 0.0009579658508300781, 0.0009520053863525391, 0.0009248256683349609, 0.0009589195251464844, 0.0010080337524414062, 0.0010199546813964844, 0.0009980201721191406, 0.0010418891906738281, 0.0011849403381347656, 0.0010080337524414062, 0.0013659000396728516, 0.0010249614715576172, 0.0011219978332519531, 0.0010459423065185547, 0.0012230873107910156, 0.0011191368103027344, 0.0011229515075683594, 0.001116037368774414, 0.0010769367218017578, 0.0010650157928466797, 0.0010488033294677734, 0.0010781288146972656, 0.0011398792266845703, 0.0011191368103027344, 0.0010499954223632812, 0.0011110305786132812, 0.0010380744934082031, 0.001129150390625, 0.001013040542602539, 0.00109100341796875, 0.001001119613647461, 0.0010249614715576172, 0.0012040138244628906, 0.0010099411010742188, 0.001007080078125, 0.0010211467742919922, 0.0009579658508300781, 0.0009188652038574219, 0.0009398460388183594, 0.0009407997131347656, 0.0009360313415527344, 0.0009489059448242188, 0.0009548664093017578, 0.0010669231414794922, 0.0011360645294189453, 0.0010399818420410156, 0.0010461807250976562, 0.0010988712310791016, 0.0011069774627685547, 0.001129150390625, 0.0010650157928466797, 0.0010478496551513672, 0.0010080337524414062, 0.0010609626770019531, 0.001065969467163086, 0.0010478496551513672, 0.0011899471282958984, 0.00102996826171875, 0.00102996826171875, 0.0010879039764404297, 0.0009469985961914062, 0.0009338855743408203, 0.0009899139404296875, 0.0009760856628417969, 0.0010378360748291016, 0.0009531974792480469, 0.0010290145874023438, 0.0010728836059570312, 0.0009381771087646484, 0.0009500980377197266, 0.0009779930114746094, 0.0009429454803466797, 0.0010030269622802734, 0.0010471343994140625, 0.0010280609130859375, 0.0009570121765136719, 0.013070106506347656, 0.0010199546813964844, 0.0011370182037353516, 0.0010921955108642578, 0.0011949539184570312, 0.001132965087890625, 0.001004934310913086, 0.0009911060333251953, 0.001049041748046875, 0.0010340213775634766, 0.0011708736419677734, 0.0011529922485351562, 0.0010790824890136719, 0.0011029243469238281, 0.0010449886322021484, 0.001127004623413086] [0.3588240146636963, 0.0010418891906738281, 0.20165491104125977, 0.00038814544677734375, 0.20996499061584473, 0.004361152648925781, 0.017240047454833984, 0.0003910064697265625, 0.19406604766845703, 0.005418062210083008, 0.010245084762573242, 0.007434844970703125, 0.001641988754272461, 0.042463064193725586, 0.05124783515930176, 0.00032782554626464844, 0.19623184204101562, 0.021821975708007812, 0.0004918575286865234, 0.1255791187286377, 0.12401390075683594, 0.00038504600524902344, 0.018620014190673828, 0.0004258155822753906, 0.008700132369995117, 0.12219715118408203, 0.13359808921813965, 0.011408090591430664, 0.1600630283355713, 0.0038890838623046875, 0.047209978103637695, 0.0003840923309326172, 0.252061128616333, 0.005032062530517578, 0.010093927383422852, 0.0030341148376464844, 0.0016140937805175781, 0.04363894462585449, 0.052690982818603516, 0.002251863479614258, 0.05101299285888672, 0.017529010772705078, 0.0005588531494140625, 0.020177125930786133, 0.014258146286010742, 0.0055310726165771484, 0.01596999168395996, 0.0004119873046875, 0.24833893775939941, 0.0003139972686767578, 0.0003960132598876953, 0.00669407844543457, 0.032998085021972656, 0.000392913818359375, 0.03877115249633789, 0.00028514862060546875, 0.2421410083770752, 0.00515294075012207, 0.00045418739318847656, 0.2498481273651123, 0.2071399688720703, 0.04421687126159668, 0.03319287300109863, 0.00036978721618652344, 0.27036213874816895, 0.011404991149902344, 0.007323026657104492, 0.0025119781494140625, 0.0012748241424560547, 0.012334823608398438, 0.0004680156707763672, 0.0035848617553710938, 0.08145785331726074, 0.0003337860107421875, 0.00040912628173828125, 0.004183053970336914, 0.07206487655639648, 0.0003910064697265625, 0.07887387275695801, 0.0003299713134765625, 0.07810187339782715, 0.015402078628540039, 0.07859086990356445, 0.0003020763397216797, 0.04932904243469238, 0.04089188575744629, 0.0796818733215332, 0.00038695335388183594, 0.09092307090759277, 0.011053800582885742, 0.00042700767517089844, 0.022136926651000977, 0.002319812774658203, 0.014130115509033203, 0.0014729499816894531, 0.00033402442932128906, 0.1192469596862793, 0.002688169479370117, 0.00044798851013183594, 0.004992961883544922, 0.0007581710815429688, 0.011446952819824219, 0.007517099380493164, 0.0028541088104248047, 0.06357908248901367, 0.00039887428283691406, 0.060214996337890625, 0.011245012283325195, 0.02451491355895996, 0.05112504959106445, 0.05510306358337402, 0.000453948974609375, 0.10322284698486328, 0.008268117904663086, 0.009701967239379883, 0.010129928588867188, 0.01229405403137207, 0.0003349781036376953, 0.004595041275024414, 0.0003249645233154297, 0.10779905319213867, 0.004586935043334961, 0.08910894393920898, 0.00037598609924316406, 0.10790395736694336, 0.012363910675048828, 0.006973981857299805, 0.0003039836883544922, 0.2744309902191162, 0.0004279613494873047, 0.012024164199829102, 0.010944843292236328, 0.04333090782165527, 0.051635026931762695, 0.0005130767822265625, 0.013348817825317383, 0.09356093406677246, 0.00039196014404296875, 0.0011370182037353516, 0.007758140563964844, 0.005527973175048828, 0.0066680908203125, 0.004064798355102539, 0.00038886070251464844, 0.12378597259521484, 0.00030493736267089844, 0.0017590522766113281, 0.013151884078979492, 0.06083106994628906, 0.00030303001403808594, 0.0633997917175293, 0.0003769397735595703, 0.1257181167602539, 0.0003039836883544922, 0.0004150867462158203, 0.023992061614990234, 0.0008189678192138672, 0.1237480640411377, 0.11870598793029785, 0.0025641918182373047, 0.14079594612121582, 0.00038313865661621094, 0.00509190559387207, 0.004173994064331055, 0.001508951187133789, 0.012713909149169922, 0.015572071075439453, 0.0003509521484375, 0.09448695182800293, 0.00033593177795410156, 0.0032761096954345703, 0.011516094207763672, 0.09781002998352051, 0.0003349781036376953, 0.10178089141845703, 0.0003809928894042969, 0.11542105674743652, 0.009771108627319336, 0.003551006317138672, 0.006684064865112305, 0.0009620189666748047, 0.1165158748626709, 0.11450719833374023, 0.00560307502746582, 0.12674188613891602, 0.00033092498779296875, 0.0004200935363769531, 0.025274038314819336, 0.0057220458984375, 0.014603137969970703, 0.019538164138793945, 0.000331878662109375, 0.13179612159729004, 0.0003178119659423828, 0.013045072555541992, 0.00032806396484375, 0.08017706871032715, 0.0003249645233154297, 0.07953310012817383, 0.00039696693420410156, 0.054316043853759766, 0.008608102798461914, 0.01807880401611328, 0.0002949237823486328, 0.0009398460388183594, 0.046320199966430664, 0.040548086166381836, 0.0026099681854248047, 0.07761383056640625, 0.00037598609924316406, 0.013514041900634766, 0.00030112266540527344, 0.0008909702301025391, 0.07242894172668457, 0.07729005813598633, 0.0003440380096435547, 0.06686902046203613, 0.0003161430358886719, 0.0004200935363769531, 0.013427019119262695, 0.08310818672180176, 0.00030803680419921875, 0.08147311210632324, 0.0003578662872314453, 0.1053471565246582, 0.008735179901123047, 0.018394947052001953, 0.0003228187561035156, 0.0007071495056152344, 0.04734611511230469, 0.04129910469055176, 0.0025098323822021484, 0.09140205383300781, 0.0003669261932373047, 0.014934062957763672, 0.00034499168395996094, 0.0007719993591308594, 0.08068418502807617, 0.08221006393432617, 0.0003349781036376953, 0.10630583763122559, 0.0003139972686767578, 0.053450822830200195, 0.0004029273986816406, 0.0623779296875, 0.009891986846923828, 0.0003681182861328125, 0.0038869380950927734, 0.11310696601867676, 0.0003161430358886719, 0.0003771781921386719, 0.0017168521881103516, 0.0009491443634033203, 0.11475586891174316, 0.11542320251464844, 0.0003409385681152344, 0.31341004371643066, 0.00038886070251464844, 0.012402057647705078, 0.0003218650817871094, 0.0009999275207519531, 0.0003590583801269531, 0.004760026931762695, 0.006520986557006836, 0.09865283966064453, 0.00033092498779296875, 0.08964800834655762, 0.00038504600524902344, 0.09867191314697266, 0.012059926986694336, 0.0004169940948486328, 0.004374980926513672, 0.12546205520629883, 0.001631021499633789, 0.0177609920501709, 0.000331878662109375, 0.0009300708770751953, 0.130720853805542, 0.13474702835083008, 0.0003669261932373047, 0.14036083221435547, 0.0003218650817871094, 0.0004150867462158203, 0.010258913040161133, 0.0008149147033691406, 0.003217935562133789, 0.005509138107299805, 0.0003039836883544922, 0.14480805397033691, 0.00034689903259277344, 0.011219978332519531, 0.0003769397735595703, 0.021763086318969727, 0.0003428459167480469, 0.01250600814819336, 0.00033092498779296875, 0.039849042892456055, 0.0045468807220458984, 0.0070722103118896484, 0.006165981292724609, 0.0009770393371582031, 0.043324947357177734, 0.03421306610107422, 0.0003211498260498047, 0.03156709671020508, 0.02254796028137207, 0.019418001174926758, 0.0003018379211425781, 0.007040977478027344, 0.010874032974243164, 0.000492095947265625, 0.005922079086303711, 0.020309925079345703, 0.000331878662109375, 0.00048089027404785156, 0.008341073989868164, 0.02922201156616211, 0.0003361701965332031, 0.010500907897949219, 0.0002949237823486328, 0.19415998458862305, 0.004400014877319336, 0.11510610580444336, 0.00036907196044921875, 0.07045292854309082, 0.04404902458190918, 0.03594493865966797, 0.0003139972686767578, 0.12369108200073242, 0.01330423355102539, 0.011600017547607422, 0.0003190040588378906, 0.11364197731018066, 0.012979984283447266, 0.0005009174346923828, 0.11257505416870117, 0.17330193519592285, 0.00031280517578125, 0.010377883911132812, 0.0003108978271484375, 0.0020210742950439453, 0.007490873336791992, 0.007336854934692383, 0.005948066711425781, 0.12316203117370605, 0.04295206069946289, 0.03605318069458008, 0.015201807022094727, 0.0009288787841796875, 0.16383600234985352, 0.17085504531860352, 0.0003230571746826172, 0.18733882904052734, 0.010102033615112305, 0.0073909759521484375, 0.0003478527069091797, 0.0008559226989746094, 0.01705193519592285, 0.0077381134033203125, 0.00035190582275390625, 0.017442941665649414, 0.00035691261291503906, 0.011307954788208008, 0.0003600120544433594, 0.0026750564575195312, 0.009649991989135742, 0.006205081939697266, 0.008810043334960938, 0.003226041793823242, 0.08685994148254395, 0.0967259407043457, 0.00031495094299316406, 0.05055689811706543, 0.03143501281738281, 0.042099952697753906, 0.0003540515899658203, 0.09483599662780762, 0.010177135467529297, 0.0004489421844482422, 0.01590108871459961, 0.0019888877868652344, 0.017271041870117188, 0.006386995315551758, 0.00032806396484375]
+[[5.22091504e-05 3.47192049e-01]
+ [5.71178840e-05 3.80394936e-01]
+ [5.84269452e-05 3.88230801e-01]
+ [5.95999077e-05 3.96669865e-01]
+ [5.72941381e-05 3.81285906e-01]
+ [5.68354110e-05 3.77666950e-01]
+ [5.75552580e-05 3.82335901e-01]
+ [6.02899843e-05 3.99653912e-01]
+ [6.00459177e-05 3.98655176e-01]
+ [5.91293745e-05 3.94049883e-01]
+ [5.85168395e-05 3.88916969e-01]
+ [5.75412655e-05 3.82513046e-01]
+ [6.55128561e-05 4.36187029e-01]
+ [5.92488206e-05 3.94356012e-01]
+ [5.79610396e-05 3.85185003e-01]
+ [5.82792590e-05 3.87458086e-01]
+ [5.77445936e-05 3.84117126e-01]
+ [5.61838137e-05 3.73099089e-01]
+ [7.76040632e-05 5.13107061e-01]
+ [5.86535576e-05 3.89904976e-01]
+ [5.88481040e-05 3.91188860e-01]
+ [5.89163537e-05 3.91726971e-01]
+ [5.82448244e-05 3.87346983e-01]
+ [6.06097341e-05 4.02966976e-01]
+ [7.67266552e-05 5.33816099e-01]
+ [6.16563636e-05 4.18085814e-01]
+ [5.83843483e-05 3.88330221e-01]
+ [5.98873364e-05 3.97917032e-01]
+ [5.75523065e-05 3.82580996e-01]
+ [5.72695055e-05 3.80710125e-01]
+ [5.77499137e-05 3.83905172e-01]
+ [6.34018879e-05 4.27386045e-01]
+ [5.99413386e-05 3.98655176e-01]
+ [5.91887696e-05 3.94435883e-01]
+ [5.85573958e-05 3.89089823e-01]
+ [5.81738782e-05 3.86972904e-01]
+ [6.56392256e-05 4.37092781e-01]
+ [5.92761861e-05 3.94510984e-01]
+ [5.79570678e-05 3.85169029e-01]
+ [5.77176290e-05 3.83925915e-01]
+ [5.82472658e-05 3.87188911e-01]
+ [5.60961786e-05 3.72783899e-01]
+ [6.15822108e-05 4.08149958e-01]
+ [5.84869233e-05 3.89094114e-01]
+ [5.93192567e-05 3.95263910e-01]
+ [5.87927900e-05 3.90962839e-01]
+ [5.80090659e-05 3.85764122e-01]
+ [6.04215646e-05 4.01714087e-01]
+ [5.72697606e-05 3.80443096e-01]
+ [5.91671250e-05 3.93645048e-01]
+ [6.00653396e-05 3.99319172e-01]
+ [5.94142160e-05 3.95078182e-01]
+ [5.86434276e-05 3.89503002e-01]
+ [6.34354844e-05 4.20227051e-01]
+ [5.75344879e-05 3.82668018e-01]
+ [5.78803279e-05 3.84696960e-01]
+ [5.89858423e-05 3.92446995e-01]
+ [5.84125519e-05 3.87801886e-01]
+ [9.31105628e-05 6.14649057e-01]
+ [5.79956564e-05 3.85525942e-01]
+ [6.42760165e-05 4.27586079e-01]
+ [5.80867897e-05 3.85979891e-01]
+ [5.96987296e-05 3.96462202e-01]
+ [6.42650849e-05 4.25976992e-01]
+ [5.81687768e-05 3.86224031e-01]
+ [5.65973568e-05 3.75908852e-01]
+ [5.71634688e-05 3.79603148e-01]
+ [5.68575293e-05 3.78075123e-01]
+ [5.99623637e-05 3.98461819e-01]
+ [5.81990574e-05 3.87265921e-01]
+ [5.99699430e-05 3.98891211e-01]
+ [5.96198033e-05 3.96440029e-01]
+ [5.71751292e-05 3.79792929e-01]
+ [5.91304676e-05 3.93137217e-01]
+ [5.98157343e-05 3.97937059e-01]
+ [5.93590113e-05 3.94809961e-01]
+ [5.84749714e-05 3.88770103e-01]
+ [6.79175205e-05 4.59858894e-01]
+ [5.73726635e-05 3.81588936e-01]
+ [5.79337835e-05 3.84992123e-01]
+ [5.90703073e-05 3.92599106e-01]
+ [5.83465249e-05 3.87839079e-01]
+ [4.86150532e-05 3.23063135e-01]
+ [5.80696270e-05 3.86031866e-01]
+ [6.43386911e-05 4.27911043e-01]
+ [5.80312935e-05 3.85614157e-01]
+ [5.96461485e-05 3.96413088e-01]
+ [7.13849931e-05 4.75301981e-01]
+ [5.80547236e-05 3.86131048e-01]
+ [5.65756029e-05 3.75869989e-01]
+ [5.71906157e-05 3.80355835e-01]
+ [5.69540190e-05 3.78436089e-01]
+ [5.99284757e-05 3.98249865e-01]
+ [5.81969075e-05 3.86981964e-01]
+ [5.98857695e-05 3.98197174e-01]
+ [5.96011467e-05 3.96118164e-01]
+ [5.79477395e-05 3.85390997e-01]
+ [5.78093088e-05 3.84102106e-01]
+ [5.83217466e-05 3.87542009e-01]
+ [5.78237385e-05 3.83390903e-01]
+ [5.82894254e-05 3.87648106e-01]
+ [5.67291192e-05 3.77309084e-01]
+ [5.72743154e-05 3.80715847e-01]
+ [5.70338198e-05 3.78891945e-01]
+ [5.94832309e-05 3.95799875e-01]
+ [6.90795150e-05 4.58393812e-01]
+ [5.99376583e-05 3.98239136e-01]
+ [5.83483104e-05 3.88069153e-01]
+ [6.52475458e-05 4.34379816e-01]
+ [5.77771334e-05 3.84243011e-01]
+ [6.05383871e-05 4.01252031e-01]
+ [6.92568987e-05 4.58636045e-01]
+ [5.78915510e-05 3.85020018e-01]
+ [5.82000412e-05 3.87325048e-01]
+ [5.78492092e-05 3.84609938e-01]
+ [5.66903120e-05 3.76607895e-01]
+ [5.81259613e-05 3.86291981e-01]
+ [5.79713882e-05 3.85528088e-01]
+ [5.90499381e-05 3.92728090e-01]
+ [5.96782510e-05 3.96895885e-01]
+ [5.82148354e-05 3.87388945e-01]
+ [5.77046203e-05 3.83562088e-01]
+ [5.81650236e-05 3.86663914e-01]
+ [7.48886130e-05 4.95445967e-01]
+ [5.81942110e-05 3.87414932e-01]
+ [5.68094666e-05 3.77501011e-01]
+ [5.72430510e-05 3.80393982e-01]
+ [5.69633838e-05 3.78718138e-01]
+ [5.95658740e-05 3.95750046e-01]
+ [6.17765386e-05 4.10317898e-01]
+ [5.98475818e-05 3.98220062e-01]
+ [5.84998955e-05 3.88437033e-01]
+ [6.53306625e-05 4.34751987e-01]
+ [5.78280747e-05 3.84227037e-01]
+ [7.21219663e-05 4.77352858e-01]
+ [7.02845072e-05 4.65188980e-01]
+ [5.80293622e-05 3.85794163e-01]
+ [5.79879314e-05 3.86048794e-01]
+ [5.79189893e-05 3.84998083e-01]
+ [5.69944660e-05 3.78488779e-01]
+ [5.89653273e-05 3.91740799e-01]
+ [5.80305283e-05 3.86103153e-01]
+ [5.91643192e-05 3.92987967e-01]
+ [5.97108637e-05 3.96893978e-01]
+ [5.75765018e-05 3.82626057e-01]
+ [5.93486627e-05 3.94575119e-01]
+ [5.88573958e-05 3.91364098e-01]
+ [5.72605051e-05 3.80602121e-01]
+ [5.69276374e-05 3.78013134e-01]
+ [5.83782266e-05 3.88000965e-01]
+ [5.62410225e-05 3.73698950e-01]
+ [6.57921589e-05 4.36296940e-01]
+ [5.82926685e-05 3.87301922e-01]
+ [5.83656552e-05 3.87763023e-01]
+ [5.89221475e-05 3.91499043e-01]
+ [5.83792104e-05 3.87784004e-01]
+ [7.71092254e-05 5.12091875e-01]
+ [5.87734046e-05 3.90859842e-01]
+ [5.91303583e-05 3.93312216e-01]
+ [5.83009765e-05 3.87875080e-01]
+ [5.73571406e-05 3.81752014e-01]
+ [5.80145317e-05 3.85709047e-01]
+ [5.72021667e-05 3.80573988e-01]
+ [5.68478001e-05 3.77434015e-01]
+ [5.96457112e-05 3.96745920e-01]
+ [5.79385934e-05 3.84941816e-01]
+ [5.75245766e-05 3.82184029e-01]
+ [5.98880652e-05 3.97940159e-01]
+ [5.76515655e-05 3.83095026e-01]
+ [5.94375368e-05 3.95175934e-01]
+ [5.89672950e-05 3.92126799e-01]
+ [5.73696391e-05 3.81510019e-01]
+ [5.69802185e-05 3.78975868e-01]
+ [5.83578209e-05 3.88037920e-01]
+ [5.62722869e-05 3.73854160e-01]
+ [7.17055810e-05 4.75652933e-01]
+ [5.81571893e-05 3.86780024e-01]
+ [5.83662383e-05 3.87676001e-01]
+ [5.89572379e-05 3.91965866e-01]
+ [5.83719227e-05 3.87816191e-01]
+ [7.59598751e-05 5.04432917e-01]
+ [5.87221717e-05 3.90167952e-01]
+ [5.91821378e-05 3.93301964e-01]
+ [5.83912352e-05 3.88020992e-01]
+ [5.74225117e-05 3.81803036e-01]
+ [5.80622664e-05 3.86014938e-01]
+ [5.73076569e-05 3.81326914e-01]
+ [5.66790524e-05 3.76811028e-01]
+ [5.96597766e-05 3.96667004e-01]
+ [5.79303218e-05 3.84764194e-01]
+ [5.74420064e-05 3.82061005e-01]
+ [5.98183579e-05 3.97668839e-01]
+ [5.93448731e-05 3.94901037e-01]
+ [6.00049606e-05 3.99051189e-01]
+ [5.80679873e-05 3.85788918e-01]
+ [5.91077663e-05 3.92928123e-01]
+ [5.68578208e-05 3.78185034e-01]
+ [5.84083614e-05 3.88011932e-01]
+ [5.69046446e-05 3.77872944e-01]
+ [6.90030301e-05 4.57476854e-01]
+ [6.08184552e-05 4.04826880e-01]
+ [5.97448974e-05 3.97299051e-01]
+ [5.83081549e-05 3.87378931e-01]
+ [5.91275161e-05 3.93207073e-01]
+ [6.40120543e-05 4.26329851e-01]
+ [5.72827692e-05 3.81043911e-01]
+ [5.80717040e-05 3.86208057e-01]
+ [5.79562297e-05 3.84996891e-01]
+ [5.66159405e-05 3.76466036e-01]
+ [5.86720320e-05 3.90064955e-01]
+ [5.64478851e-05 3.75170946e-01]
+ [5.68434639e-05 3.77500057e-01]
+ [6.95613078e-05 4.60982084e-01]
+ [5.83807409e-05 3.87506962e-01]
+ [5.76972233e-05 3.83453846e-01]
+ [5.82987173e-05 3.87306929e-01]
+ [5.94188437e-05 3.94932985e-01]
+ [6.00299211e-05 3.99085999e-01]
+ [5.79804615e-05 3.85541916e-01]
+ [5.89906523e-05 3.92503977e-01]
+ [5.68898504e-05 3.77928972e-01]
+ [5.83546872e-05 3.87961149e-01]
+ [5.68245522e-05 3.77589941e-01]
+ [6.75111194e-05 4.47598934e-01]
+ [6.07818707e-05 4.04900074e-01]
+ [5.97494158e-05 3.97456884e-01]
+ [5.83143495e-05 3.87351036e-01]
+ [5.90879072e-05 3.92991066e-01]
+ [6.41710365e-05 4.27266121e-01]
+ [5.72172888e-05 3.80856991e-01]
+ [5.81328482e-05 3.86303186e-01]
+ [5.79634446e-05 3.84936810e-01]
+ [5.68290342e-05 3.77731085e-01]
+ [5.86936038e-05 3.90304089e-01]
+ [5.64690196e-05 3.75299931e-01]
+ [5.68193779e-05 3.77391100e-01]
+ [6.87684740e-05 4.55784082e-01]
+ [5.83227304e-05 3.88015985e-01]
+ [5.77625215e-05 3.83828878e-01]
+ [5.83064788e-05 3.87584925e-01]
+ [5.84030778e-05 3.88334990e-01]
+ [6.03869113e-05 4.01590109e-01]
+ [5.94792227e-05 3.95674944e-01]
+ [6.66522586e-05 4.50626135e-01]
+ [5.82872391e-05 3.87477875e-01]
+ [5.66397350e-05 3.76413822e-01]
+ [5.84790890e-05 3.88775110e-01]
+ [5.78893282e-05 3.85128975e-01]
+ [5.83680602e-05 3.87965202e-01]
+ [5.96298968e-05 3.96394014e-01]
+ [5.72821862e-05 3.80759001e-01]
+ [6.00056165e-05 3.99149179e-01]
+ [7.33371978e-05 4.87028122e-01]
+ [5.83288521e-05 3.87772083e-01]
+ [5.79012437e-05 3.84524107e-01]
+ [6.00415451e-05 3.99605989e-01]
+ [5.70811537e-05 3.79528046e-01]
+ [5.76778014e-05 3.83690834e-01]
+ [5.61613310e-05 3.73258829e-01]
+ [5.80722506e-05 3.86126041e-01]
+ [5.98784818e-05 3.98047924e-01]
+ [5.99966526e-05 3.98847818e-01]
+ [5.92761132e-05 3.93947840e-01]
+ [5.84628738e-05 3.88622046e-01]
+ [5.84860488e-05 3.88801098e-01]
+ [6.05202042e-05 4.02254820e-01]
+ [5.95088109e-05 3.95912170e-01]
+ [7.33711952e-05 4.85812902e-01]
+ [5.83303826e-05 3.87660980e-01]
+ [5.66252324e-05 3.76781940e-01]
+ [5.84560962e-05 3.88957977e-01]
+ [5.79085314e-05 3.85337114e-01]
+ [5.84175440e-05 3.87834072e-01]
+ [5.97207750e-05 3.97008896e-01]
+ [5.72432332e-05 3.80170107e-01]
+ [6.00477761e-05 3.99332047e-01]
+ [7.44319629e-05 5.19406080e-01]
+ [5.83349010e-05 3.87786865e-01]
+ [5.78605052e-05 3.84657145e-01]
+ [6.00905916e-05 3.99667978e-01]
+ [5.71662017e-05 3.79623890e-01]
+ [5.77190501e-05 3.84120941e-01]
+ [5.63588653e-05 3.74417067e-01]
+ [5.79048147e-05 3.85063887e-01]
+ [6.00800244e-05 3.99433851e-01]
+ [5.99811297e-05 3.98770094e-01]
+ [5.92373060e-05 3.93641949e-01]
+ [5.87035151e-05 3.90480995e-01]
+ [5.78419579e-05 3.84181023e-01]
+ [5.80421158e-05 3.85915041e-01]
+ [5.79304675e-05 3.85339975e-01]
+ [5.96740970e-05 3.96809101e-01]
+ [5.66157583e-05 3.75913858e-01]
+ [5.83248439e-05 3.87686968e-01]
+ [5.64565211e-05 3.75127077e-01]
+ [5.70852713e-05 3.79081964e-01]
+ [5.88407433e-05 3.90751123e-01]
+ [5.81647321e-05 3.87032986e-01]
+ [5.77811052e-05 3.84174109e-01]
+ [5.70622420e-05 3.78947020e-01]
+ [6.43890130e-05 4.28622961e-01]
+ [5.81757002e-05 3.86409044e-01]
+ [5.94035395e-05 3.94818068e-01]
+ [5.95884660e-05 3.96362782e-01]
+ [5.81067945e-05 3.86435986e-01]
+ [5.64581609e-05 3.74936104e-01]
+ [5.65297994e-05 3.75844002e-01]
+ [5.81538734e-05 3.87075901e-01]
+ [5.95780445e-05 3.96225929e-01]
+ [5.78515777e-05 3.84248018e-01]
+ [6.05239574e-05 4.01818991e-01]
+ [5.95364315e-05 3.96153927e-01]
+ [5.78678658e-05 3.84512901e-01]
+ [5.80447394e-05 3.86283875e-01]
+ [5.78343422e-05 3.84528875e-01]
+ [5.97294110e-05 3.96670103e-01]
+ [5.65654729e-05 3.75809193e-01]
+ [5.82962395e-05 3.87579918e-01]
+ [5.64064543e-05 3.75063896e-01]
+ [5.70878220e-05 3.79086018e-01]
+ [5.88242002e-05 3.90779972e-01]
+ [5.83048754e-05 3.86980057e-01]
+ [5.78008550e-05 3.84325027e-01]
+ [7.35473764e-05 4.99768972e-01]
+ [6.45175323e-05 4.29012060e-01]
+ [5.81159771e-05 3.86361122e-01]
+ [5.92588048e-05 3.93967867e-01]
+ [5.96458570e-05 3.96348953e-01]
+ [5.82612583e-05 3.87250900e-01]
+ [5.64200459e-05 3.74885082e-01]
+ [5.65687888e-05 3.76093149e-01]
+ [5.82940896e-05 3.87212992e-01]
+ [5.96406462e-05 3.96644115e-01]
+ [5.78782509e-05 3.84490013e-01]
+ [7.29161484e-05 5.08739948e-01]
+ [5.97476668e-05 3.96903038e-01]
+ [5.74757851e-05 3.82417917e-01]
+ [5.94836318e-05 3.94863129e-01]
+ [5.75734409e-05 3.83028030e-01]
+ [5.82202283e-05 3.86791945e-01]
+ [5.90103292e-05 3.92390013e-01]
+ [5.77006485e-05 3.83460045e-01]
+ [5.78180541e-05 3.84684086e-01]
+ [5.70120659e-05 3.78835917e-01]
+ [6.60299216e-05 4.37438011e-01]
+ [5.95001385e-05 3.95420074e-01]
+ [5.77249167e-05 3.83852959e-01]
+ [5.85436584e-05 3.89047861e-01]
+ [8.29113271e-05 5.49178123e-01]
+ [5.99823322e-05 3.98710012e-01]
+ [5.85676715e-05 3.88988018e-01]
+ [5.95535941e-05 3.95753145e-01]
+ [5.81020939e-05 3.86633873e-01]
+ [5.67908100e-05 3.77381086e-01]
+ [5.71076447e-05 3.79648209e-01]
+ [5.77225846e-05 3.83579969e-01]
+ [5.99245403e-05 3.98525953e-01]
+ [5.74977577e-05 3.82426023e-01]
+ [5.88552824e-05 3.91167164e-01]
+ [5.92540314e-05 3.94044161e-01]
+ [5.75645499e-05 3.82797003e-01]
+ [5.93457112e-05 3.94904852e-01]
+ [5.76521486e-05 3.83394957e-01]
+ [5.83186493e-05 3.87343884e-01]
+ [5.90511405e-05 3.92690897e-01]
+ [5.76712060e-05 3.83478880e-01]
+ [5.77900691e-05 3.84333849e-01]
+ [5.70118837e-05 3.78930807e-01]
+ [6.93749237e-05 4.59488153e-01]
+ [5.94866562e-05 3.95439863e-01]
+ [5.77474358e-05 3.83813858e-01]
+ [5.87053735e-05 3.90136003e-01]
+ [6.28541045e-05 4.31051970e-01]
+ [5.98586591e-05 3.98577929e-01]
+ [5.84855386e-05 3.88974190e-01]
+ [5.94737569e-05 3.95925999e-01]
+ [5.81120417e-05 3.86666059e-01]
+ [5.67790038e-05 3.77144814e-01]
+ [5.70283540e-05 3.79092932e-01]
+ [5.76861095e-05 3.83509159e-01]
+ [5.97149084e-05 3.97228003e-01]
+ [5.74897047e-05 3.82205963e-01]
+ [5.87915875e-05 3.91000032e-01]
+ [5.91605660e-05 3.93635035e-01]]
+ 
+TACC: Shutdown complete. Exiting.
