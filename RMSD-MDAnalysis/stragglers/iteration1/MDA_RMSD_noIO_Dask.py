@@ -83,25 +83,24 @@ def com_parallel_dask_distributed(n_frames, n_blocks):
 
 
 if __name__ == '__main__':
-    Scheduler_IP = sys.argv[1]
     #SLURM_JOBID = sys.argv[2]
-    print (Scheduler_IP)
     #print (Client(Scheduler_IP))
-    c = Client(Scheduler_IP)
+    c = Client(processes=False, threads_per_worker=4, n_workers=1)
     FramesBase = 4187
 
     with open('data.txt', mode='w') as file:
         traj_size = [100,300,600]
         for k in traj_size: # we have 3 trajectory sizes
-            block_size = [1,2,3,4,6,8,9,12,16,18,24,36,48,72,144]
+            block_size = [1]
             for i in block_size:      # changing blocks
-                for j in range(1,6):    # changing files (5 files per block size)
+                for j in range(1):    # changing files (5 files per block size)
                     c.run_on_scheduler(submitCustomProfiler,'/data/03170/tg824689/BecksteinLab/scripts-DCD/stragglers_test_%d_%d_%d.txt'%(k,i,j))
                     # Provide the path to my file to all processes
                     total = com_parallel_dask_distributed(FramesBase*k, i)
                     total = delayed (total)
                     start = time.time()
-                    output = total.compute(get=c.get)
+                    output = total.compute(scheduler=c.get)
+                    total.visualize(filename='transpose.svg')
                     tot_time = time.time()-start
                     c.run_on_scheduler(removeCustomProfiler)
                     file.write("DCD{} {} {} {} {} {} {} {}\n".format(k, i, j, output [1], output [2], output [3], output [4], tot_time))

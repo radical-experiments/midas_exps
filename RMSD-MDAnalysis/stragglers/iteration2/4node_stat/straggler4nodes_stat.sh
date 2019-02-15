@@ -8,9 +8,6 @@
 #SBATCH -t 08:00:00         # Run time (hh:mm:ss) - 1.5 hours
 # The next line is required if the user has more than one project
 #SBATCH -A TG-MCB090174  # Allocation name to charge job against
-#SBATCH --mail-user=i.paraskev@rutgers.edu
-#SBATCH --mail-type=begin  # email me when the job starts
-#SBATCH --mail-type=end    # email me when the job finishes
 #SBATCH --reservation=dssd+TG-MCB090174+2376
 
 cd /data/03170/tg824689/BecksteinLab/scripts-DCD
