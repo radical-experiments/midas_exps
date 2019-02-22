@@ -1,0 +1,9 @@
+*.ipynb_checkpoints*
+*.sh
+1Snodes
+1Wnodes
+2Snodes
+2Wnodes
+4Snodes
+4Wnodes
+8nodes
